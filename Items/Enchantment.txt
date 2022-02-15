@@ -1,0 +1,1 @@
+Rarity[C,U,R,V,L];Item Type;Attunement[Y,N];Item Name;Item Description;Enchant Target[ie armor, melee weapon,...]
