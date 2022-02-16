@@ -1,0 +1,8 @@
+Abjuration;Green
+Conjuration;Orange
+Divination;Yellow
+Enchantment;White
+Evocation;Red
+Illusion;Blue
+Necromancy;Black
+Transmutation;Purple

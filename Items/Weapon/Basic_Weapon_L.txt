@@ -1,0 +1,4 @@
+L;Basic Weapon;N;[Basic_Weapon] +3;2;[Basic_Weapon_Description];PHB(130)
+L;Basic Weapon;N;[Basic_Weapon] +2;3;[Basic_Weapon_Description];PHB(130)
+L;Basic Weapon;N;[Basic_Weapon] +1;4;[Basic_Weapon_Description];PHB(130)
+L;Basic Weapon;N;[Basic_Weapon];5;[Basic_Weapon_Description];PHB(130)
