@@ -3,6 +3,7 @@ from tkinter import *
 root = Tk()
 var = IntVar()
 root.geometry('1500x700')
+root.title("Random Loot Generator")
 var1 = IntVar()
 var2 = IntVar()
 var3 = IntVar()
