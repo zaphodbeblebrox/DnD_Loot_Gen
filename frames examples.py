@@ -3,7 +3,7 @@ from tkinter import ttk
 
 # App Definitions
 root = Tk()
-root.geometry('1500x700')
+#root.geometry('1500x700')
 root.title("Random Loot Generator")
 #root.config(bg="#3b3b3b")
 
@@ -138,13 +138,16 @@ bGen3.grid(row=2, column=0, sticky="ew")
 bGen4.grid(row=3, column=0, sticky="ew")
 
 # fGen4-----------------------
-rRty1 = Radiobutton(fGen4, text="Common", variable=varRty, value="C", command=selRty)
-rRty2 = Radiobutton(fGen4, text="Uncommon", variable=varRty, value="U", command=selRty)
-rRty3 = Radiobutton(fGen4, text="Rare", variable=varRty, value="R", command=selRty)
-rRty4 = Radiobutton(fGen4, text="Very Rare", variable=varRty, value="V", command=selRty)
-rRty5 = Radiobutton(fGen4, text="Legendary", variable=varRty, value="L", command=selRty)
-bRty1 = Button(fGen4, text="Roll Item", state=NORMAL, padx=15, pady=35, command = myClick, bg="green")
-rRtyLabel = Label(fGen4)
+subFGen4 = LabelFrame(fGen4, padx=5, pady=5)
+subFGen4.grid(row=0, column=0, sticky="nsew")
+
+rRty1 = Radiobutton(subFGen4, text="Common", variable=varRty, value="C", command=selRty)
+rRty2 = Radiobutton(subFGen4, text="Uncommon", variable=varRty, value="U", command=selRty)
+rRty3 = Radiobutton(subFGen4, text="Rare", variable=varRty, value="R", command=selRty)
+rRty4 = Radiobutton(subFGen4, text="Very Rare", variable=varRty, value="V", command=selRty)
+rRty5 = Radiobutton(subFGen4, text="Legendary", variable=varRty, value="L", command=selRty)
+bRty1 = Button(fGen4, text="Roll Item", state=NORMAL, padx=15, pady=35, command = myClick, bg="gold")
+rRtyLabel = Label(subFGen4)
 
 varRty.set("C")
 
@@ -153,7 +156,7 @@ rRty2.grid(sticky = W, row=1, column=0)
 rRty3.grid(sticky = W, row=2, column=0)
 rRty4.grid(sticky = W, row=3, column=0)
 rRty5.grid(sticky = W, row=4, column=0)
-bRty1.grid(sticky = EW, row=5, column=0)
+bRty1.grid(row=1, column=0, sticky = "nesw")
 rRtyLabel.grid(row=6, column=0)
 
 # fGen5-----------------------
