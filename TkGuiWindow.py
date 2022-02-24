@@ -8,16 +8,28 @@ class TkGuiWindow:
 	def __init__(self):
 
 		self.root = tk.Tk() #Makes the window
-		self.root.title("Window Title") #Makes the title that will appear in the top left
-		self.root.config(background = "#FFFFFF")
+		self.root.title("Random Loot Generator") #Makes the title that will appear in the top left
+		self.root.geometry('1500x700')
+		#self.root.config(background = "#FFFFFF")
 
 		# Tab Definitions
 		self.notebook = ttk.Notebook(self.root)
-		self.tabGen = Tab_Loot(self.notebook)
-		
+
+		self.tabGen = ttk.Frame(self.notebook)
+		self.tabEnchantment = ttk.Frame(self.notebook)
+		self.tabGems = ttk.Frame(self.notebook)
+		self.tabMagic = ttk.Frame(self.notebook)
+		self.tabStatusEffects = ttk.Frame(self.notebook)
+
 		self.notebook.add(self.tabGen, text="Loot Generator")
-		self.notebook.add(self.tabGen, text="hello")
+		self.notebook.add(self.tabEnchantment, text="Enchantments")
+		self.notebook.add(self.tabGems, text="Gem Table")
+		self.notebook.add(self.tabMagic, text="Magic Reference")
+		self.notebook.add(self.tabStatusEffects, text="Status Effects")
 		self.notebook.grid(row=0, column=0)
+
+		Tab_Loot(self.tabGen)
+		Tab_Loot(self.tabEnchantment)
 
 		#self.leftPanel = MyLeftPanel(self.root, self.leftFrame)
 		#self.rightPanel = MyRightPanel(self.root, self.rightFrame)
