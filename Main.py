@@ -1,4 +1,4 @@
-from MyTkWindow import *
+from TkGuiWindow import *
 
-myWindow = MyTkWindow()
+myWindow = TkGuiWindow()
 myWindow.start()
