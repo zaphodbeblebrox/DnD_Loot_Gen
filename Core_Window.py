@@ -1,10 +1,10 @@
 import tkinter as tk
 from tkinter import ttk
 
-from Tab_Loot import *
+from Tab_Loot_Generator import *
 # from MyRightPanel import *
 
-class TkGuiWindow:
+class Core_Window:
 	def __init__(self):
 
 		self.root = tk.Tk() #Makes the window
@@ -28,8 +28,8 @@ class TkGuiWindow:
 		self.notebook.add(self.tabStatusEffects, text="Status Effects")
 		self.notebook.grid(row=0, column=0)
 
-		Tab_Loot(self.tabGen)
-		Tab_Loot(self.tabEnchantment)
+		Tab_Loot_Generator(self.tabGen)
+		Tab_Loot_Generator(self.tabEnchantment)
 
 		#self.leftPanel = MyLeftPanel(self.root, self.leftFrame)
 		#self.rightPanel = MyRightPanel(self.root, self.rightFrame)
