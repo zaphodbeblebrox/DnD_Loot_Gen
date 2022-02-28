@@ -1,7 +1,8 @@
 import tkinter as tk
 from tkinter import ttk
 from Frame_Level import *
-from Frame_rec import *
+from Frame_Rarity import *
+from Frame_ItemTypes import *
 
 class Tab_Loot_Generator:
 	
@@ -27,19 +28,6 @@ class Tab_Loot_Generator:
 		self.fGen5.grid(row=0, column=4, sticky="nsew")
 
 		# Global Variables-----------
-		#self.varLvl = tk.IntVar()
-		self.varRty = tk.StringVar()
-		self.vArmorB = tk.BooleanVar()
-		self.vArmorM = tk.BooleanVar()
-		self.vPotion = tk.BooleanVar()
-		self.vRing = tk.BooleanVar()
-		self.vRod = tk.BooleanVar()
-		self.vScroll = tk.BooleanVar()
-		self.vStaff = tk.BooleanVar()
-		self.vWand = tk.BooleanVar()
-		self.vWeaponB = tk.BooleanVar()
-		self.vWeaponM = tk.BooleanVar()
-		self.vWonderous = tk.BooleanVar()
 
 		# fGen1-----------------------
 		msg = """hello worlds!!"""
@@ -49,8 +37,13 @@ class Tab_Loot_Generator:
 		self.conOut.config(state="disabled")
 		self.conOut.grid(row=0, column=0)
 
-		Frame_rec(self.fGen2, 20)
-		Frame_rec(self.fGen3, 9)
+		self.levelCtrl = Frame_Level(self.fGen2, 20)
+		self.levelCtrl2 = Frame_Level(self.fGen3, 9)
+		self.rarityCtrl = Frame_Rarity(self.fGen4)
+		self.itCtrl = Frame_ItemTypes(self.fGen5)
+		# self.itCtrl.vArmorB.set(True)
+
+		
 
 
 
