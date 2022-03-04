@@ -9,7 +9,7 @@ class Core_Window:
 
 		self.root = tk.Tk() #Makes the window
 		self.root.title("Random Loot Generator") #Makes the title that will appear in the top left
-		self.root.geometry('1500x700')
+		# self.root.geometry('1500x700')
 		#self.root.config(background = "#FFFFFF")
 
 		# Tab Definitions
@@ -30,9 +30,6 @@ class Core_Window:
 
 		Tab_Loot_Generator(self.tabGen)
 		Tab_Loot_Generator(self.tabEnchantment)
-
-		#self.leftPanel = MyLeftPanel(self.root, self.leftFrame)
-		#self.rightPanel = MyRightPanel(self.root, self.rightFrame)
 
 	def start(self):
 		self.root.mainloop() #start monitoring and updating the GUI

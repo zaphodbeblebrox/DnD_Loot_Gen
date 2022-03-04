@@ -40,7 +40,17 @@ class Tab_Loot_Generator:
 		self.levelCtrl = Frame_Level(self.fGen2, 20)
 		self.levelCtrl2 = Frame_Level(self.fGen3, 9)
 		self.rarityCtrl = Frame_Rarity(self.fGen4)
-		self.itCtrl = Frame_ItemTypes(self.fGen5)
+
+		templist = ["Armor - Basic","Armor - Magic", "Potion", "Ring", "Rod", "Scroll", "Staff", "Wand", "Weapon - Basic", "Weapon - Magic", "Wonderous"]
+		tempBoolList = [True, False, True, False, False, True, False, False, True, False, False]
+		self.itemTypesContainer = [[" ",tk.BooleanVar(), False]]*len(templist)
+
+		for i in range(len(templist)):
+			self.itemTypesContainer[i] = [templist[i], tk.BooleanVar(), tempBoolList[i]]
+
+		print(self.itemTypesContainer[0][0])
+
+		self.itCtrl = Frame_ItemTypes(self.fGen5, self.itemTypesContainer)
 		# self.itCtrl.vArmorB.set(True)
 
 		
