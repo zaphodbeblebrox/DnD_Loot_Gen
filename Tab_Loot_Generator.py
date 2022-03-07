@@ -3,6 +3,7 @@ from tkinter import ttk
 from Frame_Level import *
 from Frame_Rarity import *
 from Frame_ItemTypes import *
+from Frame_Gen_Buttons import *
 
 class Tab_Loot_Generator:
 	
@@ -38,7 +39,7 @@ class Tab_Loot_Generator:
 		self.conOut.grid(row=0, column=0)
 
 		self.levelCtrl = Frame_Level(self.fGen2, 20)
-		self.levelCtrl2 = Frame_Level(self.fGen3, 9)
+		self.levelCtrl2 = Frame_Gen_Buttons(self.fGen3)
 		self.rarityCtrl = Frame_Rarity(self.fGen4)
 
 		templist = ["Armor - Basic","Armor - Magic", "Potion", "Ring", "Rod", "Scroll", "Staff", "Wand", "Weapon - Basic", "Weapon - Magic", "Wonderous"]
