@@ -4,6 +4,7 @@ from Frame_Level import *
 from Frame_Rarity import *
 from Frame_ItemTypes import *
 from Frame_Gen_Buttons import *
+from Frame_Output import *
 
 class Tab_Loot_Generator:
 	
@@ -31,15 +32,15 @@ class Tab_Loot_Generator:
 		# Global Variables-----------
 
 		# fGen1-----------------------
-		msg = """hello worlds!!"""
-		self.conOut = tk.Text(self.fGen1, height = 32, width = 52, state="normal")
-		self.conOut.insert("insert", msg)
-		self.conOut.insert("end", "hellow")
-		self.conOut.config(state="disabled")
-		self.conOut.grid(row=0, column=0)
+		# msg = """hello worlds!!"""
+		# self.conOut = tk.Text(self.fGen1, height = 32, width = 52, state="normal")
+		# self.conOut.insert("insert", msg)
+		# self.conOut.insert("end", "hellow")
+		# self.conOut.config(state="disabled")
+		# self.conOut.grid(row=0, column=0)
 
+		self.textbox = Frame_Output(self.fGen1)
 		self.levelCtrl = Frame_Level(self.fGen2, 20)
-		self.levelCtrl2 = Frame_Gen_Buttons(self.fGen3)
 		self.rarityCtrl = Frame_Rarity(self.fGen4)
 
 		templist = ["Armor - Basic","Armor - Magic", "Potion", "Ring", "Rod", "Scroll", "Staff", "Wand", "Weapon - Basic", "Weapon - Magic", "Wonderous"]
@@ -49,9 +50,8 @@ class Tab_Loot_Generator:
 		for i in range(len(templist)):
 			self.itemTypesContainer[i] = [templist[i], tk.BooleanVar(), tempBoolList[i]]
 
-		print(self.itemTypesContainer[0][0])
-
 		self.itCtrl = Frame_ItemTypes(self.fGen5, self.itemTypesContainer)
+		self.buttons = Frame_Gen_Buttons(self.fGen3, self.textbox, self.levelCtrl, self.rarityCtrl, self.itCtrl)
 		# self.itCtrl.vArmorB.set(True)
 
 		
