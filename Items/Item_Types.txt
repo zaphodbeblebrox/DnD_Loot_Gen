@@ -1,0 +1,11 @@
+Armor - Basic;True
+Armor - Magic;False
+Potion;True
+Ring;False
+Rod;False
+Scroll;True
+Staff;False
+Wand;False
+Weapon - Basic;True
+Weapon - Magic;False
+Wonderous;False
