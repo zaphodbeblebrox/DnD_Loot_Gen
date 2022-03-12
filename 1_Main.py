@@ -1,5 +1,6 @@
 from Core_Window import *
-from Data_Import import *
+from Data_Handler import *
 
+programData = Data_Handler()
 myWindow = Core_Window()
 myWindow.start()
