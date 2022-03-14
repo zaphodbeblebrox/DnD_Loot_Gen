@@ -8,8 +8,9 @@ from Frame_Output import *
 
 class Tab_Loot_Generator:
 	
-	def __init__(self, tab):
+	def __init__(self, tab, data):
 		self.tab = tab
+		self.data = data
 
 		# Generator Frame Definitions----------
 

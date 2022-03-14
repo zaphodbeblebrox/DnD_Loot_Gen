@@ -5,8 +5,8 @@ from Tab_Loot_Generator import *
 # from MyRightPanel import *
 
 class Core_Window:
-	def __init__(self):
-
+	def __init__(self, data):
+		
 		self.root = tk.Tk() #Makes the window
 		self.root.title("Random Loot Generator") #Makes the title that will appear in the top left
 		# self.root.geometry('1500x700')
@@ -28,8 +28,8 @@ class Core_Window:
 		self.notebook.add(self.tabStatusEffects, text="Status Effects")
 		self.notebook.grid(row=0, column=0)
 
-		Tab_Loot_Generator(self.tabGen)
-		Tab_Loot_Generator(self.tabEnchantment)
+		Tab_Loot_Generator(self.tabGen, data)
+		Tab_Loot_Generator(self.tabEnchantment, data)
 
 	def start(self):
 		self.root.mainloop() #start monitoring and updating the GUI

@@ -5,8 +5,8 @@ class Data_Handler:
     def __init__(self):
         # self.fileName = fileName
         self.itemTypeList = []
-        self.itpath = '.\\Items\\Item_Types.txt'
-        self.ReadFile(self.itpath)
+        self.masterList = Data_Import.ReadFile('.\\File_Master_List.txt')
+        self.itemTypeList = Data_Import.ReadFile(self.masterList[1])
 
     def ReadFile(self, fileName):
         content_array = []

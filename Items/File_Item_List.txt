@@ -1,0 +1,10 @@
+./Items/Armor/Basic_Armor_C.txt
+./Items/Armor/Basic_Armor_U.txt
+./Items/Armor/Basic_Armor_R.txt
+./Items/Armor/Basic_Armor_V.txt
+./Items/Armor/Basic_Armor_L.txt
+./Items/Armor/Magic_Armor_C.txt
+./Items/Armor/Magic_Armor_U.txt
+./Items/Armor/Magic_Armor_R.txt
+./Items/Armor/Magic_Armor_V.txt
+./Items/Armor/Magic_Armor_L.txt
