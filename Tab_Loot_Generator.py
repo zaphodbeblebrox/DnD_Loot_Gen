@@ -5,12 +5,12 @@ from Frame_Rarity import *
 from Frame_ItemTypes import *
 from Frame_Gen_Buttons import *
 from Frame_Output import *
+from Data_Import import *
 
 class Tab_Loot_Generator:
 	
 	def __init__(self, tab, data):
 		self.tab = tab
-		self.data = data
 
 		# Generator Frame Definitions----------
 
@@ -44,14 +44,18 @@ class Tab_Loot_Generator:
 		self.levelCtrl = Frame_Level(self.fGen2, 20)
 		self.rarityCtrl = Frame_Rarity(self.fGen4)
 
-		templist = ["Armor - Basic","Armor - Magic", "Potion", "Ring", "Rod", "Scroll", "Staff", "Wand", "Weapon - Basic", "Weapon - Magic", "Wonderous"]
-		tempBoolList = [True, False, True, False, False, True, False, False, True, False, False]
+		# templist = ["Armor - Basic","Armor - Magic", "Potion", "Ring", "Rod", "Scroll", "Staff", "Wand", "Weapon - Basic", "Weapon - Magic", "Wonderous"]
+		# tempBoolList = [True, False, True, False, False, True, False, False, True, False, False]
+		templist, tempBoolList = Data_Import.parse_file(data.itemTypeList)
+		Boolean_list = list(map(lambda ele: ele == "False", tempBoolList))
 		self.itemTypesContainer = [[" ",tk.BooleanVar(), False]]*len(templist)
 
 		for i in range(len(templist)):
-			self.itemTypesContainer[i] = [templist[i], tk.BooleanVar(), tempBoolList[i]]
+			self.itemTypesContainer[i] = [templist[i], tk.BooleanVar(), Boolean_list[i]]
+			# self.itemTypesContainer[i] = [templist[i], tk.BooleanVar(), tempBoolList[i]]
 
 		self.itCtrl = Frame_ItemTypes(self.fGen5, self.itemTypesContainer)
+		print(str(self.itCtrl.data[0][1])) #continue work here!!!!!!!!!!!!!
 		self.buttons = Frame_Gen_Buttons(self.fGen3, self.textbox, self.levelCtrl, self.rarityCtrl, self.itCtrl)
 		# self.itCtrl.vArmorB.set(True)
 

@@ -5,9 +5,9 @@ class Data_Import:
         # self.fileName = fileName
         self.itemTypeList = []
         self.itpath = '.\\Items\\Item_Types.txt'
-        self.ReadFile(self.itpath)
+        # self.ReadFile(self.itpath)
 
-    def ReadFile(self, fileName):
+    def ReadFile(fileName):
         content_array = []
         with open(fileName) as f:
                 #Content_list is the list that contains the read lines.     
@@ -15,7 +15,7 @@ class Data_Import:
                         content_array.append(line)
         return content_array
 
-    def parse_file(self, array):
+    def parse_file(array):
         leftColData = [0 for x in range(len(array))]
         rightColData = [0 for x in range(len(array))]
         for i in range(len(array)):
