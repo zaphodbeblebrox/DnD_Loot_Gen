@@ -1,3 +1,4 @@
+from logging import root
 import tkinter as tk
 from tkinter import ttk
 from Frame_Level import *
@@ -47,15 +48,18 @@ class Tab_Loot_Generator:
 		# templist = ["Armor - Basic","Armor - Magic", "Potion", "Ring", "Rod", "Scroll", "Staff", "Wand", "Weapon - Basic", "Weapon - Magic", "Wonderous"]
 		# tempBoolList = [True, False, True, False, False, True, False, False, True, False, False]
 		templist, tempBoolList = Data_Import.parse_file(data.itemTypeList)
-		Boolean_list = list(map(lambda ele: ele == "False", tempBoolList))
-		self.itemTypesContainer = [[" ",tk.BooleanVar(), False]]*len(templist)
+		for i in range(len(tempBoolList)):
+			tempBoolList[i] = tempBoolList[i].replace("\n","")
+		Boolean_list = list(map(lambda ele: ele == "True", tempBoolList))
+		self.itemTypesContainer = [[" ",tk.BooleanVar().set(False)]]*len(templist)
 
 		for i in range(len(templist)):
-			self.itemTypesContainer[i] = [templist[i], tk.BooleanVar(), Boolean_list[i]]
+			self.itemTypesContainer[i] = [templist[i], tk.BooleanVar().set(Boolean_list[i])]
+			# print(str(self.itemTypesContainer[i][1].get()))
 			# self.itemTypesContainer[i] = [templist[i], tk.BooleanVar(), tempBoolList[i]]
 
-		self.itCtrl = Frame_ItemTypes(self.fGen5, self.itemTypesContainer)
-		print(str(self.itCtrl.data[0][1])) #continue work here!!!!!!!!!!!!!
+		# self.itCtrl = Frame_ItemTypes(self.fGen5, self.itemTypesContainer)
+		self.itCtrl = Frame_ItemTypes(self.fGen5, data.itemTypeList)
 		self.buttons = Frame_Gen_Buttons(self.fGen3, self.textbox, self.levelCtrl, self.rarityCtrl, self.itCtrl)
 		# self.itCtrl.vArmorB.set(True)
 

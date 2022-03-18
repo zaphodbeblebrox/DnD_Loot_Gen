@@ -37,8 +37,8 @@ class Frame_Gen_Buttons:
         self.myLabel3.grid(row=5, column=0)
 
     def rollItemB(self):
-        selection = "Option " + str(self.levelFrame.varLvl.get())
-        self.myLabel3 = tk.Label(self.frame, text=selection)
-        self.myLabel3.grid(row=5, column=0)
+        for i in range(len(self.itemTypeFrame.varState)):
+            selection = str(self.itemTypeFrame.templist[i]) + "State Bool:\t" + str(self.itemTypeFrame.varState[i].get()) + '\n'
+            self.textFrame.newOutput(selection)
 
 
