@@ -12,8 +12,8 @@ class Frame_ItemTypes:
         Boolean_list = list(map(lambda ele: ele == "True", tempBoolList))
 		
         for i in range(len(self.templist)):
-            tempVar = tk.BooleanVar()
-            tk.Checkbutton(self.frame, text=self.templist[i], variable=tempVar.set(Boolean_list[i]), onvalue=1, offvalue=0).grid(sticky = "w", row=i, column=0)
+            tempVar = tk.BooleanVar(value=Boolean_list[i])
+            tk.Checkbutton(self.frame, text=self.templist[i], variable=tempVar, onvalue=1, offvalue=0).grid(sticky = "w", row=i, column=0)
             self.varState.append(tempVar)
 
 

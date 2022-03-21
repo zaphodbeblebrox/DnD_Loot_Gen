@@ -38,7 +38,7 @@ class Frame_Gen_Buttons:
 
     def rollItemB(self):
         for i in range(len(self.itemTypeFrame.varState)):
-            selection = str(self.itemTypeFrame.templist[i]) + "State Bool:\t" + str(self.itemTypeFrame.varState[i].get()) + '\n'
+            selection = str(self.itemTypeFrame.templist[i]) + " ~ State Bool:\t" + str(self.itemTypeFrame.varState[i].get()) + '\n'
             self.textFrame.newOutput(selection)
 
 

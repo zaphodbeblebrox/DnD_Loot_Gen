@@ -1,0 +1,2 @@
+Medium Shield; +2AC
+Tower Shield; +3AC Disadvantage all Dex Checks and Saves
