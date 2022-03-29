@@ -31,37 +31,13 @@ class Tab_Loot_Generator:
 		self.fGen4.grid(row=0, column=3, sticky="nsew")
 		self.fGen5.grid(row=0, column=4, sticky="nsew")
 
-		# Global Variables-----------
-
-		# fGen1-----------------------
-		# msg = """hello worlds!!"""
-		# self.conOut = tk.Text(self.fGen1, height = 32, width = 52, state="normal")
-		# self.conOut.insert("insert", msg)
-		# self.conOut.insert("end", "hellow")
-		# self.conOut.config(state="disabled")
-		# self.conOut.grid(row=0, column=0)
-
 		self.textbox = Frame_Output(self.fGen1)
 		self.levelCtrl = Frame_Level(self.fGen2, 20)
 		self.rarityCtrl = Frame_Rarity(self.fGen4)
 
-		# templist = ["Armor - Basic","Armor - Magic", "Potion", "Ring", "Rod", "Scroll", "Staff", "Wand", "Weapon - Basic", "Weapon - Magic", "Wonderous"]
-		# tempBoolList = [True, False, True, False, False, True, False, False, True, False, False]
-		templist, tempBoolList = Data_Import.parse_file(data.itemTypeList)
-		for i in range(len(tempBoolList)):
-			tempBoolList[i] = tempBoolList[i].replace("\n","")
-		Boolean_list = list(map(lambda ele: ele == "True", tempBoolList))
-		self.itemTypesContainer = [[" ",tk.BooleanVar().set(False)]]*len(templist)
-
-		for i in range(len(templist)):
-			self.itemTypesContainer[i] = [templist[i], tk.BooleanVar().set(Boolean_list[i])]
-			# print(str(self.itemTypesContainer[i][1].get()))
-			# self.itemTypesContainer[i] = [templist[i], tk.BooleanVar(), tempBoolList[i]]
-
-		# self.itCtrl = Frame_ItemTypes(self.fGen5, self.itemTypesContainer)
 		self.itCtrl = Frame_ItemTypes(self.fGen5, data.itemTypeList)
 		self.buttons = Frame_Gen_Buttons(self.fGen3, self.textbox, self.levelCtrl, self.rarityCtrl, self.itCtrl)
-		# self.itCtrl.vArmorB.set(True)
+
 
 		
 

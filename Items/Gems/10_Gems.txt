@@ -1,0 +1,12 @@
+10;Azurite;An opaque mottled deep blue gemstone
+10;Banded Agate;A translucent striped brown, blue, white, or red gemstone
+10;Blue quartz;A transparent pale blue gemstone
+10;Eye agate;A translucent gemstone with circles of gray, white, brown, blue, or green
+10;Hematite;An opaque gray-black gemstone
+10;Lapis Lazuli;An opaque light and dark blue gemstone with yellow flecks
+10;Malachite;An opaque striated light and dark green gemstone
+10;Moss agate;A translucent gemstone with pink or yellow-white with mossy gray or green markings
+10;Obsidian;An opaque black gemstone
+10;Rhodochrosite;An opaque light pink gemstone
+10;Tiger Eye;A translucent brown gemstone with a golden center
+10;Turquoise;An opaque light blue-green gemstone

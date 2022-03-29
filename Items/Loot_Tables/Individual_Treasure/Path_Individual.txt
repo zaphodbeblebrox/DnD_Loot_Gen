@@ -1,0 +1,4 @@
+./Items/Loot_Tables/Individual_Treasure/0-4.txt
+./Items/Loot_Tables/Individual_Treasure/5-10.txt
+./Items/Loot_Tables/Individual_Treasure/11-16.txt
+./Items/Loot_Tables/Individual_Treasure/17-20.txt

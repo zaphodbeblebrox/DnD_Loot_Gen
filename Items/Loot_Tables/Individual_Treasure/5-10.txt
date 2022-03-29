@@ -1,0 +1,4 @@
+30:400:600:Copper:10:60:Silver
+35:60:360:Silver:20:120:Gold
+29:40:240:Gold:0:0:none
+5:20:120:Gold:3:18:Platinum

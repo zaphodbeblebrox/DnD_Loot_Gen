@@ -1,2 +1,3 @@
 ./Items/File_Item_List.txt
 ./Items/Item_Types.txt
+./Items/Loot_Tables/Individual_Treasure/Path_Individual.txt

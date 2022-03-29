@@ -1,0 +1,10 @@
+100;Amber;A transparent watery gold to rich gold gemstone
+100;Amethyst;A transparent deep purple gemstone
+100;Chrysoberyl;A transparent yellow-green to pale green gemstone
+100;Coral;An opaque crimson gemstone
+100;Garnet;A transparent red, brown-green, or violet gemstone
+100;Jade;A translucent light green, deep green, or white gemstone
+100;Jet;An opaque deep black gemstone
+100;Pearl;An opaque lustrous white, yellow, or pink gemstone
+100;Spinel;A transparent gemstone of red, red-brown, or deep green
+100;Tourmaline;A transparent pale green, blue, brown, or red gemstone

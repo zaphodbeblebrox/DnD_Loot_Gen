@@ -1,0 +1,8 @@
+1000;Black Opal;A translucent dark green with black mottling and golden flecks gemstone
+1000;Blue Sapphire;A transparent blue-white to medium blue gemstone
+1000;Emerald;A transparent deep bright green gemstone
+1000;Fire Opal;A translucent fiery red Gemstone
+1000;Opal;A translucent pale blue with green and golden mottling gemstone
+1000;Star Ruby;A translucent ruby gemstone with a white star-shaped center
+1000;Star Sapphire;A translucent blue sapphire gemstone with a white star-shaped center
+1000;Yellow sapphire;A transparent fiery yellow or yellow-green gemstone

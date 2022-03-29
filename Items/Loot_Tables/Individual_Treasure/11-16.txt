@@ -1,0 +1,4 @@
+30:400:600:Silver:100:600:Gold
+35:600:3600:Silver:100:600:Gold
+29:200:600:Gold:10:60:Platinum
+5:200:600:Gold:20:120:Platinum

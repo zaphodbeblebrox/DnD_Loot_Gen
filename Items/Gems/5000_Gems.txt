@@ -1,0 +1,4 @@
+5000;Black Sapphire;A translucent lustrous black gemstone with glowing highlights
+5000;Diamond;A transparent blue-white, canary, pink, brown, or blue gemstone
+5000;Jacinth;A transparent fiery orange gemstone
+5000;Ruby;A transparent clear red to deep crimson gemstone

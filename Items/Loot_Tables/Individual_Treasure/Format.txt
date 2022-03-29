@@ -1,0 +1,1 @@
+Chance:Min Amount:Max Amount:Coin Type:Min Amount:Max Amount:Coin Type

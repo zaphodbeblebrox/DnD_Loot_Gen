@@ -1,0 +1,4 @@
+30:5:30:Copper:0:0:none
+35:4:24:Silver:0:0:none
+29:3:18:Gold:0:0:none
+5:1:6:Platinum:0:0:none

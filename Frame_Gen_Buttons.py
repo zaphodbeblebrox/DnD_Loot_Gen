@@ -1,3 +1,4 @@
+from calendar import c
 import tkinter as tk
 
 class Frame_Gen_Buttons:
@@ -16,10 +17,22 @@ class Frame_Gen_Buttons:
 
     # Functions-------------------
     def individualTreasureB(self):
-        selection = "Option:\t" + str(self.levelFrame.varLvl.get()) + '\n'
-        self.textFrame.newOutput(selection)
-        # self.myLabel3 = tk.Label(self.frame, text=selection)
-        # self.myLabel3.grid(row=5, column=0)
+        currentLvl = self.levelFrame.varLvl.get()
+        if currentLvl <=4:
+            selection = "Option:\t" + str(self.levelFrame.varLvl.get()) + '\n'
+            self.textFrame.newOutput(selection)
+        elif currentLvl <= 10:
+            selection = "Option:\t" + str(self.levelFrame.varLvl.get()) + '\n'
+            self.textFrame.newOutput(selection)
+        elif currentLvl <= 16:
+            selection = "Option:\t" + str(self.levelFrame.varLvl.get()) + '\n'
+            self.textFrame.newOutput(selection)
+        elif currentLvl <= 20:
+            selection = "Option:\t" + str(self.levelFrame.varLvl.get()) + '\n'
+            self.textFrame.newOutput(selection)
+        else:
+            selection = "Error!"
+            self.textFrame.newOutput(selection)
     
     def hordeTreasureB(self):
         selection = "Option " + str(self.levelFrame.varLvl.get())

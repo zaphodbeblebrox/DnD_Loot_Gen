@@ -1,0 +1,6 @@
+500;Alexandrite;A transparent dark green gemstone
+500;Aquamarine;A transparent pale blue-green gemstone
+500;Black Pearl;An opaque pure black gemstone
+500;Blue spinel;A transparent deep blue gemstone
+500;Peridot;A transparent rich olive green gemstone
+500;Topaz;A transparent golden yellow gemstone
