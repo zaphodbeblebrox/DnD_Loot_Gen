@@ -10,7 +10,7 @@ from Data_Import import *
 
 class Tab_Loot_Generator:
 	
-	def __init__(self, tab, data):
+	def __init__(self, tab, programData):
 		self.tab = tab
 
 		# Generator Frame Definitions----------
@@ -35,8 +35,8 @@ class Tab_Loot_Generator:
 		self.levelCtrl = Frame_Level(self.fGen2, 20)
 		self.rarityCtrl = Frame_Rarity(self.fGen4)
 
-		self.itCtrl = Frame_ItemTypes(self.fGen5, data.itemTypeList)
-		self.buttons = Frame_Gen_Buttons(self.fGen3, self.textbox, self.levelCtrl, self.rarityCtrl, self.itCtrl)
+		self.itCtrl = Frame_ItemTypes(self.fGen5, programData.itemTypeList)
+		self.buttons = Frame_Gen_Buttons(self.fGen3, programData,  self.textbox, self.levelCtrl, self.rarityCtrl, self.itCtrl)
 
 
 		

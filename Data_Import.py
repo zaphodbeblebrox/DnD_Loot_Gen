@@ -15,11 +15,11 @@ class Data_Import:
                         content_array.append(line)
         return content_array
 
-    def parse_file(array):
+    def parse_file(array, deliminator):
         leftColData = [0 for x in range(len(array))]
         rightColData = [0 for x in range(len(array))]
         for i in range(len(array)):
-            tempArray = array[i].split(';')
+            tempArray = array[i].split(deliminator)
             leftColData[i] = tempArray[0]
             rightColData[i] = tempArray[1]
         return (leftColData, rightColData)

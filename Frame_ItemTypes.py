@@ -6,7 +6,7 @@ class Frame_ItemTypes:
         self.frame = frame
         self.varState = []
         
-        self.templist, tempBoolList = Data_Import.parse_file(dataFile)
+        self.templist, tempBoolList = Data_Import.parse_file(dataFile , ';')
         for i in range(len(tempBoolList)):
             tempBoolList[i] = tempBoolList[i].replace("\n","")
         Boolean_list = list(map(lambda ele: ele == "True", tempBoolList))

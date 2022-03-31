@@ -1,9 +1,11 @@
 from calendar import c
 import tkinter as tk
+from Randomizer_Handler import *
 
 class Frame_Gen_Buttons:
-    def __init__(self, frame, textFrame, levelFrame, rarityFrame, itemTypeFrame):
+    def __init__(self, frame, programData, textFrame, levelFrame, rarityFrame, itemTypeFrame):
         self.frame = frame
+        self.programData = programData
         self.textFrame = textFrame
         self.levelFrame = levelFrame
         self.rarityFrame = rarityFrame
@@ -18,21 +20,23 @@ class Frame_Gen_Buttons:
     # Functions-------------------
     def individualTreasureB(self):
         currentLvl = self.levelFrame.varLvl.get()
+        outputText = ""
         if currentLvl <=4:
-            selection = "Option:\t" + str(self.levelFrame.varLvl.get()) + '\n'
-            self.textFrame.newOutput(selection)
+            # outputText = Randomizer_Handler.indivTreasure(self.programData.individual_0_4)
+            outputText = Randomizer_Handler.indivTreasure(["self.programData.individual_0_4","slkhdfkljsf", "slkdjfl"])
+            self.textFrame.newOutput(outputText)
         elif currentLvl <= 10:
-            selection = "Option:\t" + str(self.levelFrame.varLvl.get()) + '\n'
-            self.textFrame.newOutput(selection)
+            outputText = "Option:\t" + str(self.levelFrame.varLvl.get()) + '\n'
+            self.textFrame.newOutput(outputText)
         elif currentLvl <= 16:
-            selection = "Option:\t" + str(self.levelFrame.varLvl.get()) + '\n'
-            self.textFrame.newOutput(selection)
+            outputText = "Option:\t" + str(self.levelFrame.varLvl.get()) + '\n'
+            self.textFrame.newOutput(outputText)
         elif currentLvl <= 20:
-            selection = "Option:\t" + str(self.levelFrame.varLvl.get()) + '\n'
-            self.textFrame.newOutput(selection)
+            outputText = "Option:\t" + str(self.levelFrame.varLvl.get()) + '\n'
+            self.textFrame.newOutput(outputText)
         else:
-            selection = "Error!"
-            self.textFrame.newOutput(selection)
+            outputText = "Error!"
+            self.textFrame.newOutput(outputText)
     
     def hordeTreasureB(self):
         selection = "Option " + str(self.levelFrame.varLvl.get())
