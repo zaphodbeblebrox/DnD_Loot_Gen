@@ -1,0 +1,8 @@
+./Items/Loot_Tables/Horde_Treasure/Coins_0-4.txt
+./Items/Loot_Tables/Horde_Treasure/Coins_5-10.txt
+./Items/Loot_Tables/Horde_Treasure/Coins_11-16.txt
+./Items/Loot_Tables/Horde_Treasure/Coins_17-20.txt
+./Items/Loot_Tables/Horde_Treasure/Treasure_0-4.txt
+./Items/Loot_Tables/Horde_Treasure/Treasure_5-10.txt
+./Items/Loot_Tables/Horde_Treasure/Treasure_11-16.txt
+./Items/Loot_Tables/Horde_Treasure/Treasure_17-20.txt

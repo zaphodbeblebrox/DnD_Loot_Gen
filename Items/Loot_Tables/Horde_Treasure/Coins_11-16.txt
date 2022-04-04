@@ -1,0 +1,4 @@
+Copper:0:0
+Silver:0:0
+Gold:4000:24000
+Platinum:500:3000

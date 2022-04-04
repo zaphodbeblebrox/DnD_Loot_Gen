@@ -1,0 +1,10 @@
+25;Silver ewer
+25;Carved bone statuette
+25;Small gold bracelet
+25;Cloth-of-gold vestments
+25;Black velvet mask stitched with silver thread
+25;Copper chalice with silver filigree
+25;Pair of engraved bone dice
+25;Small mirror set in a painted wooden frame
+25;Embroidered silk handkerchief
+25;Gold locket with a painted portrait inside

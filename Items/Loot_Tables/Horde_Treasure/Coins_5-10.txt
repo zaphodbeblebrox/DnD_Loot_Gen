@@ -1,0 +1,4 @@
+Copper:200:1200
+Silver:2000:12000
+Gold:600:3600
+Platinum:30:180
