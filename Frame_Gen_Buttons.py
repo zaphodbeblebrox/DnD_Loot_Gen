@@ -22,17 +22,16 @@ class Frame_Gen_Buttons:
         currentLvl = self.levelFrame.varLvl.get()
         outputText = ""
         if currentLvl <=4:
-            # outputText = Randomizer_Handler.indivTreasure(self.programData.individual_0_4)
-            outputText = Randomizer_Handler.indivTreasure(["self.programData.individual_0_4","slkhdfkljsf", "slkdjfl"])
+            outputText = Randomizer_Handler.indivTreasure(self.programData.individual_0_4)
             self.textFrame.newOutput(outputText)
         elif currentLvl <= 10:
-            outputText = "Option:\t" + str(self.levelFrame.varLvl.get()) + '\n'
+            outputText = Randomizer_Handler.indivTreasure(self.programData.individual_5_10)
             self.textFrame.newOutput(outputText)
         elif currentLvl <= 16:
-            outputText = "Option:\t" + str(self.levelFrame.varLvl.get()) + '\n'
+            outputText = Randomizer_Handler.indivTreasure(self.programData.individual_11_16)
             self.textFrame.newOutput(outputText)
         elif currentLvl <= 20:
-            outputText = "Option:\t" + str(self.levelFrame.varLvl.get()) + '\n'
+            outputText = Randomizer_Handler.indivTreasure(self.programData.individual_17_20)
             self.textFrame.newOutput(outputText)
         else:
             outputText = "Error!"
