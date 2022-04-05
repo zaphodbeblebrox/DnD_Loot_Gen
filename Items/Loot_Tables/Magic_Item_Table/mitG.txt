@@ -1,0 +1,88 @@
+11:WEAPON;R:none
+3:FIGWONDROUSPWR;-:none
+1:none;-:Adamantine armor (breastplate)
+1:none;-:Adamantine armor (splint)
+1:none;-:Amulet of health
+1:none;-:Armor of vulnerability
+1:none;-:Arrow-catching shield
+1:none;-:Belt of dwarvenkind
+1:none;-:Belt of hill giant strength
+1:none;-:Berserker axe
+1:none;-:Boots of levitation
+1:none;-:Boots of speed
+1:none;-:Bowl of commanding water elementals
+1:none;-:Bracers of defense
+1:none;-:Brazier of commanding fire elementals
+1:none;-:Cape of the mountebank
+1:none;-:Censer of controlling air elementals
+1:none;-:Armor, +1 chain mail
+1:none;-:Armor of resistance (chain mail)
+1:none;-:Armor, +1 chain shirt
+1:none;-:Armor of resistance (chain shirt)
+1:none;-:Cloak of displacement
+1:none;-:Cloak of the bat
+1:none;-:Cube of force
+1:none;-:Daern’s instant fortress
+1:none;-:Dagger of venom
+1:none;-:Dimensional shackles
+1:none;-:Dragon slayer
+1:none;-:Elven chain
+1:none;-:Flame tongue
+1:none;-:Gem of seeing
+1:none;-:Giant slayer
+1:none;-:Glamoured studded leather
+1:none;-:Helm of teleportation
+1:none;-:Horn of blasting
+1:none;-:Horn of Valhalla (Silver)
+1:none;-:Instrument of the bards (Canaith mandolin)
+1:none;-:Instrument of the bards (Cli lyre)
+1:none;-:Ioun stone (awareness)
+1:none;-:Ioun stone (protection)
+1:none;-:Ioun stone (reserve)
+1:none;-:Ioun stone (sustenance)
+1:none;-:Iron bands of Bilarro
+1:none;-:Armor, +1 leather
+1:none;-:Armor of resistance (leather)
+1:none;-:Mace of disruption
+1:none;-:Mace of smiting
+1:none;-:Mace of terror
+1:none;-:Mantle of spell resistance
+1:none;-:Necklace of prayer beads
+1:none;-:Periapt of proof against poison
+1:none;-:Ring of animal influence
+1:none;-:Ring of evasion
+1:none;-:Ring of feather falling
+1:none;-:Ring of free action
+1:none;-:Ring of protection
+1:none;-:Ring of resistance
+1:none;-:Ring of spell storing
+1:none;-:Ring of the ram
+1:none;-:Ring of X-ray vision
+1:none;-:Robe of eyes
+1:none;-:Rod of rulership
+1:none;-:Rod of the pact keeper, +2
+1:none;-:Rope of entanglement
+1:none;-:Armor, +1 scale mail
+1:none;-:Armor of resistance (scale mail)
+1:SHIELD;+2
+1:none;-:Shield of missile attraction
+1:none;-:Staff of charming
+1:none;-:Staff of healing
+1:none;-:Staff of swarming insects
+1:none;-:Staff of the woodlands
+1:none;-:Staff of withering
+1:none;-:Stone of controlling earth elementals
+1:none;-:Sun blade
+1:none;-:Sword of life stealing
+1:none;-:Sword of wounding
+1:none;-:Tentacle rod
+1:none;-:Vicious weapon
+1:none;-:Wand of binding
+1:none;-:Wand of enemy detection
+1:none;-:Wand of fear
+1:none;-:Wand of fireballs
+1:none;-:Wand of lightning bolts
+1:none;-:Wand of paralysis
+1:none;-:Wand of the war mage, +2
+1:none;-:Wand of wonder
+1:none;-:Wings of flying

@@ -1,0 +1,16 @@
+FIGWONDROUSPWR
+
+
+
+Weapon
+Shield
+Elemental
+Ammunition
+Wonderous
+Scroll
+Creature
+Rod
+Wand
+Robe
+Staff
+Potion

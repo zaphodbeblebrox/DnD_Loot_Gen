@@ -1,0 +1,69 @@
+10:WEAPON;V:none
+2:none;-:Amulet of the planes
+2:none;-:Carpet of flying
+2:none;-:Crystal ball (very rare version)
+2:none;-:Ring of regeneration
+2:none;-:Ring of shooting stars
+2:none;-:Ring of telekinesis
+2:none;-:Robe of scintillating colors
+2:none;-:Robe of stars
+2:none;-:Rod of absorption
+2:none;-:Rod of alertness
+2:none;-:Rod of security
+2:none;-:Rod of the pact keeper, +3
+2:none;-:Scimitar of speed
+2:SHIELD;-:+3
+2:none;-:Staff of fire
+2:none;-:Staff of frost
+2:none;-:Staff of power
+2:none;-:Staff of striking
+2:none;-:Staff of thunder and lightning
+2:none;-:Sword of sharpness
+2:none;-:Wand of polymorph
+2:none;-:Wand of the war mage, +3
+1:none;-:Adamantine armor (half plate)
+1:none;-:Adamantine armor (plate)
+1:none;-:Animated shield
+1:none;-:Belt of fire giant strength
+1:none;-:Belt of frost giant strength 
+1:none;-:Armor, +1 breastplate
+1:none;-:Armor of resistance (breastplate)
+1:none;-:Candle of invocation
+1:none;-:Armor, +2 chain mail
+1:none;-:Armor, +2 chain shirt
+1:none;-:Cloak of arachnida
+1:none;-:Dancing sword
+1:none;-:Demon armor
+1:none;-:Dragon scale mail
+1:none;-:Dwarven plate
+1:none;-:Dwarven thrower
+1:none;-:Efreeti bottle
+1:none;-:Figurine of wondrous power (obsidian steed)
+1:none;-:Frost brand
+1:none;-:Helm of brilliance
+1:none;-:Horn of Valhalla (bronze)
+1:none;-:Instrument of the bards (Anstruth harp)
+1:none;-:Ioun stone (absorption)
+1:none;-:Ioun stone (agility)
+1:none;-:Ioun stone (fortitude)
+1:none;-:Ioun stone (insight)
+1:none;-:Ioun stone (intellect)
+1:none;-:Ioun stone (leadership)
+1:none;-:Ioun stone (strength)
+1:none;-:Armor, +2 leather
+1:none;-:Manual of bodily health
+1:none;-:Manual of gainful exercise
+1:none;-:Manual of golems
+1:none;-:Manual of quickness of action
+1:none;-:Mirror of life trapping
+1:none;-:Nine lives stealer
+1:none;-:Oathbow
+1:none;-:Armor, +2 scale mail
+1:none;-:Spellguard shield
+1:none;-:Armor, +1 splint
+1:none;-:Armor of resistance (splint)
+1:none;-:Armor, +1 studded leather
+1:none;-:Armor of resistance (studded leather)
+1:none;-:Tome of clear thought
+1:none;-:Tome of leadership and influence
+1:none;-:Tome of understanding

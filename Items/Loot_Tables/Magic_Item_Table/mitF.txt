@@ -1,0 +1,59 @@
+15:WEAPON;U:none
+3:SHIELD;U:none
+3:none;-:Sentinel shield
+2:none;-:Amulet of proof against detection and location
+2:none;-:Boots of elvenkind
+2:none;-:Boots of striding and springing
+2:none;-:Bracers of archery
+2:none;-:Brooch of shielding
+2:none;-:Broom of flying
+2:none;-:Cloak of elvenkind
+2:none;-:Cloak of protection
+2:none;-:Gauntlets of ogre power
+2:none;-:Hat of disguise
+2:none;-:Javelin of lightning
+2:none;-:Pearl of power
+2:none;-:Rod of the pact keeper, +1
+2:none;-:Slippers of spider climbing
+2:none;-:Staff of the adder
+2:none;-:Staff of the python
+2:none;-:Sword of vengeance
+2:none;-:Trident of fish command
+2:none;-:Wand of magic missiles
+2:none;-:Wand of the war mage, +1
+2:none;-:Wand of web
+2:none;-:Weapon of warning
+1:none;-:Adamantine armor (chain mail)
+1:none;-:Adamantine armor (chain shirt)
+1:none;-:Adamantine armor (scale mail)
+1:none;-:Bag of tricks (gray)
+1:none;-:Bag of tricks (rust)
+1:none;-:Bag of tricks (tan)
+1:none;-:Boots of the winterlands
+1:none;-:Circlet of blasting
+1:none;-:Deck of illusions
+1:none;-:Eversmoking bottle
+1:none;-:Eyes of charming
+1:none;-:Eyes of the eagle
+1:none;-:Figurine of wondrous power (silver raven)
+1:none;-:Gem of brightness
+1:none;-:Gloves of missile snaring
+1:none;-:Gloves of swimming and climbing
+1:none;-:Gloves of thievery
+1:none;-:Headband of intellect
+1:none;-:Helm of telepathy
+1:none;-:Instrument of the bards (Doss lute)
+1:none;-:Instrument of the bards (Fochlucan bandore)
+1:none;-:Medallion of thoughts
+1:none;-:Necklace of adaptation
+1:none;-:Periapt of wound closure
+1:none;-:Pipes of haunting
+1:none;-:Pipes of the sewers
+1:none;-:Ring of jumping
+1:none;-:Ring of mind shielding
+1:none;-:Ring of warmth
+1:none;-:Ring of water walking
+1:none;-:Quiver of Ehlonna
+1:none;-:Stone of good luck (luckstone)
+1:none;-:Wind fan
+1:none;-:Winged boots

@@ -1,0 +1,53 @@
+5:none;-:Defender
+5:none;-:Hammer of thunderbolts
+5:none;-:Luck blade
+5:none;-:Sword of answering
+3:none;-:Holy avenger
+3:none;-:Ring of djinni summoning
+3:none;-:Ring of invisibility
+3:none;-:Ring of spell turning
+3:none;-:Rod of lordly might
+3:none;-:Staff of the magi
+3:none;-:Vorpal sword
+2:none;-:Belt of cloud giant strength
+2:none;-:Armor, +2 breastplate
+2:none;-:Armor, +3 chain mail
+2:none;-:Armor, +3 chain shirt
+2:none;-:Cloak of invisibility
+2:none;-:Crystal ball (legendary version)
+2:none;-:Armor, +1 half plate
+2:none;-:Iron flask
+2:none;-:Armor, +3 leather
+2:none;-:Armor, +1 plate
+2:none;-:Robe of the archmagi
+2:none;-:Rod of resurrection
+2:none;-:Armor, +1 scale mail
+2:none;-:Scarab of protection
+2:none;-:Armor, +2 splint
+2:none;-:Armor, +2 studded leather
+2:none;-:Well of many worlds
+1:ARMOR;V:none
+1:none;-:Apparatus of Kwalish
+1:none;-:Armor of invulnerability
+1:none;-:Belt of storm giant strength
+1:none;-:Cubic gate
+1:none;-:Deck of many things
+1:none;-:Efreeti chain
+1:none;-:Armor of resistance (half plate)
+1:none;-:Horn of Valhalla (iron)
+1:none;-:Instrument of the bards (Ollamh harp)
+1:none;-:Ioun stone (greater absorption)
+1:none;-:Ioun stone (mastery)
+1:none;-:Ioun stone (regeneration)
+1:none;-:Plate armor of etherealness
+1:none;-:Armor of resistance (plate)
+1:none;-:Ring of air elemental command
+1:none;-:Ring of earth elemental command
+1:none;-:Ring of fire elemental command
+1:none;-:Ring of three wishes
+1:none;-:Ring of water elemental command
+1:none;-:Sphere of annihilation
+1:none;-:Talisman of pure good
+1:none;-:Talisman of the sphere
+1:none;-:Talisman of ultimate evil
+1:none;-:Tome of the stilled tongue

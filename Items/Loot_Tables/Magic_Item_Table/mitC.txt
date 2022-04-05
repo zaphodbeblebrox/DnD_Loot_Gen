@@ -1,0 +1,28 @@
+15:none;-:Potion of Healing (Superior)
+7:SCROLL;4:none
+5:AMMUNITION;-:+2
+5:none;-:Potion of clairvoyance
+5:none;-:Potion of diminution
+5:none;-:Potion of gaseous form
+5:none;-:Potion of frost giant strength
+5:none;-:Potion of stone giant strength
+5:none;-:Potion of heroism
+5:none;-:Potion of invulnerability
+5:none;-:Potion of mind reading
+5:SCROLL;5:none
+3:none;-:Elixir of health
+3:none;-:Oil of etherealness
+3:none;-:Potion of fire giant strength
+3:none;-:Quaal’s feather token
+3:SCROLL:Scroll of Protection
+2:none;-:Bag of beans
+2:none;-:Bead of force
+1:none;-:Chime of opening
+1:none;-:Decanter of endless water
+1:none;-:Eyes of minute seeing
+1:none;-:Folding boat
+1:none;-:Heward’s handy haversack
+1:none;-:Horseshoes of speed
+1:none;-:Necklace of fireballs
+1:none;-:Periapt of health
+1:none;-:Sending stones

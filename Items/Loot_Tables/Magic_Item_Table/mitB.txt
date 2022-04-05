@@ -1,0 +1,35 @@
+15:none;-:Potion of Healing (Greater)
+7:none;-:Potion of Fire Breath
+7:none;-:Potion of Resistance
+5:AMMUNITION;-:+1
+5:none;-:Potion of Animal Friendship
+5:none;-:Potion of Hill Giant Strength
+5:none;-:Potion of Growth
+5:none;-:Potion of Water Breathing
+5:SCROLL;2:none
+5:SCROLL;3:none
+3:none;-:Bag of Holding
+3:none;-:Keoghtom's Ointment
+3:none;-:Oil of Slipperiness
+2:none;-:Dust of Disappearance
+2:none;-:Dust of Dryness
+2:none;-:Dust of Sneezing and Choking
+2:Elemental;-:Elemental gem
+2:none;-:Philter of love
+1:none;-:Alchemy jug
+1:none;-:Cap of water breathing
+1:none;-:Cloak of the manta ray
+1:none;-:Driftglobe
+1:none;-:Goggles of night
+1:none;-:Helm of comprehending languages
+1:none;-:Immovable rod
+1:none;-:Lantern of revealing
+1:none;-:Mariner’s armor
+1:none;-:Mithral armor
+1:none;-:Potion of poison
+1:none;-:Ring of swimming
+1:none;-:Robe of useful items
+1:none;-:Rope of climbing
+1:none;-:Saddle of the cavalier
+1:none;-:Wand of magic detection
+1:none;-:Wand of secrets
