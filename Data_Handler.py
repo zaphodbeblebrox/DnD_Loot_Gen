@@ -9,10 +9,13 @@ class Data_Handler:
         self.itemTypeList = Data_Import.ReadFile(self.masterList[1])
         
         path_individual = Data_Import.ReadFile(self.masterList[2])
-        self.individual_0_4 = Data_Import.ReadFile(path_individual[0])
-        self.individual_5_10 = Data_Import.ReadFile(path_individual[1])
-        self.individual_11_16 = Data_Import.ReadFile(path_individual[2])
-        self.individual_17_20 = Data_Import.ReadFile(path_individual[3])
+        self.individualTreasure = {
+            "0-4":Data_Import.ReadFile(path_individual[0]),
+            "5-10":Data_Import.ReadFile(path_individual[1]),
+            "11-16":Data_Import.ReadFile(path_individual[2]),
+            "17-20":Data_Import.ReadFile(path_individual[3])
+            }
+
 
 
 

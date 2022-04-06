@@ -22,25 +22,39 @@ class Frame_Gen_Buttons:
         currentLvl = self.levelFrame.varLvl.get()
         outputText = ""
         if currentLvl <=4:
-            outputText = Randomizer_Handler.indivTreasure(self.programData.individual_0_4)
+            outputText = Randomizer_Handler.indivTreasure(self.programData.individualTreasure.get("0-4"))
             self.textFrame.newOutput(outputText)
         elif currentLvl <= 10:
-            outputText = Randomizer_Handler.indivTreasure(self.programData.individual_5_10)
+            outputText = Randomizer_Handler.indivTreasure(self.programData.individualTreasure.get("5-10"))
             self.textFrame.newOutput(outputText)
         elif currentLvl <= 16:
-            outputText = Randomizer_Handler.indivTreasure(self.programData.individual_11_16)
+            outputText = Randomizer_Handler.indivTreasure(self.programData.individualTreasure.get("11-16"))
             self.textFrame.newOutput(outputText)
         elif currentLvl <= 20:
-            outputText = Randomizer_Handler.indivTreasure(self.programData.individual_17_20)
+            outputText = Randomizer_Handler.indivTreasure(self.programData.individualTreasure.get("17-20"))
             self.textFrame.newOutput(outputText)
         else:
             outputText = "Error!"
             self.textFrame.newOutput(outputText)
     
     def hordeTreasureB(self):
-        selection = "Option " + str(self.levelFrame.varLvl.get())
-        self.myLabel3 = tk.Label(self.frame, text=selection)
-        self.myLabel3.grid(row=5, column=0)
+        currentLvl = self.levelFrame.varLvl.get()
+        outputText = ""
+        if currentLvl <=4:
+            outputText = Randomizer_Handler.indivTreasure(self.programData.individualTreasure.get("0-4"))
+            self.textFrame.newOutput(outputText)
+        elif currentLvl <= 10:
+            outputText = Randomizer_Handler.indivTreasure(self.programData.individualTreasure.get("5-10"))
+            self.textFrame.newOutput(outputText)
+        elif currentLvl <= 16:
+            outputText = Randomizer_Handler.indivTreasure(self.programData.individualTreasure.get("11-16"))
+            self.textFrame.newOutput(outputText)
+        elif currentLvl <= 20:
+            outputText = Randomizer_Handler.indivTreasure(self.programData.individualTreasure.get("17-20"))
+            self.textFrame.newOutput(outputText)
+        else:
+            outputText = "Error!"
+            self.textFrame.newOutput(outputText)
     
     def weaponDropB(self):
         selection = "Option " + str(self.levelFrame.varLvl.get())
