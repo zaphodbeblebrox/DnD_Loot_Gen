@@ -41,16 +41,16 @@ class Frame_Gen_Buttons:
         currentLvl = self.levelFrame.varLvl.get()
         outputText = ""
         if currentLvl <=4:
-            outputText = Randomizer_Handler.indivTreasure(self.programData.individualTreasure.get("0-4"))
+            outputText = Randomizer_Handler.hordeTreasure(self.programData.hordeTreasureCoins.get("0-4"), self.programData.hordeTreasureItems.get("0-4"))
             self.textFrame.newOutput(outputText)
         elif currentLvl <= 10:
-            outputText = Randomizer_Handler.indivTreasure(self.programData.individualTreasure.get("5-10"))
+            outputText = Randomizer_Handler.hordeTreasure(self.programData.hordeTreasureCoins.get("5-10"), self.programData.hordeTreasureItems.get("5-10"))
             self.textFrame.newOutput(outputText)
         elif currentLvl <= 16:
-            outputText = Randomizer_Handler.indivTreasure(self.programData.individualTreasure.get("11-16"))
+            outputText = Randomizer_Handler.hordeTreasure(self.programData.hordeTreasureCoins.get("11-16"), self.programData.hordeTreasureItems.get("11-16"))
             self.textFrame.newOutput(outputText)
         elif currentLvl <= 20:
-            outputText = Randomizer_Handler.indivTreasure(self.programData.individualTreasure.get("17-20"))
+            outputText = Randomizer_Handler.hordeTreasure(self.programData.hordeTreasureCoins.get("17-20"), self.programData.hordeTreasureItems.get("17-20"))
             self.textFrame.newOutput(outputText)
         else:
             outputText = "Error!"

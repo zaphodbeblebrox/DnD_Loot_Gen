@@ -10,6 +10,7 @@ class Frame_Output:
         self.output.grid(row=0, column=0)
 
     def newOutput(self, msg):
+        msg = msg + "----------\n"
         self.output.config(state="normal")
         self.output.insert('2.0', msg)    #'row.col' position
         self.output.config(state="disabled")

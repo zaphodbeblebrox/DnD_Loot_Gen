@@ -16,6 +16,34 @@ class Randomizer_Handler:
         for i in range(len(dataLootTable)):
             startCount = startCount + int(data[i][0])
             rndPartitions.append(startCount)
+        rndRoll = random.randrange(0, rndPartitions[-1])
+        for i in range(len(rndPartitions)):
+            if rndRoll < rndPartitions[i]:
+                outputMsg = data[i][3] + ": " + str(random.randrange(int(data[i][1]), int(data[i][2])))
+                if data[i][6] != "none":
+                    outputMsg = outputMsg + " ; " + data[i][6] + ": " + str(random.randrange(int(data[i][4]), int(data[i][5])))
+                outputMsg = outputMsg + "\n"
+                break
+        return outputMsg
+
+    def hordeTreasure(dataCoinTable, dataItemTable):
+        dataCoin = Data_Import.parse_dataset(dataCoinTable, ':')
+        outputMsg = ""
+        for i in range(len(dataCoin)):
+            if int(dataCoin[i][2]) != 0:
+                outputMsg = outputMsg + dataCoin[i][0] + ": " + str(random.randrange(int(dataCoin[i][1]), int(dataCoin[i][2]))) + "\n"
+        
+        dataItem = Data_Import.parse_dataset(dataItemTable, ':')
+        rndPartitions = []
+        startCount = 0
+        for i in range(len(dataItem)):
+            startCount = startCount + int(dataItem[i][0])
+            rndPartitions.append(startCount)
+        rndRoll = random.randrange(0, rndPartitions[-1])
+        
+        
+        
+        return outputMsg
         rndRoll = random.randrange(0, rndPartitions[len(rndPartitions)-1])
         for i in range(len(rndPartitions)):
             if rndRoll < rndPartitions[i]:
