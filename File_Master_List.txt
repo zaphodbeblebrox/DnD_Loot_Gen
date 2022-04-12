@@ -2,3 +2,4 @@
 ./Items/Item_Types.txt
 ./Items/Loot_Tables/Individual_Treasure/Path_Individual.txt
 ./Items/Loot_Tables/Horde_Treasure/Path_Horde.txt
+./Items/Tags/

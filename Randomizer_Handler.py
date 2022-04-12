@@ -40,6 +40,14 @@ class Randomizer_Handler:
             startCount = startCount + int(dataItem[i][0])
             rndPartitions.append(startCount)
         rndRoll = random.randrange(0, rndPartitions[-1])
+        for i in range(len(rndPartitions)):
+            if rndRoll < rndPartitions[i]:
+                # Grab tag and process
+                outputMsg = dataItem[i][3] + ": " + str(random.randrange(int(dataItem[i][1]), int(dataItem[i][2])))
+                if dataItem[i][6] != "none":
+                    outputMsg = outputMsg + " ; " + dataItem[i][6] + ": " + str(random.randrange(int(dataItem[i][4]), int(dataItem[i][5])))
+                outputMsg = outputMsg + "\n"
+                break
         
         
         
