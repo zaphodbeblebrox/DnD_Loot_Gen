@@ -1,0 +1,9 @@
+Club
+Greatclub
+Light Hammer
+Mace
+Quarterstaff
+Sling
+Flail
+Maul
+Warhammer

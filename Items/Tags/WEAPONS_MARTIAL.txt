@@ -1,0 +1,23 @@
+Battleaxe
+Flail
+Glaive
+Greataxe
+Greatsword
+Halberd
+Lance
+Longsword
+Maul
+Morningstar
+Pike
+Rapier
+Scimitar
+Shortsword
+Trident
+War Pick
+Warhammer
+Whip
+Blowgun
+Crossbow, Hand
+Crossbow, Heavy
+Longbow
+Net

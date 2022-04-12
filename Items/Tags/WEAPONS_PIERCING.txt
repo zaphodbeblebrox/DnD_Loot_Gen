@@ -1,0 +1,16 @@
+Dagger
+Javelin
+Spear
+Crossbow, Light
+Dart
+Shortbow
+Morningstar
+Pike
+Rapier
+Shortsword
+Trident
+War Pick
+Blowgun
+Crossbow, Hand
+Crossbow, Heavy
+Longbow

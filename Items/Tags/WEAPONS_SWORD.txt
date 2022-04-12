@@ -1,0 +1,5 @@
+Greatsword
+Longsword
+Rapier
+Scimitar
+Shortsword

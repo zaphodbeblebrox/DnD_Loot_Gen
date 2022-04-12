@@ -1,0 +1,11 @@
+Handaxe
+Sickle
+Battleaxe
+Glaive
+Greataxe
+Greatsword
+Halberd
+Longsword
+Morningstar
+Scimitar
+Whip

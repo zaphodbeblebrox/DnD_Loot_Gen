@@ -14,7 +14,7 @@
 3:none;-:Oil of etherealness
 3:none;-:Potion of fire giant strength
 3:none;-:Quaal’s feather token
-3:SCROLL:Scroll of Protection
+3:none;-:Scroll of Protection
 2:none;-:Bag of beans
 2:none;-:Bead of force
 1:none;-:Chime of opening

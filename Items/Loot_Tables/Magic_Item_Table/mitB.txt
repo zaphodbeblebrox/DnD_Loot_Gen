@@ -14,7 +14,7 @@
 2:none;-:Dust of Disappearance
 2:none;-:Dust of Dryness
 2:none;-:Dust of Sneezing and Choking
-2:Elemental;-:Elemental gem
+2:ELEMENTS;-:Elemental gem
 2:none;-:Philter of love
 1:none;-:Alchemy jug
 1:none;-:Cap of water breathing
