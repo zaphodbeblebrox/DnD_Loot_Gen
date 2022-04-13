@@ -26,7 +26,7 @@ class Randomizer_Handler:
                 break
         return outputMsg
 
-    def hordeTreasure(dataCoinTable, dataItemTable):
+    def hordeTreasure(dataCoinTable, dataItemTable, programData):
         dataCoin = Data_Import.parse_dataset(dataCoinTable, ':')
         outputMsg = ""
         for i in range(len(dataCoin)):
@@ -40,12 +40,21 @@ class Randomizer_Handler:
             startCount = startCount + int(dataItem[i][0])
             rndPartitions.append(startCount)
         rndRoll = random.randrange(0, rndPartitions[-1])
-        for i in range(len(rndPartitions)):
+        for i in range(0,len(rndPartitions)):
             if rndRoll < rndPartitions[i]:
+                if int(dataItem[i][2]) == 0:
+                    break
                 # Grab tag and process
-                outputMsg = dataItem[i][3] + ": " + str(random.randrange(int(dataItem[i][1]), int(dataItem[i][2])))
-                if dataItem[i][6] != "none":
-                    outputMsg = outputMsg + " ; " + dataItem[i][6] + ": " + str(random.randrange(int(dataItem[i][4]), int(dataItem[i][5])))
+                num_items = random.randrange(int(dataItem[i][1]), int(dataItem[i][2]))
+                for y in range(0,num_items):
+                    item_list = Data_Import.parse_dataset(programData.tags.get(dataItem[i][3]), ";")
+                    roll = random.randrange(0, len(item_list)-1)
+                    if "GEMS" in dataItem[i][3]:
+                        outputMsg = outputMsg + "1x " + item_list[roll][0] + "gp "+ item_list[roll][1] + " ~ " + item_list[roll][2] + "\n"
+                    elif "ART" in dataItem[i][3]:
+                        outputMsg = outputMsg + "1x " + item_list[roll][0] + "gp "+ item_list[roll][1] + "\n"
+
+                    # outputMsg = outputMsg + "1x " + programData.tags.get(dataItem[i][3])[random.randrange(0, len(programData.tags.get(dataItem[i][3])))] + "\n"
                 outputMsg = outputMsg + "\n"
                 break
         

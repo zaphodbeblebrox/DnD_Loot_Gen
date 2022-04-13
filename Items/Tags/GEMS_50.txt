@@ -1,12 +1,12 @@
 50;Bloodstone;An opaque dark gray gemstone with red flecks
 50;Carnelian;An opaque orange to red-brown gemstone
-50;Chalcedony;An opaque white gemstone
+50;Chalcedony;An opaque white gemstone
 50;Chrysoprase;A translucent green gemstone
 50;Citrine;A transparent pale yellow-brown gemstone
 50;Jasper;An opaque blue, black, or brown gemstone
 50;Moonstone;A translucent white gemstone with a pale blue glow
-50;Onyx;An opaque gemstone with bands of black and white, or pure black or white
-50;Quartz;A transparent white, smoky gray, or yellow gemstone
+50;Onyx;An opaque gemstone with bands of black and white, or pure black or white
+50;Quartz;A transparent white, smoky gray, or yellow gemstone
 50;Sardonyx;An opaque gemstone with bands of red and white
 50;Star Rose Quartz;A translucent rosy Gemstone with a white star-shaped center
 50;Zircon;A transparent pale blue-green gemstone
