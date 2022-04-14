@@ -1,10 +1,10 @@
-7500;Jeweled gold crown
-7500;Jeweled platinum ring
-7500;Small gold statuette set with rubies
-7500;Gold cup set with emeralds
-7500;Gold jewelry box with platinum filigree
-7500;Painted gold child’s sarcophagus
-7500;Jade game board with solid gold playing pieces
-7500;Bejeweled ivory drinking horn with gold filigree
-7500;Bejeweled golden mask
-7500;Small silver statue inset with gold
+7500;Jeweled gold crown;
+7500;Jeweled platinum ring;
+7500;Small gold statuette set with rubies;
+7500;Gold cup set with emeralds;
+7500;Gold jewelry box with platinum filigree;
+7500;Painted gold child’s sarcophagus;
+7500;Jade game board with solid gold playing pieces;
+7500;Bejeweled ivory drinking horn with gold filigree;
+7500;Bejeweled golden mask;
+7500;Small silver statue inset with gold;

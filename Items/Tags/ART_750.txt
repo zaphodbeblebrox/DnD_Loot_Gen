@@ -1,10 +1,10 @@
-750;Silver chalice set with moonstones
-750;Silver-plated steel longsword with jet set in hilt
-750;Carved harp of exotic wood with ivory inlay and zircon gems
-750;Small gold idol
-750;Gold dragon comb set with red garnets as eyes
-750;Bottle stopper cork embossed with gold leaf and set with amethysts
-750;Ceremonial electrum dagger with a black pearl in the pommel
-750;Silver and gold brooch
-750;Obsidian statuette with gold fittings and inlay
-750;Painted gold war mask
+750;Silver chalice set with moonstones;
+750;Silver-plated steel longsword with jet set in hilt;
+750;Carved harp of exotic wood with ivory inlay and zircon gems;
+750;Small gold idol;
+750;Gold dragon comb set with red garnets as eyes;
+750;Bottle stopper cork embossed with gold leaf and set with amethysts;
+750;Ceremonial electrum dagger with a black pearl in the pommel;
+750;Silver and gold brooch;
+750;Obsidian statuette with gold fittings and inlay;
+750;Painted gold war mask;

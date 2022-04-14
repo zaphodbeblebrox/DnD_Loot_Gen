@@ -1,10 +1,10 @@
-250;Gold ring set with bloodstones
-250;Carved ivory statuette
-250;Large gold bracelet
-250;Silver necklace with a gemstone pendant
-250;Bronze crown
-250;Silk robe with gold embroidery
-250;Large well-made tapestry
-250;Brass mug with jade inlay
-250;Box of turquoise animal figurines
-250;Gold bird cage with electrum filigree
+250;Gold ring set with bloodstones;
+250;Carved ivory statuette;
+250;Large gold bracelet;
+250;Silver necklace with a gemstone pendant;
+250;Bronze crown;
+250;Silk robe with gold embroidery;
+250;Large well-made tapestry;
+250;Brass mug with jade inlay;
+250;Box of turquoise animal figurines;
+250;Gold bird cage with electrum filigree;

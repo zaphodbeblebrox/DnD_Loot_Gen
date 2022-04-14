@@ -46,13 +46,33 @@ class Randomizer_Handler:
                     break
                 # Grab tag and process
                 num_items = random.randrange(int(dataItem[i][1]), int(dataItem[i][2]))
+                item_list = Data_Import.parse_dataset(programData.tags.get(dataItem[i][3]), ";")
+                item_dic = {}
                 for y in range(0,num_items):
-                    item_list = Data_Import.parse_dataset(programData.tags.get(dataItem[i][3]), ";")
                     roll = random.randrange(0, len(item_list)-1)
-                    if "GEMS" in dataItem[i][3]:
-                        outputMsg = outputMsg + "1x " + item_list[roll][0] + "gp "+ item_list[roll][1] + " ~ " + item_list[roll][2] + "\n"
-                    elif "ART" in dataItem[i][3]:
-                        outputMsg = outputMsg + "1x " + item_list[roll][0] + "gp "+ item_list[roll][1] + "\n"
+                    if item_dic.get(item_list[roll][1]) == None:
+                        item_dic[item_list[roll][1]] = [1, item_list[roll][0], item_list[roll][1], item_list[roll][2]]
+                    else:
+                        # t = item_dic[item_list[roll][1]][0]
+                        # t = t + 1
+                        # item_dic[item_list[roll][1]][0] = t
+
+
+                        item_dic[item_list[roll][1]][0] = item_dic[item_list[roll][1]][0] + 1
+
+                for key in item_dic:
+                    if item_dic[key][3] != "":
+                        outputMsg = outputMsg + str(item_dic[key][0]) + "x " + item_dic[key][1] + "gp "+ item_dic[key][2] + " ~ " + item_dic[key][3] + "\n"
+                    else:
+                        outputMsg = outputMsg + str(item_dic[key][0]) + "x " + item_dic[key][1] + "gp "+ item_dic[key][2] + "\n"
+
+
+
+
+                    # if "GEMS" in dataItem[i][3]:
+                    #     outputMsg = outputMsg + "1x " + item_list[roll][0] + "gp "+ item_list[roll][1] + " ~ " + item_list[roll][2] + "\n"
+                    # elif "ART" in dataItem[i][3]:
+                    #     outputMsg = outputMsg + "1x " + item_list[roll][0] + "gp "+ item_list[roll][1] + "\n"
 
                     # outputMsg = outputMsg + "1x " + programData.tags.get(dataItem[i][3])[random.randrange(0, len(programData.tags.get(dataItem[i][3])))] + "\n"
                 outputMsg = outputMsg + "\n"
