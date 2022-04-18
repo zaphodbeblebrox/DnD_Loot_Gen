@@ -1,16 +1,16 @@
-20:none;-:Potion of Healing (Supreme)
-10:none;-:Potion of invisibility
-10:none;-:Potion of speed
+20:none:Potion of Healing (Supreme)
+10:none:Potion of invisibility
+10:none:Potion of speed
 10:SCROLL;6:none
 7:SCROLL;7:none
-5:AMMUNITION;-:+3
-5:none;-:Oil of sharpness
-5:none;-:Potion of flying
-5:none;-:Potion of cloud giant strength
-5:none;-:Potion of longevity
-5:none;-:Potion of vitality
+5:AMMUNITION:+3
+5:none:Oil of sharpness
+5:none:Potion of flying
+5:none:Potion of cloud giant strength
+5:none:Potion of longevity
+5:none:Potion of vitality
 5:SCROLL;8:none
-3:none;-:Horseshoes of a zephyr
-3:none;-:Nolzur’s marvelous pigments
-1:none;-:Bag of devouring
-1:none;-:Portable hole
+3:none:Horseshoes of a zephyr
+3:none:Nolzur’s marvelous pigments
+1:none:Bag of devouring
+1:none:Portable hole

@@ -30,6 +30,8 @@ class Data_Handler:
             "17-20":Data_Import.read_file(path_horde[7])
         }
         self.tags = Data_Import.create_dictionary(self.masterList[4])
+        self.mit = Data_Import.create_dictionary(self.masterList[5])
+        puase = ""
 
 
 

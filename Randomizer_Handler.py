@@ -4,18 +4,25 @@ import random
 
 class Randomizer_Handler:
     def __init__(self):
-        self.trigger = 0
+        pass
 
     # def randomNumberGenerator(self, max)
   
-    def indivTreasure(dataLootTable):
-        data = Data_Import.parse_dataset(dataLootTable, ':')
-        rndPartitions = []
-        outputMsg = ""
+    def build_rnd_table(self, data):
         startCount = 0
-        for i in range(len(dataLootTable)):
+        rndPartitions = []
+        for i in range(len(data)):
             startCount = startCount + int(data[i][0])
             rndPartitions.append(startCount)
+        return rndPartitions
+
+
+    def indivTreasure(self, dataLootTable):
+        data = Data_Import.parse_dataset(dataLootTable, ':')
+        # rndPartitions = self.build_rnd_table(data)
+        rndPartitions = []
+        outputMsg = ""
+        rndPartitions = self.build_rnd_table(data)
         rndRoll = random.randrange(0, rndPartitions[-1])
         for i in range(len(rndPartitions)):
             if rndRoll < rndPartitions[i]:
@@ -26,25 +33,22 @@ class Randomizer_Handler:
                 break
         return outputMsg
 
-    def hordeTreasure(dataCoinTable, dataItemTable, programData):
+    def hordeTreasure(self, dataCoinTable, dataItemTable, programData):
+        # Coins
         dataCoin = Data_Import.parse_dataset(dataCoinTable, ':')
         outputMsg = ""
         for i in range(len(dataCoin)):
             if int(dataCoin[i][2]) != 0:
                 outputMsg = outputMsg + dataCoin[i][0] + ": " + str(random.randrange(int(dataCoin[i][1]), int(dataCoin[i][2]))) + "\n"
         
+        # Gems and Art
         dataItem = Data_Import.parse_dataset(dataItemTable, ':')
-        rndPartitions = []
-        startCount = 0
-        for i in range(len(dataItem)):
-            startCount = startCount + int(dataItem[i][0])
-            rndPartitions.append(startCount)
+        rndPartitions = self.build_rnd_table(dataItem)
         rndRoll = random.randrange(0, rndPartitions[-1])
         for i in range(0,len(rndPartitions)):
             if rndRoll < rndPartitions[i]:
                 if int(dataItem[i][2]) == 0:
                     break
-                # Grab tag and process
                 num_items = random.randrange(int(dataItem[i][1]), int(dataItem[i][2]))
                 item_list = Data_Import.parse_dataset(programData.tags.get(dataItem[i][3]), ";")
                 item_dic = {}
@@ -53,11 +57,6 @@ class Randomizer_Handler:
                     if item_dic.get(item_list[roll][1]) == None:
                         item_dic[item_list[roll][1]] = [1, item_list[roll][0], item_list[roll][1], item_list[roll][2]]
                     else:
-                        # t = item_dic[item_list[roll][1]][0]
-                        # t = t + 1
-                        # item_dic[item_list[roll][1]][0] = t
-
-
                         item_dic[item_list[roll][1]][0] = item_dic[item_list[roll][1]][0] + 1
 
                 for key in item_dic:
@@ -65,20 +64,31 @@ class Randomizer_Handler:
                         outputMsg = outputMsg + str(item_dic[key][0]) + "x " + item_dic[key][1] + "gp "+ item_dic[key][2] + " ~ " + item_dic[key][3] + "\n"
                     else:
                         outputMsg = outputMsg + str(item_dic[key][0]) + "x " + item_dic[key][1] + "gp "+ item_dic[key][2] + "\n"
-
-
-
-
-                    # if "GEMS" in dataItem[i][3]:
-                    #     outputMsg = outputMsg + "1x " + item_list[roll][0] + "gp "+ item_list[roll][1] + " ~ " + item_list[roll][2] + "\n"
-                    # elif "ART" in dataItem[i][3]:
-                    #     outputMsg = outputMsg + "1x " + item_list[roll][0] + "gp "+ item_list[roll][1] + "\n"
-
-                    # outputMsg = outputMsg + "1x " + programData.tags.get(dataItem[i][3])[random.randrange(0, len(programData.tags.get(dataItem[i][3])))] + "\n"
                 outputMsg = outputMsg + "\n"
+                
+                # Magic Item Table
+                t = programData.mit
+                if int(dataItem[i][4]) > 0:
+                    if int(dataItem[i][4]) == 1: 
+                        num_items = 1
+                    else:
+                        num_items = random.randrange(1, int(dataItem[i][4]))
+                    mit_array = Data_Import.parse_dataset(programData.mit.get(dataItem[i][5]), ':')
+                    mitPartitions = self.build_rnd_table(mit_array)                   
+                    for r in range(0, num_items):
+                        table_roll = random.randrange(0, mitPartitions[-1])
+                        for i in range(0, len(mitPartitions)-1):
+                            if table_roll<mitPartitions[i]:
+                                outputMsg = outputMsg + "x1 " + mit_array[i][2] + "\n"
+                                break
+
+
+
+                    pause = ""
+                    pass
+
+
                 break
-        
-        
         
         return outputMsg
         rndRoll = random.randrange(0, rndPartitions[len(rndPartitions)-1])
