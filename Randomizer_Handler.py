@@ -16,6 +16,9 @@ class Randomizer_Handler:
             rndPartitions.append(startCount)
         return rndPartitions
 
+    def chooseWeapon(self):
+        outputmsg = ""
+        return outputmsg
 
     def indivTreasure(self, dataLootTable):
         data = Data_Import.parse_dataset(dataLootTable, ':')
@@ -79,7 +82,12 @@ class Randomizer_Handler:
                         table_roll = random.randrange(0, mitPartitions[-1])
                         for i in range(0, len(mitPartitions)-1):
                             if table_roll<mitPartitions[i]:
-                                outputMsg = outputMsg + "x1 " + mit_array[i][2] + "\n"
+                                if mit_array[i][1] != "none":
+                                    outputMsg = outputMsg + "x1 " + mit_array[i][2] + "\n"
+                                elif programData.tags.get(mit_array[i][1]) != None:
+                                    pass
+                                elif programData.weapons.get(mit_array[i][1]) != None:
+                                    pass
                                 break
 
 
