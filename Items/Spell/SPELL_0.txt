@@ -1,0 +1,44 @@
+0;SPELL;Acid Splash;conjuration;1 action;-;-;1 or 2 creatures within 5 feet must succeed on a Dex. save or take 1d6 acid damage (damage/lvl).
+0;SPELL;Blade Ward;abjuration;1 action;-;-;The caster gets resistance against bludgeoning, piercing, and slashing damage dealt by weapon attacks.
+0;SPELL;Booming Blade;evocation;1 action;-;-;If a weapon attack hits, deals 1d8 thunder damage if the target moves (damage/lvl).
+0;SPELL;Chill Touch;necromancy;1 action;-;-;If the spell attack hits, deals 1d8 necrotic damage (damage/lvl) and the target can't regain hp immediately.
+0;SPELL;Control Flames;transmutation;1 action;-;-;Control nonmagical fires to expand, extinguish, enlarge, shape simple forms, etc.
+0;SPELL;Create Bonfire;conjuration;1 action;Concentration;-;Creatures in a 5-ft cube must succeed on a Dex. save or take 1d8 fire damage (damage/lvl).
+0;SPELL;Dancing Lights;evocation;1 action;Concentration;-;Create up to 4 torch-sized lights that shed dim light in a 10-ft radius and can be moved later up to 60 ft.
+0;SPELL;Druidcraft;transmutation;1 action;-;-;Provide various minor effects related to nature (weather forecast, flowering, sensory effect, etc).
+0;SPELL;Eldritch Blast;evocation;1 action;-;-;If the spell attack hits, deals 1d10 force damage (nbr of beam/lvl).
+0;SPELL;Fire Bolt;evocation;1 action;-;-;If the spell attack hits, deals 1d10 fire damage (damage/lvl). An object can ignite.
+0;SPELL;Friends;enchantment;1 action;Concentration;-;The casters gets advantage on all Charisma checks directed at one chosen creature that isn't hostile toward him.
+0;SPELL;Frostbite;evocation;1 action;-;-;The target must succeed on a Con. save or take 1d6 cold damage and have disadvantage on next attack roll (damage/lvl).
+0;SPELL;Green-Flame Blade;evocation;1 action;-;-;If a weapon attack hits, deals also fire damage equal to Ability.Mod to another creature (damage/lvl) within 5 ft.
+0;SPELL;Guidance;divination;1 action;Concentration;-;The target can add 1d4 to one ability check of its choice.
+0;SPELL;Gust;transmutation;1 action;-;-;Control air to move objects or creatures (Medium or smaller) or create harmless sensory effects.
+0;SPELL;Infestation;conjuration;1 action;-;-;The target must succeed on a Con. save or take 1d6 poison damage and move 5 ft in a random direction (damage/lvl).
+0;SPELL;Light;evocation;1 action;-;-;Make an object to shed bright light in a 20-ft radius and dim light in an additional 20-ft radius.
+0;SPELL;Lightning Lure;evocation;1 action;-;-;The target must succeed on a Str. save or take 1d8 lightning damage and be pulled up to 10 ft.
+0;SPELL;Mage Hand;conjuration;1 action;-;-;Create a spectral hand that can in a 30-ft radius manipulate an object, open a door, stow an item, etc.
+0;SPELL;Magic Stone;transmutation;1 bonus action;-;-;Up to 3 pebbles deal 1d6 + Ability.Mod bludgeoning damage if the spell attack hits.
+0;SPELL;Mending;transmutation;1 minute;-;-;Repair break or tear in an object (broken chain link, two halves of a broken key, torn cloak, leaking wineskin, etc).
+0;SPELL;Message;transmutation;1 action;-;-;The caster whispers a message to a creature within 120 ft who will be the only one to hear it. It can reply the same way.
+0;SPELL;Mind Sliver;enchantment;1 action;-;-;The target must succeed on an Int. save or take 1d6 psychic damage and substract -1d4 on it's next saving throw (damage/lvl).
+0;SPELL;Minor Illusion;illusion;1 action;-;-;Create a sound or an immobile image of an object no larger than a 5-ft cube.
+0;SPELL;Mold Earth;transmutation;1 action;-;-;Control dirt or stone to excavate, shape, turn it into difficult terrain, etc.
+0;SPELL;Poison Spray;conjuration;1 action;-;-;The target must succeed on a Con. save or take 1d12 poison damage (damage/lvl).
+0;SPELL;Prestidigitation;transmutation;1 action;-;-;Minor magical trick (sensory effect, light a torch, clean an object, warm, make a symbol appear, create a trinket, etc).
+0;SPELL;Primal Savagery;transmutation;1 action;-;-;If the melee spell attack hits, deals 1d10 acid damage (damage/lvl).
+0;SPELL;Produce Flame;conjuration;1 action;-;-;If the spell attack hits, deals 1d8 fire damage (damage/lvl). Shed bright light in 10 ft and dim light in additional 10 ft.
+0;SPELL;Ray of Frost;evocation;1 action;-;-;If the spell attack hits, deals 1d8 cold damage (damage/lvl) and the target's speed is reduced by 10 ft.
+0;SPELL;Resistance;abjuration;1 action;Concentration;-;The target can add 1d4 to one saving throw of its choice.
+0;SPELL;Sacred Flame;evocation;1 action;-;-;The target must succeed on a Dex. save or take 1d8 radiant damage (damage/lvl).
+0;SPELL;Shape Water;transmutation;1 action;-;-;Control water to obtain various minor effects such as changing color, freezing, changing the flow, etc.
+0;SPELL;Shillelagh;transmutation;1 bonus action;-;-;Make magical a wooden weapon. Its damage become a d8 and the caster can use his spellcasting ability instead of Strength.
+0;SPELL;Shocking Grasp;evocation;1 action;-;-;If the spell attack hits, deals 1d8 lightning damage (damage/lvl) and the target can't take reactions.
+0;SPELL;Spare the Dying;necromancy;1 action;-;-;1 living creature with 0 hit points becomes stable.
+0;SPELL;Sword Burst;conjuration;1 action;-;-;Creatures in a 5-ft-radius must succeed on a Dex. save or take 1d6 force damage (damage/lvl).
+0;SPELL;Thaumaturgy;transmutation;1 action;-;-;Create various minor effects to impress or distract creatures.
+0;SPELL;Thorn Whip;transmutation;1 action;-;-;If the attack hits, deals 1d6 piercing damage and pull the target (Larger or smaller) up to 10 ft (damage/lvl).
+0;SPELL;Thunderclap;evocation;1 action;-;-;Creatures within 5 ft must succeed on a Con. save or take 1d6 thunder damage (damage/lvl).
+0;SPELL;Toll the Dead;necromancy;1 action;-;-;The target must succeed on a Wis. save or take 1d8 or 1d12 necrotic damage (damage/lvl).
+0;SPELL;True Strike;divination;1 action;Concentration;-;The caster gains advantage on his first attack roll against a target.
+0;SPELL;Vicious Mockery;enchantment;1 action;-;-;The target must succeed on a Wis. save or take 1d4 psychic damage and have disadvantage on its attack roll (damage/lvl).
+0;SPELL;Word of Radiance;evocation;1 action;-;-;Creatures in a 5-ft-radius must succeed on a Con. save or take 1d6 radiant damage (/lvl).

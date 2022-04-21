@@ -1,0 +1,26 @@
+7;SPELL;Conjure Celestial;conjuration;1 minute;Concentration;-;Summon 1 celestial of CR 4, friendly (CR +1/lvl).
+7;SPELL;Crown of Stars;evocation;1 action;-;If the spell attack hits, 7 motes deal 4d12 radiant damage each (+1 mote/lvl).
+7;SPELL;Delayed Blast Fireball;evocation;1 action;Concentration;Creatures in a 20-ft-radius sphere must succeed on a Dex. save or take 12d6 fire damage (damage/lvl).
+7;SPELL;Divine Word;evocation;1 bonus action;-;Targets must succeed on a Cha. save or suffer an effect (deafened, blinded, etc). Some creatures are banned.
+7;SPELL;Draconic Transformation;transmutation;1 bonus action;Concentration;The caster gains blindsight (30 ft), breath weapon (6d8 force damage in a 60-ft cone) and wings (flying speed of 60 ft).
+7;SPELL;Dream of the Blue Veil;conjuration;10 minutes;-;You and up to 8 willing creatures fall unconscious and are physically transported to another world on the material plan.
+7;SPELL;Etherealness;transmutation;1 action;-;The caster is projected into the Ethereal Plane (nbr of creatures/lvl).
+7;SPELL;Finger of Death;necromancy;1 action;-;The target must succeed on a Con. save or take 7d8+30 necrotic damage. If killed, becomes a zombie under the caster command.
+7;SPELL;Fire Storm;evocation;1 action;-;Creatures in ten 10-ft cube must succeed on a Dex. save or take 7d10 fire damage.
+7;SPELL;Forcecage;evocation;1 action;-;Creates a 20-ft cage or a 10-ft box of magical force that traps a creature. Escape by magicial means only.
+7;SPELL;Mirage Arcane;illusion;10 minutes;-;Tansform the appearance (sight, sound, smell and feel) of a 1 mile square.
+7;SPELL;Mordenkainen's Magnificent Mansion;conjuration;1 minute;-;Create an extradimensional mansion with all the comforts that can shelter the caster and other creatures.
+7;SPELL;Mordenkainen's Sword;evocation;1 action;Concentration;If the spell attack hits, deals 3d10 force damage. The sword can move.
+7;SPELL;Plane Shift;conjuration;1 action;-;The caster and up to 8 creatures are transported to another plane of existence, or a creature is banished (Cha. save).
+7;SPELL;Power Word Pain;enchantment;1 action;-;The target (100 hp max) has its speed reduced to 10 ft, disadvantage to d20 rolls and has to make a Con. save to cast spells.
+7;SPELL;Prismatic Spray;evocation;1 action;-;Creatures in a 60-ft cone must succeed on a Dex. save or take 10d6 damage of a randomly determined type.
+7;SPELL;Project Image;illusion;1 action;Concentration;Create a copy of the caster that mimics him, moves and emits sounds. The caster can see and hear through this double.
+7;SPELL;Regenerate;transmutation;1 minute;-;The target regains 4d8+15 hp then 1 hp per round and its severed members are restored.
+7;SPELL;Resurrection;necromancy;1 hour;-;Take back to life (all hp) a creature died for no longer than 100 years (except of old age). Restore any missing body parts.
+7;SPELL;Reverse Gravity;transmutation;1 action;Concentration;Invert gravity in a 50-ft-radius, 100-ft-high cylinder.
+7;SPELL;Sequester;transmutation;1 action;-;Protect a willing creature (who becomes invisible and unconscious) or an object from divination spells.
+7;SPELL;Simulacrum;illusion;12 hours;-;Create a duplicate of a beast or humanoid with the same abilities, half of the hp and without equipment.
+7;SPELL;Symbol;abjuration;1 minute;-;Set the trigger and the effect of a glyph on an object (death, discord, fear, hopelessness, insanity, pain, sleep, etc).
+7;SPELL;Teleport;conjuration;1 action;-;The caster and 8 creatures are teleported anywhere on the same plane. Risk of failure depending on the destination familiarity.
+7;SPELL;Temple of the Gods;conjuration;1 hour;-;Let erupt a temple dedicated to a god on a 120 x 120 ft area for 1 day.
+7;SPELL;Whirlwind;evocation;1 action;Concentration;Creatures in a 10-ft-radius, 30-foot-high cylinder must succeed on a Dex. save or take 10d6 blunt damage.

@@ -1,0 +1,20 @@
+9;SPELL;Astral Projection;necromancy;1 hour;-;-;The caster and up to 8 creatures are projected into the Astral Plane.
+9;SPELL;Blade of Disaster;conjuration;1 bonus action;Concentration;Make two melee spell attacks and deals 4d12 force damage. Critical hit (18-20) deals 12d12. +2 attacks as bonus action.
+9;SPELL;Foresight;divination;1 minute;-;1 creature sees its near future, can not be surprised and has advantage on his rolls. Attacks against it have disadvantage.
+9;SPELL;Gate;conjuration;1 action;Concentration;Create a portal to another plan. Also allows to summon a creature from another plane.
+9;SPELL;Imprisonment;abjuration;1 minute;-;The target within 30 ft must succeed on a Wis. save or be held prisoner. The form is to choose from 6 options.
+9;SPELL;Invulnerability;abjuration;1 action;Concentration;The caster gains immunity to all damage.
+9;SPELL;Mass Heal;evocation;1 action;-;Several creatures regain a total of 700 ph and are cured of diseases, blindness, and deafness.
+9;SPELL;Mass Polymorph;transmutation;1 action;Concentration;Transform up to 10 creatures into new beast forms whose CR/level are equal to or less than the target's CR/level.
+9;SPELL;Meteor Swarm;evocation;1 action;-;Creatures in a 40-ft-radius sphere must succeed on a Dex. save or take 20d6 fire damage and 20d6 bludgeoning damage.
+9;SPELL;Power Word Heal;evocation;1 action;-;The target regains all its hp and charmed, frightened, paralyzed, and stunned conditions end.
+9;SPELL;Power Word Kill;enchantment;1 action;-;The target (100 hp or fewer) dies!
+9;SPELL;Prismatic Wall;abjuration;1 action;-;Create a multi-layered wall that inflicts different effects and damage depending on the layer.
+9;SPELL;Psychic Scream;enchantment;1 action;-;Up to 10 creatures must succeed on an Int. save or take 14d6 psychic damage.
+9;SPELL;Shapechange;transmutation;1 action;Concentration;The caster takes the form of a creature he has seen at least once with a CR equal to its level or lower.
+9;SPELL;Storm of Vengeance;conjuration;1 action;Concentration;Creatures in a 360-ft radius must succeed on a Con. save or be deafened and suffer various damage and effects.
+9;SPELL;Time Stop;transmutation;1 action;-;Stop the time during 1d4+1 turns for everyone except for the caster.
+9;SPELL;True Polymorph;transmutation;1 action;Concentration;Transform a creature or object into a new form (creature <-> object) of FP/level at most equal to the FP/level of the crea
+9;SPELL;True Resurrection;necromancy;1 hour;-;Take back to life (all hp) a creature died for no longer than 200 years (except of old age), even without the original body.
+9;SPELL;Weird;illusion;1 action;Concentration;Creatures in a 30-ft-radius sphere must succeed on a Wis. save or be frightened and take 4d10 psychic damage each turn.
+9;SPELL;Wish;conjuration;1 action;-;Duplicate a 8th level spell or lower without components, or create another effect at the MD discretion.

@@ -1,0 +1,22 @@
+8;SPELL;Abi-Dalzim's Horrid Wilting;necromancy;1 action;-;-;Creatures in a 30-foot cube must succeed on a Con. save or take 12d8 necrotic damage. Plants wither and die.
+8;SPELL;Animal Shapes;transmutation;1 action;Concentration;Willing targets within 30 ft turn into beasts of FP 4 or lower.
+8;SPELL;Antimagic Field;abjuration;1 action;Concentration;Create a 10-ft-radius sphere in which spells and magic items no longer work.
+8;SPELL;Antipathy/Sympathy;enchantment;1 hour;-;Attract or repel (Wis. save in order to not be attracted or scared) a kind of creature designated within 60 ft.
+8;SPELL;Clone;necromancy;1 hour;-;Create in 120 days the inert double of a living creature. If the original creature dies, its soul is transferred to the clone.
+8;SPELL;Control Weather;transmutation;10 minutes;Concentration;Modify gradually the climatic conditions outdoors (precipitation, temperature and wind force).
+8;SPELL;Demiplane;conjuration;1 action;-;Create a door that leads to a demiplane (30-ft cube). Creatures still in the demiplane at the end of the spell are trapped.
+8;SPELL;Dominate Monster;enchantment;1 action;Concentration;The target must succeed on a Wis. save or be charmed and obey the caster (duration/lvl).
+8;SPELL;Earthquake;evocation;1 action;Concentration;Creatures in a 100-ft radius must succeed on a Dex. save or be knocked prone. Cause damage to structures.
+8;SPELL;Feeblemind;enchantment;1 action;-;The target take 4d6 psychic damage and must succeed on an Int. save or his Charisma and Intelligence scores become 1.
+8;SPELL;Glibness;transmutation;1 action;-;Give 15 to a Charisma check and hides the lies during a magic detection.
+8;SPELL;Holy Aura;abjuration;1 action;Concentration;Targets in a 30-ft radius have advantage on saving throws. Other creatures have disadvantage on attack rolls against them.
+8;SPELL;Illusory Dragon;illusion;1 action;Concentration;Creatures that see this illusory Huge dragon must succedd on a Wis. save or be frightened for 1 min.
+8;SPELL;Incendiary Cloud;conjuration;1 action;Concentration;Creatures in a 20-ft-radius sphere must succeed on a Dex. save or take 10d8 fire damage.
+8;SPELL;Maddening Darkness;evocation;1 action;Concentration;Creatures in a 60-ft-radius sphere of darkness must succeed on a Wis. save or take 8d8 psychic damage.
+8;SPELL;Maze;conjuration;1 action;Concentration;Banish a creature into a labyrinthine demiplane. Intelligence check to escape before the end of the spell.
+8;SPELL;Mighty Fortress;conjuration;1 minute;-;Let erupt a forteresse of stone on a 120 x 120 ft area for 7 days.
+8;SPELL;Mind Blank;abjuration;1 action;-;The target is immune to psychic damage, reading thoughts, divination spells, and the charmed condition.
+8;SPELL;Power Word Stun;enchantment;1 action;-;The target (150 hp or fewer) is stunned until it succeeds on a Con. save.
+8;SPELL;Sunburst;evocation;1 action;-;Creatures in a 60-ft radius must succeed on a Con. save or take 12d6 radiant damage and be blinded for 1 min.
+8;SPELL;Telepathy;evocation;1 action;-;Comunicate via telepathy with a known and willing creature on the same plane of existence.
+8;SPELL;Tsunami;conjuration;1 minute;Concentration;Creatures in a 300-ft-long, 300-ft-high, 50-ft-thick area must succeed on a Str. save or take 6d10 bludgeoning damage.

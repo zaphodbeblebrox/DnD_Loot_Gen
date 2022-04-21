@@ -1,0 +1,73 @@
+1;SPELL;Absorb Elements;abjuration;1 reaction;-;-;The caster has resistance to the damage received and deals 1d6 extra damage of the same type on his next attack (damage/lvl).
+1;SPELL;Alarm;abjuration;1 minute;-;Alert the caster or activate an alarm if a Tiny or larger creature enters a warded 20-ft cube.
+1;SPELL;Animal Friendship;enchantment;1 action;-;A beast with Intelligence 3 or less must succeed on a Wis. save or be charmed (+1 beast/lvl).
+1;SPELL;Armor of Agathys;abjuration;1 action;-;The caster gains 5 temporary hp and creatures who hits him with a melee attack take 5 cold damage (+5 hp and damage/lvl).
+1;SPELL;Arms of Hadar;conjuration;1 action;-;Creatures in a 10-ft radius must succeed on a Str. save or take 2d6 necrotic damage (damage/lvl)
+1;SPELL;Bane;enchantment;1 action;Concentration;Up to 3 targets must succeed on a Cha. save or subtract 1d4 from their attack roll or saving throw (+1 creature/lvl).
+1;SPELL;Beast Bond;divination;1 action;Concentration;Create a telepathic link with one beast to communicate with it.
+1;SPELL;Bless;enchantment;1 action;Concentration;Up to 3 targets can add 1d4 to their attack roll or saving throw (+1 creature/lvl).
+1;SPELL;Burning Hands;evocation;1 action;-;Creatures in a 15-ft cone must succeed on a Dex. save or take 3d6 fire damage (damage/lvl).
+1;SPELL;Catapult;transmutation;1 action;-;The target must succeed on Dex. save or take 3d8 bludgeoning damage of an object up to 5 pounds (+5 pounds and +1d8/lvl).
+1;SPELL;Cause Fear;necromancy;1 action;Concentration;The target must succeed on a Wis. save or becomes frightened (nbr of targets/lvl).
+1;SPELL;Ceremony;abjuration;1 hour;-;Perform a religious ceremony (bless water, give bonus to AC, ability check, saving throw, etc).
+1;SPELL;Chaos Bolt;evocation;1 action;-;If the attack hits, deals 2d8 + 1d6 damage of a random type (damage/lvl). Rebound if double 8.
+1;SPELL;Charm Person;enchantment;1 action;-;The humanoid target must succeed on a Wis. save or be charmed by the caster (+1 creature/lvl).
+1;SPELL;Chromatic Orb;evocation;1 action;-;If the spell attack hits, deals 3d8 damage of a previously determined type (damage/lvl)
+1;SPELL;Color Spray;illusion;1 action;-;6d10 creatures hp are dazzled in ascending order of their current hp (+2d10 hp/lvl).
+1;SPELL;Command;enchantment;1 action;-;The target must succeed on a Wis. save or follow your order as Approach, Drop, Flee, Fall, Halt, etc (+1 creature/lvl).
+1;SPELL;Compelled Duel;enchantment;1 bonus action;Concentration;The target must succeed on a Wis. save or get a disadvantage on attack rolls against creatures other than the caster.
+1;SPELL;Comprehend Languages;divination;1 action;-;The caster understands any spoken and written (1 min/page) language. Doesn't decode secret messages.
+1;SPELL;Create or Destroy Water;transmutation;1 action;-;Create or destroy up to 10 gallons of water (+10 gallons/lvl).
+1;SPELL;Cure Wounds;evocation;1 action;-;1 creature regains 1d8+Ability.Mod (+1d8 hp/lvl).
+1;SPELL;Detect Evil and Good;divination;1 action;Concentration;The caster senses and locates aberration, celestial, elemental, fey, fiend, or undead within 30 ft.
+1;SPELL;Detect Magic;divination;1 action;Concentration;The caster senses the presence of magic in a 30-ft radius and learns its school of magic.
+1;SPELL;Detect Poison and Disease;divination;1 action;Concentration;The caster senses and identifies poison, poisonous creature, or disease within 30 ft.
+1;SPELL;Disguise Self;illusion;1 action;-;Modify the appearance of the caster (its physical and its equipment) thanks to an illusion.
+1;SPELL;Dissonant Whispers;enchantment;1 action;-;The target must succeed on a Wis. save or take 3d6 psychic damage and move away (damage/lvl).
+1;SPELL;Divine Favor;evocation;1 bonus action;Concentration;If a weapon attack hits, deals an extra 1d4 radiant damage.
+1;SPELL;Earth Tremor;evocation;1 action;-;Creatures in a 10-foot radius must succeed on a Dex. save or take 1d6 bludgeoning damage and be knocked prone (damage/lvl).
+1;SPELL;Ensnaring Strike;conjuration;1 bonus action;Concentration;The target must succeed on a Str. save or be restrained and take 1d6 piercing damage (damage/lvl).
+1;SPELL;Entangle;conjuration;1 action;Concentration;Creatures in a 20-ft square (difficult terrain) must succeed on a Str. save or be restrained.
+1;SPELL;Expeditious Retreat;transmutation;1 bonus action;Concentration;The caster can take the Dash action by using a bonus action.
+1;SPELL;Faerie Fire;evocation;1 action;Concentration;Creatures in a 20-ft cube must succeed on a Dex. save or grant advantage against them to attackers.
+1;SPELL;False Life;necromancy;1 action;-;The caster gains 1d4+4 temporary hit points (+5 hp/lvl).
+1;SPELL;Feather Fall;transmutation;1 reaction;-;Up to 5 creatures fall at 60 feet per round and take no falling damage before the spell ends.
+1;SPELL;Find Familiar;conjuration;1 hour;-;Summon a small animal that obeys the caster and telepathically shares his senses with him.
+1;SPELL;Fog Cloud;conjuration;1 action;Concentration;Makes an area heavily obscured in a 20-ft-radius sphere (+20 ft/lvl).
+1;SPELL;Goodberry;transmutation;1 action;-;Create up to 10 berries that restore 1 hp each and keep their power for 24 hours.
+1;SPELL;Grease;conjuration;1 action;-;Creatures in a 10-ft square (difficult terrain) must succeed on a Dex. save or fall prone.
+1;SPELL;Guiding Bolt;evocation;1 action;-;If the spell attack hits, deals 4d6 radiant damage (damage/lvl) and the next attack roll will have advantage.
+1;SPELL;Hail of Thorns;conjuration;1 bonus action;Concentration;Creatures in a 5-ft radius must succeed on a Dex. save or take 1d10 piercing damage (damage/lvl).
+1;SPELL;Healing Word;evocation;1 bonus action;-;1 creature regains 1d4+Ability.Mod (+1d4 hp/lvl).
+1;SPELL;Hellish Rebuke;evocation;1 reaction;-;The target must succeed on a Dex. save or take 2d10 fire damage (damage/lvl).
+1;SPELL;Heroism;enchantment;1 action;Concentration;The target is immune to being frightened and gains temporary hp equal to its Ability.Mod each turns (+1 creature/lvl).
+1;SPELL;Hex;enchantment;1 bonus action;Concentration;If an attack hits, deals an extra 1d6 necrotic damage. Disadvantage on achosem ability check (duration/lvl).
+1;SPELL;Hunter's Mark;divination;1 bonus action;Concentration;The target take an extra 1d6 damage and caster has advantage on Wisdom (Perception/Survival) checks to find it (duration/lvl).
+1;SPELL;Ice Knife;conjuration;1 action;-;If the spell attack hits, deals 1d10 piercing damage + Dex. save or 2d6 cold damage (damage/lvl) within 5 ft.
+1;SPELL;Identify;divination;1 minute;-;The caster obtains properties of a magic item (attunement, charges) or knows if an item or a creature is affected by a spell.
+1;SPELL;Illusory Script;illusion;1 minute;-;Write a secret message that can only be read by a designated target or a creature with truesight.
+1;SPELL;Inflict Wounds;necromancy;1 action;-;If the spell attack hits, deals 3d10 necrotic damage (damage/lvl).
+1;SPELL;Jump;transmutation;1 action;-;The target gets a jump distance multiplicated by 3.
+1;SPELL;Longstrider;transmutation;1 action;-;The target gets a speed increased by 10 ft (+1 creature/lvl).
+1;SPELL;Mage Armor;abjuration;1 action;-;The target, willing and not wearing armor, gets an AC equal to 13+Dex.Mod.
+1;SPELL;Magic Missile;evocation;1 action;-;3 missiles deal automatically 1d4+1 force damage each to one or several creatures (+1 missile/lvl).
+1;SPELL;Protection from Evil and Good;abjuration;1 action;Concentration;The target is protected (disadvantage on attack rolls) against aberrations, celestials, elementals, fey, fiends, and undead.
+1;SPELL;Purify Food and Drink;transmutation;1 action;-;Purified and rendered free of poison and disease nonmagical food and drink in a 5-ft-radius sphere.
+1;SPELL;Ray of Sickness;necromancy;1 action;-;If the attack hits, deals 2d8 poison damage (damage/lvl) and the target can be poisoned (Con. save).
+1;SPELL;Sanctuary;abjuration;1 bonus action;-;The target can make a Wis. save to avoid attacks or harmful spells that target it directly.
+1;SPELL;Searing Smite;evocation;1 bonus action;Concentration;If the attack hits, deals an extra 1d6 fire damage and ignite the target (damage/lvl).
+1;SPELL;Shield;abjuration;1 reaction;-;In reaction, the caster gains a +5 bonus to AC and take no damage from the magic missile spell.
+1;SPELL;Shield of Faith;abjuration;1 bonus action;Concentration;The target gets a +2 bonus to AC.
+1;SPELL;Silent Image;illusion;1 action;Concentration;Create the image of an object or a creature (without sound and no larger than a 15-ft cube) and lets it move.
+1;SPELL;Sleep;enchantment;1 action;-;5d8 hp of creatures fall unconscious, starting with the creature with the lowest current hp (+2d8 hp/lvl).
+1;SPELL;Snare;abjuration;1 minute;-;Create a magic trap (Dex. save or the Small to Large size creature is hoisted into the air).
+1;SPELL;Speak with Animals;divination;1 action;-;The caster communicates with beats that can share information or help.
+1;SPELL;Tasha's Caustic Brew;evocation;1 action;Concentration;Creatures in a 30 ft long 5 ft wide line must succeed on a Dex. save or take 2d4 acid damage each turn (+2d4/lvl).
+1;SPELL;Tasha's Hideous Laughter;enchantment;1 action;Concentration;The target must succeed on a Wis. save or falls into fits of laughter, fall prone and becoming incapacitated.
+1;SPELL;Tenser's Floating Disk;conjuration;1 action;-;Create a floating 3-ft-diameter disk that can support up to 500 pounds and follows the caster.
+1;SPELL;Thunderous Smite;evocation;1 bonus action;Concentration;If the attack hits, deals an extra 2d6 thunder damage, and target must succeed on a Str. save or be pushed and knocked prone.
+1;SPELL;Thunderwave;evocation;1 action;-;Creatures in a 15-ft cube must succeed on a Con. save or take 2d8 thunder damage (damage/lvl).
+1;SPELL;Unseen Servant;conjuration;1 action;-;Create an invisible servant who performs simple tasks (bring something back, clean up, maintain a fire, serve at table, etc).
+1;SPELL;Witch Bolt;evocation;1 action;Concentration;If the spell attack hits, deals 1d12 lightning damage (damage/lvl) on each round.
+1;SPELL;Wrathful Smite;evocation;1 bonus action;Concentration;If the attack hits, deals an extra 1d6 psychic damage and the target must succeed on a Wis. save or be frightened.
+1;SPELL;Zephyr Strike;transmutation;1 action bonus;Concentration;The caster's movement (+30 ft) doesn't provoque OA and he gets advantage to one attack roll that deals an extra 1d8 force.

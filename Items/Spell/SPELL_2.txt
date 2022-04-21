@@ -1,0 +1,75 @@
+2;SPELL;Aganazzar's Scorcher;evocation;1 action;-;-;Creatures on a 30-ft-long, 5-ft-wide line must succeed on a Dex. save or taker 3d8 fire damage (damage/lvl).
+2;SPELL;Aid;abjuration;1 action;-;Up to 3 creatures increase their hp maximum and current hp by 5 (+5 hp/lvl).
+2;SPELL;Alter Self;transmutation;1 action;Concentration;Give a new form depending on the chosen option (Aquatic Adaptation, Change Appearance, or Natural Weapons).
+2;SPELL;Animal Messenger;enchantment;1 action;-;A Tiny beast travels to deliver a 25 words message to a target (+48 h/lvl).
+2;SPELL;Arcane Lock;abjuration;1 action;-;Lock an objet (door, window, chest, etc) and the caster can set a password to suppresses the spell for 1 minute.
+2;SPELL;Augury;divination;1 minute;-;The caster obtains an omen about the result of an action within the next 30 min (weal, woe, both or nothing).
+2;SPELL;Barkskin;transmutation;1 action;Concentration;The target's AC can't be less than 16.
+2;SPELL;Beast Sense;divination;1 action;Concentration;The caster can see/hear/feel through the senses of a willing beast.
+2;SPELL;Blindness/Deafness;necromancy;1 action;-;The target must succeed on a Con. save or become blinded or deafened (+1 creature/lvl).
+2;SPELL;Blur;illusion;1 action;Concentration;The caster's body becomes blurred and creatures that attack him have disadvantage on attack rolls against him.
+2;SPELL;Branding Smite;evocation;1 bonus action;Concentration;If a weapon attack hits, deals an extra 2d6 radiant damage and the target sheds dim light in 5-ft radius (damage/lvl).
+2;SPELL;Calm Emotions;enchantment;1 action;Concentration;Creatures in a 20-foot-radius sphere must succeed on a Cha. save or no longer be charmed/frightened, or be indifferents.
+2;SPELL;Cloud of Daggers;conjuration;1 action;Concentration;Creatures in a 5-ft cube take automatically 4d4 slashing damage (damage/lvl).
+2;SPELL;Continual Flame;evocation;1 action;-;Create a flame that produces a light equivalent in brightness to a torch, but does not emit any heat.
+2;SPELL;Cordon of Arrows;transmutation;1 action;-;4 ammunition deal 1d6 piercing damage if the target doesn't succeed on a Dex. save (nbr of ammunition/lvl).
+2;SPELL;Crown of Madness;enchantment;1 action;Concentration;The target must succeed on a Wis. save or be charmed. It then can attack a target designated by the caster.
+2;SPELL;Darkness;evocation;1 action;Concentration;Fill a 15-ft-radius sphere of magical darkness.
+2;SPELL;Darkvision;transmutation;1 action;-;The target can see in the dark within 60 feet.
+2;SPELL;Detect Thoughts;divination;1 action;Concentration;The caster detects the superficial thoughts of a creature within 30 ft, and the deepest if the target misses a Wis. save.
+2;SPELL;Dragon's Breath;transmutation;1 bonus action;Concentration;Spew a 15-ft cone that deals 3d6 acid, cold, fire, lightning, or poison damage in case of failed Dex. save (damage/lvl).
+2;SPELL;Dust Devil;conjuration;1 action;Concentration;Creatures within 5 ft must succeed on a Str. save or take 1d8 bludgeoning damage (damage/lvl).
+2;SPELL;Earthbind;transmutation;1 action;Concentration;Target within 300 ft must succeed on a Str. save or its flying speed is reduced to 0 (descends at 60 ft/round).
+2;SPELL;Enhance Ability;transmutation;1 action;Concentration;The target gains advantage on ability checks for one predefined ability, and other bonuses in such cases (+1 creature/lvl).
+2;SPELL;Enlarge/Reduce;transmutation;1 action;Concentration;Double or halve the size of a creature (Con. save) or an object.
+2;SPELL;Enthrall;enchantment;1 action;-;Targets must succeed on a Wis. save or have disadvantage on Wisdom (Perception) checks to perceive others creatures.
+2;SPELL;Find Steed;conjuration;10 minutes;-;Summon a spirit that assumes the form a steed (horse, elk, etc) telepathically linked to the caster.
+2;SPELL;Find Traps;divination;1 action;-;The caster senses the presence of any trap in a 120-fr radius, but the spell don't give their location.
+2;SPELL;Flame Blade;evocation;1 bonus action;Concentration;If the spell attack hits, deals 3d6 fire damage (damage/lvl). Shed bright light in 10 ft and dim light in additional 10 ft.
+2;SPELL;Flaming Sphere;conjuration;1 action;Concentration;Creatures within 5 ft from a 5-ft-diameter sphere must succeed on a Dex. save or take 2d6 fire damage (damage/lvl).
+2;SPELL;Gentle Repose;necromancy;1 action;-;Protect a corpse from decay or to become undead.
+2;SPELL;Gust of Wind;evocation;1 action;Concentration;Creatures on a 60-ft-long, 10-ft-wide line mus succeed on a Str. save or be pushed 15 ft away.
+2;SPELL;Healing Spirit;conjuration;1 bonus action;Concentration;Creatures in touch with the spirit gain 1d6 hp (+1d6 hp/lvl).
+2;SPELL;Heat Metal;transmutation;1 action;Concentration;Creatures in physical contact with the metal object take 2d8 fire damage (damage/lvl).
+2;SPELL;Hold Person;enchantment;1 action;Concentration;The target must succeed on a Wis. save or be paralyzed (+1 creature/lvl).
+2;SPELL;Invisibility;illusion;1 action;Concentration;The target becomes invisible during 1 hour or until she attacks or casts a spell (+1 creature/lvl).
+2;SPELL;Knock;transmutation;1 action;-;Unlock or unbar 1 object (door, chest, padlock, set of manacles, etc) or suppressed the arcane lock spell for 10 minutes.
+2;SPELL;Lesser Restoration;abjuration;1 action;-;End one disease or one condition (blinded, deafened, paralyzed, or poisoned) on 1 creature.
+2;SPELL;Levitate;transmutation;1 action;Concentration;1 creature or object that weighs up to 500 pounds rises vertically up to 20 ft then remains suspended.
+2;SPELL;Locate Animals or Plants;divination;1 action;-;Give the direction and distance to a kind of beast or plant within 5 miles.
+2;SPELL;Locate Object;divination;1 action;Concentration;The caster senses the direction to the location of an objet you are familiar with, within a 1000 ft radius.
+2;SPELL;Magic Mouth;illusion;1 minute;-;Creates a magical mouth that will repeat a message of up to 25 words when a trigger condition is met.
+2;SPELL;Magic Weapon;transmutation;1 bonus action;Concentration;Turn a weapon into a +1 magic weapon for attack rolls and damage rolls (+2 or +3 bonus/lvl).
+2;SPELL;Maximilian's Earthen Grasp;transmutation;1 action;Concentration;The target must succeed on a Str. save or take 2d6 bludgeoning damage and be restrained.
+2;SPELL;Melf's Acid Arrow;evocation;1 action;-;If the spell attack hits, deals 4d4 acid damage, then 2d4 acid damage on the next round (damage/lvl).
+2;SPELL;Mind Spike;divination;1 action;Concentration;The target must succeed on a Wis. save or take 3d8 psychic damage (damage/lvl).
+2;SPELL;Mirror Image;illusion;1 action;-;Create 3 illusory duplicates of the caster, each of them having a CA equal to 10 + Dex.Mod and being destroyed if they are hit.
+2;SPELL;Misty Step;conjuration;1 bonus action;-;The caster is teleported up to 30 feet.
+2;SPELL;Moonbeam;evocation;1 action;Concentration;Creatures in a 5-ft-radius, 40-ft-high cylinder must succeed on a Con. save or take 2d10 radiant damage (damage/lvl).
+2;SPELL;Nathair's Mischief;illusion;1 action;Concentration;Fill a 20-ft cube with a magic effect. The random effect can be charmed, blinded, incapacitated or difficult terrain.
+2;SPELL;Nystul's Magic Aura;illusion;1 action;-;Reveal false information about a creature or an object that would be the target of a divination spell.
+2;SPELL;Pass without Trace;abjuration;1 action;Concentration;The caster and his allies within 30 ft get a +10 bonus to Dexterity (Discretion) checks and leave behind no tracks or traces.
+2;SPELL;Phantasmal Force;illusion;1 action;Concentration;Tha target must succeed on an Int. save or perceive as real an object or creature created by the caster (with sound).
+2;SPELL;Prayer of Healing;evocation;10 minutes;-;Up to 6 creatures regain 2d8+Ability.Mod (+1d8 hp/lvl).
+2;SPELL;Protection from Poison;abjuration;1 action;-;Neutralize 1 poison in one creature, give advantage on saving throws againt being poisoned, and resistance to poison damage.
+2;SPELL;Pyrotechnics;transmutation;1 action;-;Target flame within 60-ft and make them explode (Con. save or blinded) or spread smoke (heavily obscured).
+2;SPELL;Ray of Enfeeblement;necromancy;1 action;Concentration;If the spell attack hits, the target deals only half damage with a weapon attack that use Strength (Con. save).
+2;SPELL;Rime's Binding Ice;evocation;1 action;-;Creatures in a 30-ft cone must succeed on a Con. save or take 3d8 cold damage and its speed reduced to 0 (damage/lvl).
+2;SPELL;Rope Trick;transmutation;1 action;-;Vertically raise a rope that lead to an extradimensional space that can hold 8 Medium creatures.
+2;SPELL;Scorching Ray;evocation;1 action;-;If the spell attacks hit, 3 rays deal 2d6 fire damage each (+1 ray/lvl).
+2;SPELL;See Invisibility;divination;1 action;-;The caster sees invisible creatures and objects, and into the Ethereal Plane.
+2;SPELL;Shadow Blade;illusion;1 bonus action;Concentration;Create a weapon that deals 2d8 psychic damage with the finesse, light, and thrown properties (damage/lvl).
+2;SPELL;Shatter;evocation;1 action;-;Creatures in a 10-ft-radius sphere must succeed on a Con. save or take 3d8 thunder damage (damage/lvl).
+2;SPELL;Silence;illusion;1 action;Concentration;Block all sounds within a 20-ft-radius sphere.
+2;SPELL;Skywrite;transmutation;1 action;Concentration;Create up to 10 words in the clouds.
+2;SPELL;Snilloc's Snowball Swarm;evocation;1 action;-;Creatures in a 5-ft-radius sphere must succeed on a Dex. save or take 3d6 cold damage (damage/lvl).
+2;SPELL;Spider Climb;transmutation;1 action;Concentration;The target can move along vertical surfaces while leaving its hands free and gains climbing speed.
+2;SPELL;Spike Growth;transmutation;1 action;Concentration;Creatures in a 20-ft radius (difficult terrain) take 2d4 piercing damage for every 5 ft of movement.
+2;SPELL;Spiritual Weapon;evocation;1 bonus action;-;If the spell attack hits, deals 1d8+Ability.Mod force damage (damage/lvl). A bonus action allows another attack.
+2;SPELL;Suggestion;enchantment;1 action;Concentration;The target must succeed on a Wis. save or follow the suggestion given by the caster in one or two sentences.
+2;SPELL;Summon Beast;conjuration;1 action;Concentration;Summon 1 bestial spirit (air, land, or water), friendly (stat block/your lvl).
+2;SPELL;Tasha's Mind Whip;enchantment;1 action;-;Target must succeed on an Int. save or take 3d6 psychic damage and choose to move or take an action next turn (+1 creature/lvl).
+2;SPELL;Warding Bond;abjuration;1 action;-;The target gains +1 on AC, +1 on saving throws and resistance to all damage, but the caster shares damage.
+2;SPELL;Warding Wind;evocation;1 action;Concentration;Create strong wind (20 miles/h) in a 10-ft radius (deafen, extinguish flames, hedge out gas, difficult terrain, etc).
+2;SPELL;Web;conjuration;1 action;Concentration;Create a 20-ft cube filled by thick, sticky webs (difficult terrain) that can restrain creature (Dex. save).
+2;SPELL;Zone of Truth;enchantment;1 action;-;Creatures within a 15-ft-radius sphere must succeed on a Cha. save or can not lie.

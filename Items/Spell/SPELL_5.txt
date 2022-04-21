@@ -1,0 +1,60 @@
+5;SPELL;Animate Objects;transmutation;1 action;Concentration;-;Animate up to 10 non-magic objects and control their actions up to 500 ft (+2 items/lvl).
+5;SPELL;Antilife Shell;abjuration;1 action;Concentration;Prevent creatures other than undead and constructs from entering in a 10-ft radius.
+5;SPELL;Awaken;transmutation;8 hours;-;Give a beast or plant (Intelligence 3 or less) the ability to speek and senses similar to a human's for 30 days.
+5;SPELL;Banishing Smite;abjuration;1 action bonus;Concentration;If the weapon attack hits, deal an extra 5d10 force damage. Target reduced to 50 hp or fewer this way are banised.
+5;SPELL;Bigby's Hand;evocation;1 action;Concentration;Create a Large hand with a Strength of 26 that can strike (4d8 force damage), push, grapple, or protect (damage/lvl).
+5;SPELL;Circle of Power;abjuration;1 action;Concentration;Friendly creatures in a 30-ft radius have advantage on saving throws against spells and other magicial effects.
+5;SPELL;Cloudkill;conjuration;1 action;Concentration;Creatures in a 20-ft-radius sphere must succeed on a Con. save or take 5d8 poison damage (damage/lvl).
+5;SPELL;Commune;divination;1 minute;-;Allow to obtain from a divine entity the answers (yes or no) to 3 questions.
+5;SPELL;Commune with Nature;divination;1 minute;-;The caster gets 3 informations about the surrounding territory. Doesn't function in dungeons or towns.
+5;SPELL;Cone of Cold;evocation;1 action;-;Creatures in a 60-ft cone must succeed on a Con. save or take 8d8 cold damage (damage/lvl).
+5;SPELL;Conjure Elemental;conjuration;1 minute;Concentration;Summon 1 elemental of CR 5, friendly (CR +1/lvl).
+5;SPELL;Conjure Volley;conjuration;1 action;-;Creatures in a 40-ft-radius, 20-ft-high cylinder must succeed on a Dex. save or take 8d8 damage from the weapon/ammunition used.
+5;SPELL;Contact Other Plane;divination;1 minute;-;Contact an extraplanar entity to ask it 5 questions if an Int. save is successful. Otherwise, 6d6 psychic damage.
+5;SPELL;Contagion;necromancy;1 action;-;If the spell attack hits, target is afflicted with a disease to choose from 6 proposed.
+5;SPELL;Control Winds;transmutation;1 action;Concentration;Controls air in a 100-ft cube and produce an effect (Gusts, Downdraft or Updraft).
+5;SPELL;Creation;illusion;1 minute;-;Create a non-living object made of vegetable matter or mineral and no larger than a 5-ft cube (+5 ft/lvl).
+5;SPELL;Danse Macabre;necromancy;1 action;Concentration;Up to 5 Small or Medium corpses become zombie or skeleton under the caster control (+2 corpses/lvl).
+5;SPELL;Dawn;evocation;1 action;Concentration;Creatures in a 30-ft-radius, 40-ft-high cylinder must succeed on a Con. save or take 4d10 radiant damage.
+5;SPELL;Destructive Wave;evocation;1 action;-;Targets in a 30-ft radius must succeed on a Con. save or take 5d6 thunder damage and 5d6 radiant or necrotic damage.
+5;SPELL;Dispel Evil and Good;abjuration;1 action;Concentration;End a condition (charmed, frightened, or possessed) or bannish a creature to its home plane (Cha. save).
+5;SPELL;Dominate Person;enchantment;1 action;Concentration;One humanoid must succeed on a Wis. save or be charmed and obey the caster (duration/lvl).
+5;SPELL;Dream;illusion;1 minute;-;Shape the dreams of a sleeping creature who can take 3d6 psychic damage if it fails on a Wis. save.
+5;SPELL;Enervation;necromancy;1 action;Concentration;The target must succeed on a Dex. save or take 4d8 necrotic damage each turn (+1d8/lvl).
+5;SPELL;Far Step;conjuration;1 bonus action;Concentration;Teleport the caster up to 60 ft on each round with a bonus action.
+5;SPELL;Flame Strike;evocation;1 action;-;Creatures in a 10-ft-radius, 40-ft-high cylinder must succeed on a Dex. save or take 4d6 fire and 4d6 radiant (damage/lvl).
+5;SPELL;Geas;enchantment;1 minute;-;The target must succeed on a Wis. save or be charmed and take 5d10 psychic if it doesn't obey (duration/lvl).
+5;SPELL;Greater Restoration;abjuration;1 action;-;End one condition (charmed or petrified), one curse, any ability scores or hp reduction, or one exhaustion level.
+5;SPELL;Hallow;evocation;24 hours;-;Prevent celestials, elementals, fey, fiends, and undead to enter a 60-ft-radius area and protect/handicap the targets.
+5;SPELL;Hold Monster;enchantment;1 action;Concentration;Target must succeed on a Wis. save or be paralyzed (+1 creature/lvl).
+5;SPELL;Holy Weapon;evocation;1 bonus action;Concentration;The touched weapon shines, deals an extra 2d8 radiant damage, and can burst on a 30-ft radius (Save or 4d8 radiant).
+5;SPELL;Immolation;evocation;1 action;Concentration;The target within 90 ft must succeed on a Dex. save or take 8d6 fire damage and 4d6 fire damage thereafter.
+5;SPELL;Infernal Calling;conjuration;1 minute;Concentration;Summon 1 devil CR 6 unfriendly (CR +1/lvl).
+5;SPELL;Insect Plague;conjuration;1 action;Concentration;Creatures in a 20-ft-radius sphere must succeed on a Con. save or take 4d10 piercing damage (damage/lvl).
+5;SPELL;Legend Lore;divination;10 minutes;-;The caster obtains information about a person, place, or object. The lore consist of tales or stories.
+5;SPELL;Maelstrom;evocation;1 action;Concentration;Creatures in a 30-ft radius must succeed on a Str. save or take 6d6 bludgeoning damage and be pulled towards the center.
+5;SPELL;Mass Cure Wounds;evocation;1 action;-;Up to 6 creatures regain 3d8+Spell.Ability.Mod (+1d8 hp/lvl).
+5;SPELL;Mislead;illusion;1 action;Concentration;The caster becomes invisible and creates a double that moves, acts and speaks. The caster can see and hear through this double.
+5;SPELL;Modify Memory;enchantment;1 action;Concentration;The target must succeed on a Wis. save or be charmed and its memory altered (seniority of memories/lvl).
+5;SPELL;Negative Energy Flood;necromancy;1 action;-;The target must succeed on a Con. save or take 5d12 necrotic damage. Killed that way, the target rises as a zombi.
+5;SPELL;Passwall;transmutation;1 action;-;Open a 5-ft wide, 8-ft tall, 20-ft deep passage through stone, wood or plaster.
+5;SPELL;Planar Binding;abjuration;1 hour;-;The target (celestial, elemental, fey, or fiend) must succeed on a Cha. save or serve the caster (duration/lvl).
+5;SPELL;Raise Dead;necromancy;1 hour;-;Take back to life (1 hp) a creature died for no longer than 10 days. Doesn't restore missing body parts.
+5;SPELL;Rary's Telepathic Bond;divination;1 action;-;Create a telepathic link between up to 8 people in a 30-ft radius for 1 hour.
+5;SPELL;Reincarnate;transmutation;1 hour;-;Reincarnate the soul of an humanoid died for no longer than 10 days. The race of the new body is determined at random.
+5;SPELL;Scrying;divination;10 minutes;Concentration;Allow you to see and hear a specific creature (can also target a location) on the same plane (Wis. save).
+5;SPELL;Seeming;illusion;1 action;-;Change physical appearance as well as clothing and equipment of targets (saving throw for unwilling).
+5;SPELL;Skill Empowerment;transmutation;1 action;Concentration;The target doubles its proficiency bonus for one skill.
+5;SPELL;Steel Wind Strike;conjuration;1 action;-;If the spell attack hits, deals 6d10 force damage to 5 creatures, then the caster teleports.
+5;SPELL;Summon Celestial;conjuration;1 action;Concentration;Summon 1 celestial spirit (avenger or defender), friendly (stat block/your lvl).
+5;SPELL;Summon Draconic Spirit;conjuration;1 action;Concentration;Summon 1 draconic spirit (chromatic, gem, or metallic), friendly (stat/lvl).
+5;SPELL;Swift Quiver;transmutation;1 bonus action;Concentration;Make a quiver to produce an endless supply of nonmagical ammunition, allowing 2 attacks per round with a bonus action.
+5;SPELL;Synaptic Static;enchantment;1 action;-;Creatures in a 20-ft radius must succeed on an Int. save or take 8d6 psychic damage.
+5;SPELL;Telekinesis;transmutation;1 action;Concentration;Move a creature (Huge or smaller) or object (up to 1,000 pounds) by thought in case of successful contest.
+5;SPELL;Teleportation Circle;conjuration;1 minute;-;Create a circle that allows anyone to be teleported to another teleportation circle known to the caster.
+5;SPELL;Transmute Rock;transmutation;1 action;-;Transform a 40-ft cube of rock into mud or of mud into rock.
+5;SPELL;Tree Stride;conjuration;1 action;Concentration;The caster can move from one tree to another tree of the same kind (500 ft max between both) using 5 ft.
+5;SPELL;Wall of Force;evocation;1 action;Concentration;Create a physically insurmountable wall of force (ten 10-ft panels) immune to all types of damage.
+5;SPELL;Wall of Light;evocation;1 action;Concentration;Create a 60-ft-long, 10-ft-high, 5-ft-thick wall of light that can deal 4d8 radiant damage to one target (damage/lvl).
+5;SPELL;Wall of Stone;evocation;1 action;Concentration;Create a nonmagical wall of stone (ten 10-ft panels) that can be damaged.
+5;SPELL;Wrath of Nature;evocation;1 action;Concentration;Animate trees, rocks, and grasses in a 60 x 60 x 60 ft cube.

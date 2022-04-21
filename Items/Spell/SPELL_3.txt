@@ -1,0 +1,68 @@
+3;SPELL;Animate Dead;necromancy;1 minute;-;-;Create a skeleton from bones or a zombie from a corpse, who is under the caster control (+2 creatures/lvl).
+3;SPELL;Ashardalon's Stride;transmutation;1 bonus action;Concentration;The caster gets an +20 ft explosive speed and deals 1d6 fire damage within 5 feet during his move (speed and damage/lvl).
+3;SPELL;Aura of Vitality;evocation;1 action;Concentration;One target in a 30-ft radius regains 2d6 hp.
+3;SPELL;Beacon of Hope;abjuration;1 action;Concentration;Targets gain advantage on Wis. saving throws and death saving throws, and regain the maximum number of hp from healing.
+3;SPELL;Bestow Curse;necromancy;1 action;Concentration;The target must succeed on a Wis. save or suffer an effect as a disadvantage to a check or lose an action (duration/lvl).
+3;SPELL;Blinding Smite;evocation;1 bonus action;Concentration;If the attack hits, deals an extra 3d8 radiant damage and the target must succeed on a Con. save or be blinded.
+3;SPELL;Blink;transmutation;1 action;-;The caster has 50% of chance to switch to the Ethereal Plane, then returns to the space he vanished from on the next turn.
+3;SPELL;Call Lightning;conjuration;1 action;Concentration;Creatures in a 5-ft radius must succeed on a Dex. save or take 3d10 lightning damage (damage/lvl) on each turn.
+3;SPELL;Catnap;enchantment;1 action;-;3 willing creatures fall unconscious and gain the benefice of a short rest (+1 creature/lvl).
+3;SPELL;Clairvoyance;divination;10 minutes;Concentration;Create an invisible sensor in a familiar location within 1 mile, allowing to see or to hear (to choose, can switch).
+3;SPELL;Conjure Animals;conjuration;1 action;Concentration;Summon from 1 beast of CR 2 to 8 beasts of CR 1/4, friendly (nbr of creatures/lvl).
+3;SPELL;Conjure Barrage;conjuration;1 action;-;Creatures in a 60-ft cone must succeed on a Dex. save or take 3d8 damage from the weapon/ammunition used.
+3;SPELL;Counterspell;abjuration;1 reaction;-;In reaction, fail a spell of 3rd level or lower. Ability check if the spell is 4th level or higher (threshold/lvl).
+3;SPELL;Create Food and Water;conjuration;1 action;-;Create 45 pounds of food and 30 gallons of water, enough to sustain 15 humanoids for 24 hours.
+3;SPELL;Crusader's Mantle;evocation;1 action;Concentration;Friendly creatures in a 30-ft radius deal an extra 1d4 radiant damage when they hit with a weapon attack.
+3;SPELL;Daylight;evocation;1 action;-;Create a sphere that sheds bright light in a 60-ft radius and dim light in an additional 60-ft radius.
+3;SPELL;Dispel Magic;abjuration;1 action;-;End spells of 3rd level 3 or lower on a target. Ability check for each spell of 4th level or higher (threshold/lvl).
+3;SPELL;Elemental Weapon;transmutation;1 action;Concentration;A weapon becomes magical with a +1 bonus to attack rolls and deal an extra 1d4 damage of a chosen type (bonus/lvl).
+3;SPELL;Enemies Abound;enchantment;1 action;Concentration;The target must succeed on an Int. save or not be able to distinguish friend from foe ; all are ennemis for it.
+3;SPELL;Erupting Earth;transmutation;1 action;-;Creatures in a 20-foot cube (difficult terrain) must succeed on a Dex. save or take 3d12 bludgeoning damage (damage/lvl).
+3;SPELL;Fear;illusion;1 action;Concentration;Creatures in a 30-ft cone must succeed on a Wis. save or drop whatever they are holding, become frightened and move away.
+3;SPELL;Feign Death;necromancy;1 action;-;The willing target appears dead to all outward inspection.
+3;SPELL;Fireball;evocation;1 action;-;Creatures in a 20-ft radius must succeed on a Dex. save or take 8d6 fire damage (damage/lvl).
+3;SPELL;Flame Arrows;transmutation;1 action;Concentration;12 arrows/bolts deal an extra 1d6 fire damage (+2 ammunition/lvl).
+3;SPELL;Fly;transmutation;1 action;Concentration;The target gets a flying speed of 60 ft (+1 creature/lvl).
+3;SPELL;Gaseous Form;transmutation;1 action;Concentration;The target turns into a cloud, gets a flying speed of 10 ft, and can pass through small holes.
+3;SPELL;Glyph of Warding;abjuration;1 hour;;A glyph on an object deals 5d8 damage in a 20-ft radius (damage/lvl) or casts a 3rd level spell (lvl/lvl) when triggered.
+3;SPELL;Haste;transmutation;1 action;Concentration;Target's speed is doubled. It also gains a +2 bonus to AC, advantage to Dex. saves and 1 additional action.
+3;SPELL;Hunger of Hadar;conjuration;1 action;Concentration;Creatures in a 20-ft-radius sphere take 2d6 cold damage et must succeed on a Dex. save or take 2d6 acid damage.
+3;SPELL;Hypnotic Pattern;illusion;1 action;Concentration;Creatures in a 30-ft cube must succeed on a Wis. save or be charmed and incapacitated, with a speed of 0.
+3;SPELL;Intellect Fortress;abjuration;1 action;Concentration;A willing creature has resistance to psychic damage and advantage on Int., Wis. and Cha. saving throws (+1 creature/lvl).
+3;SPELL;Leomund's Tiny Hut;evocation;1 minute;-;Create a 10-ft-radius dome that can shelter and protect 9 Medium creatures with the caster.
+3;SPELL;Life Transference;necromancy;1 action;-;The caster takes 4d8 necrotic damage and another creature gains twice the amount (+1d8 hp/lvl).
+3;SPELL;Lightning Arrow;transmutation;1 bonus action;Concentration;If the attack hits, deals 4d8 Iightning damage. Creatures within 10 ft must succeed on a Dex. save or take 2d8 lightning damage.
+3;SPELL;Lightning Bolt;evocation;1 action;-;Creatures on a 100-ft-long, 5-ft-wide line must succeed on a Dex. save or take 8d6 lightning damage (damage/lvl).
+3;SPELL;Magic Circle;abjuration;1 minute;-;Create a 10-ft-radius, 20-ft-tall cylinder that protect from celestials, elementals, fey, fiends, and/or undead (+1 h/lvl).
+3;SPELL;Major Image;illusion;1 action;Concentration;Create the image of an animated object or creature, with sounds and smells (without concentration/lvl).
+3;SPELL;Mass Healing Word;evocation;1 bonus action;-;Up to 6 creatures regain 1d4+Ability.Mod (+1d4 hp/lvl).
+3;SPELL;Meld into Stone;transmutation;1 action;-;The caster can penetrate the stone.
+3;SPELL;Melf's Minute Meteors;evocation;1 action;Concentration;Creatures within 5 ft must succeed on a Dex.save or take 2d6 fire damage for each of the 6 meteors (+2 meteors/lvl).
+3;SPELL;Nondetection;abjuration;1 action;-;Protect a creature or an object from any divination magic or magical scrying.
+3;SPELL;Phantom Steed;illusion;1 minute;-;Create a quasi-real Large horselike creature and everything to mount it.
+3;SPELL;Plant Growth;transmutation;1 action or 8 hours;;Plants in the area grow vigorously, or over a year the plants produce twice the normal amount of food.
+3;SPELL;Protection from Energy;abjuration;1 action;Concentration;The target gains resistance to one damage type (acid, cold, fire, lightning, or thunder).
+3;SPELL;Remove Curse;abjuration;1 action;-;End all curses affecting one creature or object.
+3;SPELL;Revivify;necromancy;1 action;-;Take back to 1 hp a creature that has died within the last minute (except of old age).
+3;SPELL;Sending;evocation;1 action;-;Send a 25-words message to a creature you are familiar with, regardless of the distance or the plan. It can answer it.
+3;SPELL;Sleet Storm;conjuration;1 action;Concentration;Creatures in a 20-ft-radius, 20-ft-tall cylinder (heavily obscured) must succeed on a Dex. save or fall prone.
+3;SPELL;Slow;transmutation;1 action;Concentration;Up to 6 targets must succeed on a Wis. save, or have their speed and actions reduced and -2 to CA and Dex. saves.
+3;SPELL;Speak with Dead;necromancy;1 action;-;Allow a corpse that still has a mouth and is not an undead to answer 5 questions to the caster.
+3;SPELL;Speak with Plants;transmutation;1 action;-;The caster can communicate with plants within 30 ft, and turns difficult terrain into ordinary terrain or vice versa.
+3;SPELL;Spirit Guardians;conjuration;1 action;Concentration;Targets in a 15-ft radius must succeed on a Wis. save or take 3d8 radiant or necrotic damage (damage/lvl).
+3;SPELL;Spirit Shroud;necromancy;1 bonus action;Concentration;If the attack hits, deals an extra 1d8 radiant, necrotic, or cold damage. Target can't regain hp this turn (damage/lvl).
+3;SPELL;Stinking Cloud;conjuration;1 action;Concentration;Creatures in a 20-ft-radius sphere must succeed on a Con. save or spend their action that turn retching and reeling.
+3;SPELL;Summon Fey;conjuration;1 action;Concentration;Summon 1 fey spirit (fuming, mirthful, or tricksy), friendly (stat block/your lvl).
+3;SPELL;Summon Lesser Demons;conjuration;1 action;Concentration;Summon 2 demons of CR 1 to 8 demons of CR 1/4, unfriendly (nbr of creatures/lvl).
+3;SPELL;Summon Shadowspawn;conjuration;1 action;Concentration;Summon 1 shadowy spirit (fury, despair, or fear), friendly (stat block/your lvl).
+3;SPELL;Summon Undead;necromancy;1 action;Concentration;Summon 1 undead spirit (ghostly, putrid, or skeletal), friendly (stat block/your lvl).
+3;SPELL;Thunder Step;conjuration;1 action;-;The caster teleports and creatures within 10 ft must succeed on a Con. save or take 3d10 thunder damage.
+3;SPELL;Tidal Wave;conjuration;1 action;-;Creatures in an 30 x 10 x 10 ft area must succeed on Dex. save or take 4d8 bludgeoning damage and be knocked prone.
+3;SPELL;Tiny Servant;transmutation;1 minute;-;Transform one Tiny object into a creature with arms and legs under the caster control (+2 objects/lvl).
+3;SPELL;Tongues;divination;1 action;-;The target understands and speaks any spoken language it hears.
+3;SPELL;Vampiric Touch;necromancy;1 action;Concentration;If the spell attack hits, deals 3d6 necrotic damage (damage/lvl) and the caster regains 50% of his hp.
+3;SPELL;Wall of Sand;evocation;1 action;Concentration;Create a 30-ft-long, 10-ft-high, 10-ft-thick sand wall that blocks line of sight (blinded) but not movement.
+3;SPELL;Wall of Water;evocation;1 action;Concentration;Create a 30-ft-long, 10-ft-high, 1-ft-thick wall of water that gives disadvantage on ranged attacks and halved fire damage.
+3;SPELL;Water Breathing;transmutation;1 action;-;Up to 10 creatures gets the ability to breathe underwater.
+3;SPELL;Water Walk;transmutation;1 action;-;Up to 10 creatures can move on a liquid surface (water, acid, mud, lava, etc) as if it were harmless solid ground.
+3;SPELL;Wind Wall;evocation;1 action;Concentration;Create a 50-ft-long, 15-ft-high, 1-ft-thick wall of wind. Small flying creatures can't pass. Arrows and bolts are deflected.

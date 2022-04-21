@@ -1,0 +1,49 @@
+4;SPELL;Arcane Eye;divination;1 action;Concentration;-;Create an invisible eye with darkvision that sends the caster the mental image of what it sees.
+4;SPELL;Aura of Life;abjuration;1 action;Concentration;Creatures in a 30-ft radius gain resistance to necrotic damage and regain 1 hp when at 0 hp.
+4;SPELL;Aura of Purity;abjuration;1 action;Concentration;Creatures in a 30-ft radius can not become diseased, gain resistance to poison, and get advantage to various saving throws.
+4;SPELL;Banishment;abjuration;1 action;Concentration;The target must succeed on a Cha. save or be banished to a harmless demiplane (+1 creature/lvl).
+4;SPELL;Blight;necromancy;1 action;-;The target must succeed on a Con. save or take 8d8 necrotic damage (damage/lvl).
+4;SPELL;Charm Monster;enchantment;1 action;-;The target must succeed on a Wis. save or be charmed by the caster (duration/lvl).
+4;SPELL;Compulsion;enchantment;1 action;Concentration;Targets within 30 ft must succeed on a Wis. save or move in a specified direction.
+4;SPELL;Confusion;enchantment;1 action;Concentration;Creatures in a 10-ft-radius sphere must succeed on a Wis. save or can't take actions normally (+ 5-ft-radius/lvl).
+4;SPELL;Conjure Minor Elementals;conjuration;1 minute;Concentration;Summon from 1 elemental of CR 2 to 8 elemental of CR 1/4, friendly (nbr of creatures/lvl).
+4;SPELL;Conjure Woodland Beings;conjuration;1 action;Concentration;Summon from 1 fey of CR 2 to 8 fey of CR 1/4, friendly (nbr of creatures/lvl).
+4;SPELL;Control Water;transmutation;1 action;Concentration;Control the water in a 100-ft cube (cause a flood, part the water, redirect the flow, create a whirlpool).
+4;SPELL;Death Ward;abjuration;1 action;-;When the target drops to 0 hp for the first time, it automatically returns to 1 hp.
+4;SPELL;Dimension Door;conjuration;1 action;-;The caster and another creature of the same size are teleported to a maximum of 500 feet.
+4;SPELL;Divination;divination;1 action;-;The caster gets a truthful reply to 1 question about an event to occur within 7 days.
+4;SPELL;Dominate Beast;enchantment;1 action;Concentration;A beast within 60 ft must succeed on a Wis. save or be charmed and obey the launcher (duration/lvl).
+4;SPELL;Elemental Bane;transmutation;1 action;Concentration;The target must succeed on a Con. save or suffer an extra 2d6 damage of a specific type (+1 target/lvl).
+4;SPELL;Evard's Black Tentacles;conjuration;1 action;Concentration;Creatures in a 20-ft square must succeed on a Dex. save or take 3d6 bludgeoning damage and be restrained.
+4;SPELL;Fabricate;transmutation;10 minutes;-;Convert raw materials into Large or smaller simples objects of the same material.
+4;SPELL;Find Greater Steed;conjuration;10 minutes;-;Summon a spirit that assumes the form a steed (griffon, pegasus, etc) telepathically linked to the caster.
+4;SPELL;Fire Shield;evocation;1 action;-;The caster gains resistance to cold or fire damage, and deals 2d8 damage to attackers who hit him within 5 ft.
+4;SPELL;Freedom of Movement;abjuration;1 action;-;Target's movement is unaffected by difficult terrain, spells or water.
+4;SPELL;Giant Insect;transmutation;1 action;Concentration;Transform insects (from 10 centipedes to 1 scorpion) into giant creatures that obey the caster's orders.
+4;SPELL;Grasping Vine;conjuration;1 bonus action;Concentration;The target must succeed on a Dex. save or be pulled 20 ft toward the vine.
+4;SPELL;Greater Invisibility;illusion;1 action;Concentration;The target becomes invisible for 1 minute.
+4;SPELL;Guardian of Faith;conjuration;1 action;-;Hostiles creatures within a 10-ft radius of the created guardian must succeed on a Dex. save or take 20 radiant damage.
+4;SPELL;Guardian of Nature;transmutation;1 bonus action;Concentration;Transform the caster into a Primal Beast (+10 ft, darkvision, ...) or a Great Tree (+10 hp, advantage to some rolls, ...).
+4;SPELL;Hallucinatory Terrain;illusion;10 minutes;-;Make a natural terrain looks like another type (for example a road becomes a swamp or a crevasse).
+4;SPELL;Ice Storm;evocation;1 action;-;Creatures in a 20-ft-radius, 40-ft-high cylinder must succeed on a Dex. save or take 2d8 bludgeoning damage and 4d6 cold damage.
+4;SPELL;Leomund's Secret Chest;conjuration;1 action;-;Hide a chest (3 x 2 x 2 ft) and its contents in the Ethereal Plane.
+4;SPELL;Locate Creature;divination;1 action;Concentration;The caster senses the direction in which a familiar creature is within a 1000-ft radius.
+4;SPELL;Mordenkainen's Faithful Hound;conjuration;1 action;-;Summon an invisible watchdog that barks when a creature approaches and attacks it (4d8 piercing damage).
+4;SPELL;Mordenkainen's Private Sanctum;abjuration;10 minutes;-;Create a secure cube up to 100 ft on each side. The type of protection is to choose (+100 ft on each side/lvl).
+4;SPELL;Otiluke's Resilient Sphere;evocation;1 action;Concentration;The Large size or smaller target must succeedd on a Dex. save or be enclosed for the spell duration.
+4;SPELL;Phantasmal Killer;illusion;1 action;Concentration;The target must succeed on a Wis. save or be frightened then take 4d10 psychic damage (damage/lvl) on each of it's turn.
+4;SPELL;Polymorph;transmutation;1 action;Concentration;Transform a target into a new beast form whose CR/level is equal to or less than the target's CR/level.
+4;SPELL;Raulothim's Psychic Lance;enchantment;1 action;-;The target must succeed on a Int. save or take 7d6 psychic damage and be incapacitated (damage/lvl).
+4;SPELL;Shadow of Moil;necromancy;1 action;Concentration;Tha caster gains resistance to radiant damage and deals 2d8 necrotic damage to creatures that hit him with an attack.
+4;SPELL;Sickening Radiance;evocation;1 action;Concentration;Creatures in a 30-ft radius must succeed on a Con. save or take 4d10 radiant damage and one level of exhaustion.
+4;SPELL;Staggering Smite;evocation;1 bonus action;Concentration;If the attack hits, deals an extra 4d6 pyschic damage and the target must succeed on a Wis. save or have a disadvantage.
+4;SPELL;Stone Shape;transmutation;1 action;-;Give a stone no more than 5 ft in any dimension any shape, or create an opening in it.
+4;SPELL;Stoneskin;abjuration;1 action;Concentration;The target gets resistance to nonmagical bludgeoning, piercing, and slashing damage.
+4;SPELL;Storm Sphere;evocation;1 action;Concentration;Creatures in a 20-ft-radius sphere must succeed on a Str. save or take 2d6 bludgeoning damage (damage/lvl).
+4;SPELL;Summon Aberration;conjuration;1 action;Concentration;Summon 1 aberrant spirit (beholderkin, slaad, or star spawn), friendly (stat block/your lvl).
+4;SPELL;Summon Construct;conjuration;1 action;Concentration;Summon 1 spirit of a construct (clay, metal, or stone), friendly (stat block/your lvl).
+4;SPELL;Summon Elemental;conjuration;1 action;Concentration;Summon 1 elemental spirit (air, earth, fire, or water), friendly (stat block/your lvl).
+4;SPELL;Summon Greater Demon;conjuration;1 action;Concentration;Summon 1 demon of CR 5, friendly (CR +1/lvl).
+4;SPELL;Vitriolic Sphere;evocation;1 action;-;Creatures within 20-ft must succeed on a Dex. save or take 10d4 acid damage (damage/lvl) then 5d4 acid damage on its turn.
+4;SPELL;Wall of Fire;evocation;1 action;Concentration;Create a 60 x 20 x 1 ft wall of fire. Creatures inside or within 10ft of one side of the wall take 5d8 fire damage (damage/lvl).
+4;SPELL;Watery Sphere;conjuration;1 action;Concentration;Up to 4 Medium creatures or 1 Large creature in a 10-ft radius must succeed on a Str. save or be restrained.

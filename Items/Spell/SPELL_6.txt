@@ -1,0 +1,47 @@
+6;SPELL;Arcane Gate;conjuration;1 action;Concentration;-;Create 2 portals (max 500 ft between them) and allow teleport from one to the other.
+6;SPELL;Blade Barrier;evocation;1 action;Concentration;Create a 100 x 20 x 5 ft wall that provides three-quarters cover and can inflict 6d10 slashing damage if passed through.
+6;SPELL;Bones of the Earth;transmutation;1 action;-;Create up to 6 vertical 5 x 30 ft pillars of stone (+2 pillars/lvl). Possibility of crushing creatures to the ceiling.
+6;SPELL;Chain Lightning;evocation;1 action;-;Up to 4 different targets must succeed on a Dex. save or take 10d8 lightning damage (+1 target/lvl).
+6;SPELL;Circle of Death;necromancy;1 action;-;Creatures in a 60-ft-radius sphere must succeed on a Con. save or take 8d6 necrotic damage (damage/lvl).
+6;SPELL;Conjure Fey;conjuration;1 minute;Concentration;Summon 1 fey of CR 6, friendly (CR +1/lvl).
+6;SPELL;Contingency;evocation;10 minutes;-;Condition the activation of a 5th level spell or lower that can target the caster.
+6;SPELL;Create Homunculus;transmutation;1 hour;-;Create one homunculus and the caster can transfer his hit points to it up to his next long rest.
+6;SPELL;Create Undead;necromancy;1 minute;-;Up to 3 Medium or Small humanoids corpses become a ghoul who obey the caster for 24 h (nbr and type of creatures/lvl).
+6;SPELL;Disintegrate;transmutation;1 action;-;The target must succeed on a Dex. save or take 10d6+40 force damage (damage/lvl). An Large or smaller object is disintegrated.
+6;SPELL;Drawmij's Instant Summons;conjuration;1 minute;-;Mark a 10 pounds or less object and allow to teleport it into the caster hand, wherever it is, if not held.
+6;SPELL;Druid Grove;abjuration;10 minutes;-;Protect a 30 x 30 x 30 ft area with fog, vines, animated trees, or other effects.
+6;SPELL;Eyebite;necromancy;1 action;Concentration;The target in a 60-ft radius must succeed on a Wis. save or take on a the following effects: asleep, panicked or sickened.
+6;SPELL;Find the Path;divination;1 minute;Concentration;Determine the shortest and most direct physical path to reach a known destination.
+6;SPELL;Fizban's Platinum Shield;abjuration;1 bonus action;Concentration;The caster gains half cover, resistance to acid, cold, fire, lightning, and poison damage, and Evasion.
+6;SPELL;Flesh to Stone;transmutation;1 action;Concentration;The target within 60 ft must succeed on a Con. save or be restrained, or petrified after 3 failures.
+6;SPELL;Forbiddance;abjuration;10 minutes;-;Prevent teleporting to the protected area and inflicts 5d10 radiant or necrotic damage to some type of creatures.
+6;SPELL;Globe of Invulnerability;abjuration;1 action;Concentration;Block 5th level spells or lower within a 10-ft radius (threshold/lvl).
+6;SPELL;Guards and Wards;abjuration;10 minutes;-;Create a ward that protect a 50-ft square. Can set a password to immunize individuals.
+6;SPELL;Harm;necromancy;1 action;-;The target must succeed on a Con. save or take 14d6 necrotic damage. The spell can't kill it however.
+6;SPELL;Heal;evocation;1 action;-;1 creature regains 70 hp and are cured of diseases, blindness, and deafness (+10 hp/lvl).
+6;SPELL;Heroes' Feast;conjuration;10 minutes;-;Produce a feast for 12 guests that cures diseases, immunizes to poison and increases hp by 2d10 for 24 hours.
+6;SPELL;Investiture of Flame;transmutation;1 action;Concentration;Creatures in a 15-ft-long line must succeed on a Dex. save or take 4d8 fire damage. Immunity and resistance to caster.
+6;SPELL;Investiture of Ice;transmutation;1 action;Concentration;Creatures in a 15-ft cone must succeed on a Con. save or take 4d6 cold damage. Immunity and resistance to caster.
+6;SPELL;Investiture of Stone;transmutation;1 action;Concentration;Creatures in a 15-ft radius must succeed on a Dex. save or be knocked prone. Resistance and move across earth/stone.
+6;SPELL;Investiture of Wind;transmutation;1 action;Concentration;Creatures in a 15-ft cube must succeed on a Con. save or take 2d10 bludgeoning damage. Flying speed 60 ft.
+6;SPELL;Magic Jar;necromancy;1 minute;-;The caster projects his soul into an urn and then returns to his body or possesses a humanoid body.
+6;SPELL;Mass Suggestion;enchantment;1 action;-;Up to 12 targets must succeed on a Wis. save or follow the suggestion given by the caster (duration/lvl).
+6;SPELL;Mental Prison;illusion;1 action;Concentration;The target must succeed on an Int. save or take 5d10 psychic damage and believe to be surrounded by fire or other hazard.
+6;SPELL;Move Earth;transmutation;1 action;Concentration;Shape dirt, sand, or clay, but not stone (raise, lower, flatten, create a trench, etc) in a 40-ft square in 10 min.
+6;SPELL;Otiluke's Freezing Sphere;evocation;1 action;-;Creatures in a 60-ft-radius sphere must succeed on a Con. save or take 10d6 cold damage (damage/lvl).
+6;SPELL;Otto's Irresistible Dance;enchantment;1 action;Concentration;The target must succeed on a Wis. save or dance (disadvantage on Dex. save and attack rolls).
+6;SPELL;Planar Ally;conjuration;10 minutes;-;Summon a celestial, elemental, or fiend that will help the caster in exchange for payment (1000 gp/h, sacrifice, quest, etc).
+6;SPELL;Primordial Ward;abjuration;1 action;Concentration;The caster gets resistance to acid, cold, fire, lightning, and thunder damage or immunity to a single type.
+6;SPELL;Programmed Illusion;illusion;1 action;-;Create the image of an animated object or creature, with sounds, for 5 min, with a triggering condition.
+6;SPELL;Scatter;conjuration;1 action;-;Up to 5 creatures are teleported (Wis. save if unwilling) within 120 ft.
+6;SPELL;Soul Cage;necromancy;1 reaction;-;Snatch a soul to regain hp, ask it a question, get advantage to a roll, or see a place it saw in life.
+6;SPELL;Summon Fiend;conjuration;1 action;Concentration;Summon 1 fiendish spirit (demon, devil, or yugoloth), friendly (stat block/your lvl).
+6;SPELL;Sunbeam;evocation;1 action;Concentration;Creatures on a 5-ft-wide, 60-ft-long line must succeed on a Con. save or take 6d8 radiant damage and be blinded.
+6;SPELL;Tasha's Otherworldly Guise;transmutation;1 bonus action;Concentration;Immune to fire/poison or radiant/necrotic damage, 40 ft flying speed, +2 AC bonus, weapons are magical, 2 attacks.
+6;SPELL;Tenser's Transformation;transmutation;1 action;Concentration;The caster gains 50 hp, advantage to attack rolls, an extra 2d12 force damage, martial proficiencies and two attacks per round.
+6;SPELL;Transport via Plants;conjuration;1 action;-;The caster can move from one plant to another plant (Large or larger) using 5 ft.
+6;SPELL;True Seeing;divination;1 action;-;The target gets truesight, sees magic secret doors and in the Ethereal Plane.
+6;SPELL;Wall of Ice;evocation;1 action;Concentration;Create a wall of ice (ten 10-ft panels) that can be damaged and can inflict 5d6 cold damage if passed through (damage/lvl).
+6;SPELL;Wall of Thorns;conjuration;1 action;Concentration;Create an 60-ft-long, 10-ft-high, 5-ft-thick wall of brush that slows movement and can inflict 7d8 piercing damage (damage/lvl).
+6;SPELL;Wind Walk;transmutation;1 minute;-;The caster and up to 10 creatures assume gaseous form (flying speed of 300 ft and resistance to damage from nonmagical weapon).
+6;SPELL;Word of Recall;conjuration;1 action;-;The caster and up to 5 other creatures are teleported to a previously designated sanctuary.
