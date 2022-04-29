@@ -1,8 +1,8 @@
 50:none:Potion of Healing
-10:SCROLL;0:none
+10:SPELL_0:Scroll of 
 10:none:Potion of Climbing
-10:SCROLL;1:none
-4:SCROLL;2:none
+10:SPELL_1:Scroll of 
+4:SPELL_2:Scroll of 
 4:none:Potion of Healing (Greater)
 1:none:Bag of Holding
 1:none:Driftglobe

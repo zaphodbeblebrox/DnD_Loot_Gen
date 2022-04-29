@@ -6,8 +6,8 @@
 5:none:Potion of Hill Giant Strength
 5:none:Potion of Growth
 5:none:Potion of Water Breathing
-5:SCROLL;2:none
-5:SCROLL;3:none
+5:SPELL_2:Scroll of 
+5:SPELL_3:Scroll of 
 3:none:Bag of Holding
 3:none:Keoghtom's Ointment
 3:none:Oil of Slipperiness

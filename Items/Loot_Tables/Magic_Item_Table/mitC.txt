@@ -1,5 +1,5 @@
 15:none:Potion of Healing (Superior)
-7:SCROLL;4:none
+7:SPELL_4:Scroll of 
 5:AMMUNITION:+2
 5:none:Potion of clairvoyance
 5:none:Potion of diminution
@@ -9,7 +9,7 @@
 5:none:Potion of heroism
 5:none:Potion of invulnerability
 5:none:Potion of mind reading
-5:SCROLL;5:none
+5:SPELL_5:Scroll of 
 3:none:Elixir of health
 3:none:Oil of etherealness
 3:none:Potion of fire giant strength

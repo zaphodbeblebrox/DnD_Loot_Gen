@@ -1,7 +1,7 @@
-30:SCROLL;8:none
+30:SPELL_8:Scroll of 
 25:none:Potion of storm giant strength
 15:none:Potion of healing (supreme)
-15:SCROLL;9:none
+15:SPELL_9:Scroll of 
 8:none:Universal solvent
 5:none:Arrow of slaying
 2:none:Sovereign glue
