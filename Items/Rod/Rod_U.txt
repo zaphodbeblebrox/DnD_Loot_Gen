@@ -1,0 +1,2 @@
+U;ROD;No;Immovable Rod;-;DMG(175)
+U;ROD;Yes;Rod of the Pact Keeper, +1;Warlock;DMG(197)

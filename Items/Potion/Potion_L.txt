@@ -1,0 +1,2 @@
+L;POTION;Potion of Giant Size;SKT(236)
+L;POTION;Potion of Storm Giant Strength;DMG(187)

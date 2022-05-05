@@ -1,2 +1,5 @@
-U;Basic Weapon;N;[Basic_Weapon] +1;1;[Basic_Weapon_Description];PHB(130)
-U;Basic Weapon;N;[Basic_Weapon];2;[Basic_Weapon_Description];PHB(130)
+U;ARMOR_CL;N;-;2;-;PHB(130)
+U;ARMOR_CM;N;-;2;-;PHB(130)
+U;ARMOR_CM;N;-;1;-;PHB(130)
+U;ARMOR_CH;N;-;0;-;PHB(130)
+U;ARMOR_CH;N;-;1;-;PHB(130)

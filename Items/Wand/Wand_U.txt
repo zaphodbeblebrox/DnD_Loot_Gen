@@ -1,0 +1,6 @@
+U;WAND;No;Wand of Entangle (ToYP 229);-;TOYP(229)
+U;WAND;No;Wand of Magic Detection;-;DMG(211)
+U;WAND;No;Wand of Magic Missiles;-;DMG(211)
+U;WAND;No;Wand of Secrets;-;DMG(211)
+U;WAND;Yes;Wand of Web;Spellcaster;DMG(212)
+U;WAND;Yes;Wand of the War Mage, +1;Spellcaster;DMG(212)

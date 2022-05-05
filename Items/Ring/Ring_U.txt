@@ -1,0 +1,7 @@
+U;RING;No;Guild Signet;-;GGR(178)
+U;RING;No;Ring of Truth Telling;-;WDH(192)
+U;RING;Yes;Ring of Jumping;-;DMG(191)
+U;RING;Yes;Ring of Mind Shielding;-;DMG(191)
+U;RING;No;Ring of Swimming;-;DMG(193)
+U;RING;Yes;Ring of Warmth;-;DMG(193)
+U;RING;No;Ring of Water Walking;-;DMG(193)

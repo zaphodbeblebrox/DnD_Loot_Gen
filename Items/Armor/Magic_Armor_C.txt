@@ -1,1 +1,3 @@
-Rarity[C,U,R,V,L,A];Item Type;Attunement[Y,N];Item Name;Item Description;Book(page)
+C;ARMOR_TYPES;No;Armor of Gleaming;-;XGE(136)
+C;ARMOR_TYPES;No;Cast-Off Armor;-;XGE(136)
+C;ARMOR_TYPES;No;Smoldering Armor;-;XGE(139)

@@ -1,0 +1,4 @@
+C;WAND;No;Wand of Conducting;-;XGE(140)
+C;WAND;No;Wand of Pyrotechnics;-;XGE(140)
+C;WAND;No;Wand of Scowls;-;XGE(140)
+C;WAND;No;Wand of Smiles;-;XGE(140)

@@ -1,0 +1,4 @@
+R;ROD;No;Rod of the Vonindod;-;SKT(236)
+R;ROD;Yes;Rod of Rulership;-;DMG(197)
+R;ROD;Yes;Rod of the Pact Keeper, +2;Warlock;DMG(197)
+R;ROD;Yes;Tentacle Rod;-;DMG(208)

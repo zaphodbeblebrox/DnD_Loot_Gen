@@ -1,0 +1,1 @@
+L;WAND;Yes;Wand of the War Mage, +4;Spellcaster;DMG(212)

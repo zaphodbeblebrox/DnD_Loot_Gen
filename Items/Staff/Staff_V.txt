@@ -1,0 +1,6 @@
+V;STAFF;No;Voyager Staff;-;GGR(181)
+V;STAFF;Yes;Staff of Fire;druid:sorcerer:warlock:wizard;DMG(201)
+V;STAFF;Yes;Staff of Frost;druid:sorcerer:warlock:wizard;DMG(202)
+V;STAFF;Yes;Staff of Power;sorcerer:warlock:wizard;DMG(202)
+V;STAFF;Yes;Staff of Striking;-;DMG(203)
+V;STAFF;Yes;Staff of Thunder and Lightning;-;DMG(204)

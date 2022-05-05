@@ -1,2 +1,3 @@
-C;SHIELD_TYPES;No;none;0;none;DMG(200)
-C;SHIELD_TYPES;No;none;1;none;DMG(200)
+R;SHIELD_TYPES;No;Pariah's Shield;-;-;GGR(180)
+R;SHIELD_TYPES;Yes;Arrow-catching Shield;-;-;DMG(152)
+R;SHIELD_TYPES;Yes;Shield of Missile Attraction;-;-;DMG(200)

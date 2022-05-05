@@ -1,0 +1,2 @@
+C;POTION;Potion of Climbing;DMG(187)
+C;POTION;Potion of Healing;DMG(187)

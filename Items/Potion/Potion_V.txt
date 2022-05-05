@@ -1,0 +1,8 @@
+V;POTION;Oil of Sharpness;DMG(184)
+V;POTION;Potion of Cloud Giant Strength;DMG(187)
+V;POTION;Potion of Flying;DMG(187)
+V;POTION;Potion of Supreme Healing;DMG(187)
+V;POTION;Potion of Invisibility;DMG(188)
+V;POTION;Potion of Longevity;DMG(188)
+V;POTION;Potion of Speed;DMG(188)
+V;POTION;Potion of Vitality;DMG(188)

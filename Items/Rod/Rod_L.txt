@@ -1,0 +1,2 @@
+L;ROD;Yes;Rod of Lordly Might;-;DMG(196)
+L;ROD;Yes;Rod of Resurrection;Cleric, Druid, Paladin;DMG(197)

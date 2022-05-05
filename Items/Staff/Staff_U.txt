@@ -1,0 +1,3 @@
+U;STAFF;No;Skyblinder Staff;-;GGR(181)
+U;STAFF;Yes;Staff of the Adder;cleric:druid:warlock;DMG(203)
+U;STAFF;Yes;Staff of the Python;cleric:druid:warlock;DMG(204)

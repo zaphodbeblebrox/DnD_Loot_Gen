@@ -1,0 +1,3 @@
+L;STAFF;No;Blackstaff;-;WDH(190)
+L;STAFF;No;Dragonstaff of Ahghairon;-;WDH(191)
+L;STAFF;Yes;Staff of the Magi;sorcerer:warlock:wizard;DMG(203)

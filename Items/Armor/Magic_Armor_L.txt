@@ -1,1 +1,3 @@
-Rarity[C,U,R,V,L,A];Item Type;Attunement[Y,N];Item Name;Item Description;Book(page)
+L;Plate;Yes;Armor of Invulnerability;-;DMG(152)
+L;Chain Mail;Yes;Efreeti Chain;-;DMG(167)
+L;Plate;Yes;Plate Armor of Etherealness;-;DMG(185)

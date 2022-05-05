@@ -1,0 +1,8 @@
+L;RING;Yes;Ring of Air Elemental Command;-;DMG(190)
+L;RING;Yes;Ring of Djinni Summoning;-;DMG(190)
+L;RING;Yes;Ring of Earth Elemental Command;-;DMG(190)
+L;RING;Yes;Ring of Fire Elemental Command;-;DMG(190)
+L;RING;Yes;Ring of Water Elemental Command;-;DMG(190)
+L;RING;Yes;Ring of Invisibility;-;DMG(191)
+L;RING;Yes;Ring of Spell Turning;-;DMG(193)
+L;RING;No;Ring of Three Wishes;-;DMG(193)

@@ -1,0 +1,6 @@
+R;STAFF;No;Gulthias Staff;-;COS(221)
+R;STAFF;Yes;Staff of Charming;bard:cleric:druid:sorcerer:warlock:wizard;DMG(201)
+R;STAFF;Yes;Staff of Healing;bard:cleric:druid;DMG(202)
+R;STAFF;Yes;Staff of Swarming Insects;bard:cleric:druid:sorcerer:warlock:wizard;DMG(203)
+R;STAFF;Yes;Staff of the Woodlands;druid;DMG(204)
+R;STAFF;Yes;Staff of Withering;cleric:druid:warlock;DMG(205)

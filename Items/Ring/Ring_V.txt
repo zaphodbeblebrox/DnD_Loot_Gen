@@ -1,0 +1,4 @@
+V;RING;Yes;Ring of Regeneration;-;DMG(191)
+V;RING;Yes;Ring of Shooting Stars;-;DMG(192)
+V;RING;Yes;Ring of Telekinesis;-;DMG(193)
+V;RING;Yes;Ring of Blades;-;HB(BMW)

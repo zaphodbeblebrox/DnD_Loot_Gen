@@ -1,0 +1,2 @@
+V;WAND;Yes;Wand of Polymorph;Spellcaster;DMG(211)
+V;WAND;Yes;Wand of the War Mage, +3;Spellcaster;DMG(212)

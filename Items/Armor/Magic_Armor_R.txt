@@ -1,1 +1,5 @@
-Rarity[C,U,R,V,L,A];Item Type;Attunement[Y,N];Item Name;Item Description;Book(page)
+R;ARMOR_MH;No;Mizzium Armor;Not Hide;GGR(179)
+R;ARMOR_TYPES;Yes;Armor of Resistance;-;DMG(152)
+R;Plate;Yes;Armor of Vulnerability;-;DMG(152)
+R;Chain Mail;No;Elven Chain;-;DMG(168)
+R;Studded;No;Glamoured Studded Leather;-;DMG(172)

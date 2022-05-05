@@ -1,0 +1,4 @@
+V;ROD;Yes;Rod of Absorption;-;DMG(195)
+V;ROD;Yes;Rod of Alertness;-;DMG(196)
+V;ROD;No;Rod of Security;-;DMG(197)
+V;ROD;Yes;Rod of the Pact Keeper, +3;Warlock;DMG(197)

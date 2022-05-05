@@ -1,1 +1,3 @@
-Rarity[C,U,R,V,L,A];Item Type;Attunement[Y,N];Item Name;Item Description;Book(page)
+V;Plate;Yes;Demon Armor;-;DMG(165)
+V;Scale Mail;Yes;Dragon Scale Mail;-;DMG(165)
+V;Plate;No;Dwarven Plate;-;DMG(167)

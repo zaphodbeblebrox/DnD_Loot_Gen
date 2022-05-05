@@ -1,0 +1,3 @@
+C;STAFF;No;Staff of Adornment;-;XGE(139)
+C;STAFF;No;Staff of Birdcalls;-;XGE(139)
+C;STAFF;No;Staff of Flowers;-;XGE(139)

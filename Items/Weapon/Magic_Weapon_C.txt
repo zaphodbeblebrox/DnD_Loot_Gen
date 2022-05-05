@@ -1,1 +1,3 @@
-Rarity[C,U,R,V,L,A];Item Type;Attunement[Y,N];Item Name;Item Description;Book(page)
+C;WEAPONS_SWORD;No;Moon-Touched Sword;-;-;XGE(138)
+C;AMMUNITION;No;Unbreakable Arrow;-;-;XGE(138)
+C;AMMUNITION;No;Walloping Ammunition;-;-;XGE(138)
