@@ -31,7 +31,20 @@ class Data_Handler:
         }
         self.tags = Data_Import.create_dictionary(self.masterList[4])
         self.mit = Data_Import.create_dictionary(self.masterList[5])
-        puase = ""
+
+        # Import Time
+        self.armor = Data_Import.create_dictionary(self.masterList[6]) # Import Armors - Basic and Magic
+        self.potion = Data_Import.create_dictionary(self.masterList[7]) # Import Potions
+        self.ring = Data_Import.create_dictionary(self.masterList[8]) # Import Rings
+        self.rod = Data_Import.create_dictionary(self.masterList[9]) # Import Rods
+        self.shield = Data_Import.create_dictionary(self.masterList[10]) # Import Shields
+        self.spell = Data_Import.create_dictionary(self.masterList[11]) # Import Spells
+        self.staff = Data_Import.create_dictionary(self.masterList[12]) # Import Staffs
+        self.wand = Data_Import.create_dictionary(self.masterList[13]) # Import Wands
+        self.weapon = Data_Import.create_dictionary(self.masterList[14]) # Import Weapons - Basic and Magic
+        self.wondrous = Data_Import.create_dictionary(self.masterList[15]) # Import Wondrous
+
+        pause = ""
 
 
 

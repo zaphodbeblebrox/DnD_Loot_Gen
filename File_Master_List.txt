@@ -4,4 +4,13 @@
 ./Items/Loot_Tables/Horde_Treasure/Path_Horde.txt
 ./Items/Tags/
 ./Items/Loot_Tables/Magic_Item_Table/
+./Items/Armor/
+./Items/Potion/
+./Items/Ring/
+./Items/Rod/
+./Items/Shield/
 ./Items/Spell/
+./Items/Staff/
+./Items/Wand/
+./Items/Weapon/
+./Items/Wondrous/

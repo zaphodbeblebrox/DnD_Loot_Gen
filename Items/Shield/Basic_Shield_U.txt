@@ -1,0 +1,2 @@
+U;SHIELD_TYPES;No;+1;1;none;DMG(200)
+U;SHIELD_TYPES;No;none;2;none;DMG(200)

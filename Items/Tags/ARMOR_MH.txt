@@ -1,11 +1,8 @@
-Padded
-Leather
-Studded Leather
 Hide
 Chain Shirt
 Scale Mail
 Breastplate
-Half Plate
+Halfplate
 Ring Mail
 Chain Mail
 Splint

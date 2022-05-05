@@ -12,7 +12,7 @@
 2:none:Rod of security
 2:none:Rod of the pact keeper, +3
 2:none:Scimitar of speed
-2:SHIELD:+3
+2:SHIELD_TYPES:+3
 2:none:Staff of fire
 2:none:Staff of frost
 2:none:Staff of power
