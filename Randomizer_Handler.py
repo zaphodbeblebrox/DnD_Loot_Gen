@@ -4,6 +4,7 @@ import random
 
 class Randomizer_Handler:
     def __init__(self):
+        self.nonestr = "none"
         pass
 
     # def randomNumberGenerator(self, max)
@@ -30,7 +31,7 @@ class Randomizer_Handler:
         for i in range(len(rndPartitions)):
             if rndRoll < rndPartitions[i]:
                 outputMsg = data[i][3] + ": " + str(random.randrange(int(data[i][1]), int(data[i][2])))
-                if data[i][6] != "none":
+                if data[i][6] != self.nonestr:
                     outputMsg = outputMsg + " ; " + data[i][6] + ": " + str(random.randrange(int(data[i][4]), int(data[i][5])))
                 outputMsg = outputMsg + "\n"
                 break
@@ -82,11 +83,18 @@ class Randomizer_Handler:
                         table_roll = random.randrange(0, mitPartitions[-1])
                         for i in range(0, len(mitPartitions)-1):
                             if table_roll<mitPartitions[i]:
-                                if mit_array[i][1] != "none":
+                                if mit_array[i][1] == self.nonestr:
                                     outputMsg = outputMsg + "x1 " + mit_array[i][2] + "\n"
                                 elif programData.tags.get(mit_array[i][1]) != None:
+                                    outputMsg = outputMsg + "x1 " + mit_array[i][2] + random.choice(programData.tags.get(mit_array[i][1])) + "\n"
                                     pass
-                                elif programData.weapons.get(mit_array[i][1]) != None:
+                                elif programData.asw.get(mit_array[i][1]) != None:
+                                    pass
+                                elif programData.rrsww.get(mit_array[i][1]) != None:
+                                    pass
+                                elif programData.potion.get(mit_array[i][1]) != None:
+                                    pass
+                                elif programData.spell.get(mit_array[i][1]) != None:
                                     pass
                                 break
 
@@ -103,11 +111,13 @@ class Randomizer_Handler:
         for i in range(len(rndPartitions)):
             if rndRoll < rndPartitions[i]:
                 outputMsg = data[i][3] + ": " + str(random.randrange(int(data[i][1]), int(data[i][2])))
-                if data[i][6] != "none":
+                if data[i][6] != self.nonestr:
                     outputMsg = outputMsg + " ; " + data[i][6] + ": " + str(random.randrange(int(data[i][4]), int(data[i][5])))
                 outputMsg = outputMsg + "\n"
                 break
         return outputMsg
+
+    
 
 
 

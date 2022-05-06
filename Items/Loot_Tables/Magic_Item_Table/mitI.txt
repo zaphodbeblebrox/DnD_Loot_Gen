@@ -26,7 +26,7 @@
 2:none:Armor, +2 splint
 2:none:Armor, +2 studded leather
 2:none:Well of many worlds
-1:ARMOR;V:none
+1:Basic_Armor_V:none
 1:none:Apparatus of Kwalish
 1:none:Armor of invulnerability
 1:none:Belt of storm giant strength

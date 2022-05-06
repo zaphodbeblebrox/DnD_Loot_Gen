@@ -1,4 +1,4 @@
-11:WEAPON;R:none
+11:Basic_Weapon_R:none
 3:FIGURINE_WONDROUS_POWER:none
 1:none:Adamantine armor (breastplate)
 1:none:Adamantine armor (splint)
@@ -64,7 +64,7 @@
 1:none:Rope of entanglement
 1:none:Armor, +1 scale mail
 1:none:Armor of resistance (scale mail)
-1:SHIELD_TYPES:+2
+1:Basic_Shield_V:none
 1:none:Shield of missile attraction
 1:none:Staff of charming
 1:none:Staff of healing

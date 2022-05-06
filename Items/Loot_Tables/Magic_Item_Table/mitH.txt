@@ -1,4 +1,4 @@
-10:WEAPON;V:none
+10:Basic_Weapon_V:none
 2:none:Amulet of the planes
 2:none:Carpet of flying
 2:none:Crystal ball (very rare version)
@@ -12,7 +12,7 @@
 2:none:Rod of security
 2:none:Rod of the pact keeper, +3
 2:none:Scimitar of speed
-2:SHIELD_TYPES:+3
+2:Basic_Shield_L:none
 2:none:Staff of fire
 2:none:Staff of frost
 2:none:Staff of power

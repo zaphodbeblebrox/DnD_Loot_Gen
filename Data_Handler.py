@@ -33,16 +33,19 @@ class Data_Handler:
         self.mit = Data_Import.create_dictionary(self.masterList[5])
 
         # Import Time
-        self.armor = Data_Import.create_dictionary(self.masterList[6]) # Import Armors - Basic and Magic
+        armor = Data_Import.create_dictionary(self.masterList[6]) # Import Armors - Basic and Magic
         self.potion = Data_Import.create_dictionary(self.masterList[7]) # Import Potions
-        self.ring = Data_Import.create_dictionary(self.masterList[8]) # Import Rings
-        self.rod = Data_Import.create_dictionary(self.masterList[9]) # Import Rods
-        self.shield = Data_Import.create_dictionary(self.masterList[10]) # Import Shields
+        ring = Data_Import.create_dictionary(self.masterList[8]) # Import Rings
+        rod = Data_Import.create_dictionary(self.masterList[9]) # Import Rods
+        shield = Data_Import.create_dictionary(self.masterList[10]) # Import Shields - Basic and Magic
         self.spell = Data_Import.create_dictionary(self.masterList[11]) # Import Spells
-        self.staff = Data_Import.create_dictionary(self.masterList[12]) # Import Staffs
-        self.wand = Data_Import.create_dictionary(self.masterList[13]) # Import Wands
-        self.weapon = Data_Import.create_dictionary(self.masterList[14]) # Import Weapons - Basic and Magic
-        self.wondrous = Data_Import.create_dictionary(self.masterList[15]) # Import Wondrous
+        staff = Data_Import.create_dictionary(self.masterList[12]) # Import Staffs
+        wand = Data_Import.create_dictionary(self.masterList[13]) # Import Wands
+        weapon = Data_Import.create_dictionary(self.masterList[14]) # Import Weapons - Basic and Magic
+        wondrous = Data_Import.create_dictionary(self.masterList[15]) # Import Wondrous
+
+        self.asw = armor | shield | weapon
+        self.rrsww = ring | rod | staff | wand | wondrous
 
         pause = ""
 
