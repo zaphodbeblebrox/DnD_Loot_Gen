@@ -1,3 +1,4 @@
+from secrets import choice
 from Core_Window import *
 from Data_Import import *
 import random
@@ -86,16 +87,15 @@ class Randomizer_Handler:
                                 if mit_array[i][1] == self.nonestr:
                                     outputMsg = outputMsg + "x1 " + mit_array[i][2] + "\n"
                                 elif programData.tags.get(mit_array[i][1]) != None:
-                                    outputMsg = outputMsg + "x1 " + mit_array[i][2] + random.choice(programData.tags.get(mit_array[i][1])) + "\n"
-                                    pass
+                                    outputMsg = outputMsg + "x1 " + mit_array[i][2] + " " + random.choice(programData.tags.get(mit_array[i][1])) + "\n"
                                 elif programData.asw.get(mit_array[i][1]) != None:
-                                    pass
+                                    outputMsg = outputMsg + "x1 " + self.getasw(programData.asw.get(mit_array[i][1])) + "\n"
                                 elif programData.rrsww.get(mit_array[i][1]) != None:
-                                    pass
+                                    outputMsg = outputMsg + "x1 " + self.getrrsww(programData.rrsww.get(mit_array[i][1])) + "\n"
                                 elif programData.potion.get(mit_array[i][1]) != None:
-                                    pass
+                                    outputMsg = outputMsg + "x1 " + self.getSpell(programData.potion.get(mit_array[i][1])) + "\n"
                                 elif programData.spell.get(mit_array[i][1]) != None:
-                                    pass
+                                    outputMsg = outputMsg + "x1 " + self.getScroll(programData.spell.get(mit_array[i][1])) + "\n"
                                 break
 
 
@@ -116,6 +116,32 @@ class Randomizer_Handler:
                 outputMsg = outputMsg + "\n"
                 break
         return outputMsg
+
+    def getasw(self, array):                            #breakdown next
+        temp = Data_Import.parse_dataset(array, ';')
+        rndchoice = random.choice(temp)
+        return rndchoice[3] + " ~ Attune: " + rndchoice[2] + " ~ Req: " + rndchoice[4] + " ~ Book(pg): " + rndchoice[5]
+
+    def getrrsww(self, array):
+        temp = Data_Import.parse_dataset(array, ';')
+        rndchoice = random.choice(temp)
+        return rndchoice[3] + " ~ Attune: " + rndchoice[2] + " ~ Req: " + rndchoice[4] + " ~ Book(pg): " + rndchoice[5]
+
+    def getSpell(self, array):
+        temp = Data_Import.parse_dataset(array, ';')
+        rndchoice = random.choice(temp)
+        return rndchoice[2]
+
+    def getScroll(self, array):
+        temp = Data_Import.parse_dataset(array, ';')
+        rndchoice = random.choice(temp)
+        return "Level " + rndchoice[0] + " Scroll of " + rndchoice[2]
+
+    def getPotion(self, array):
+        temp = Data_Import.parse_dataset(array, ';')
+        rndchoice = random.choice(temp)
+        return rndchoice[2] + " ~ Book(pg): " + rndchoice[3]
+        
 
     
 
