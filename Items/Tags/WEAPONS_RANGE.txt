@@ -1,0 +1,15 @@
+Dagger
+Handaxe
+Javelin
+Light Hammer
+Spear
+Crossbow, Light
+Dart
+Shortbow
+Sling
+Trident
+Blowgun
+Crossbow, Hand
+Crossbow, Heavy
+Longbow
+Net

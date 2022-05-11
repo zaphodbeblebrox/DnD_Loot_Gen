@@ -1,0 +1,6 @@
+Dagger
+Dart
+Rapier
+Scimitar
+Shortsword
+Whip
