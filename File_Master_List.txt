@@ -14,3 +14,5 @@
 ./Items/Wand/
 ./Items/Weapon/
 ./Items/Wondrous/
+./Items/Enchantment/
+./Items/Loot_Tables/Enchantment_Table/Path_Enchantment.txt

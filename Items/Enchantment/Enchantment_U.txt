@@ -1,0 +1,33 @@
+U;ENCHANTMENT;Yes;Returning;Returns the weapon back to your hand;WEAPONS_MELEE
+U;ENCHANTMENT;No;Elemental Burst;This weapon can be imbued with any element. This weapon explodes with the chosen element upon striking a critical hit, dealing an extra 1d10 damage of the chosen element. The element does not harm the wielder.;WEAPONS_TYPES
+U;ENCHANTMENT;No;Bleed;Weapon inflects Bleed 1 on target.;WEAPONS_SLASHING
+U;ENCHANTMENT;No;Elemental Infusion;Half of Pyshical damage done is replaced by the chosen element.;WEAPONS_TYPES
+U;ENCHANTMENT;No;Slow;Inflicts the Slowed Status effect until the end of the target's next turn.;WEAPONS_TYPES
+U;ENCHANTMENT;Yes;Life Steal;When you attack a creature with this weapon and roll a 20 on the attack roll, that target takes an extra 3d6 necrotic damage, provided that the target isn’t a construct or an undead. You gain temporary hit points equal to the extra damage dealt.;WEAPONS_TYPES
+U;ENCHANTMENT;Yes;Phase Shift;By saying the command word, the blade of this weapon becomes transparent and can hit creatures in the ethereal plane. While in this state, the blade cannot interact with physical plane. This enchantment can damage spirits.;WEAPONS_TYPES
+U;ENCHANTMENT;Yes;Petrify Resist;You have advantange on saves against becoming Petrified;ARMOR_TYPES
+U;ENCHANTMENT;Yes;Slow Resist;You have advantange on saves against becoming Slowed;ARMOR_TYPES
+U;ENCHANTMENT;Yes;Zombify Resist;You have advantange on saves against becoming Zombified;ARMOR_TYPES
+U;ENCHANTMENT;Yes;Weakened Resist;You have advantange on saves against becoming Weakened;ARMOR_TYPES
+U;ENCHANTMENT;Yes;Berserk Resist;You have advantange on saves against becoming Berserked;ARMOR_TYPES
+U;ENCHANTMENT;Yes;Poison Resist;You have advantange on saves against becoming Poisoned;ARMOR_TYPES
+U;ENCHANTMENT;Yes;Fear Resist;You have advantange on saves against becoming Feared;ARMOR_TYPES
+U;ENCHANTMENT;No;Shatterspike;Treat all successful hits against Constructs and objects as a Critical hit.;WEAPONS_BLUDGEONING
+U;ENCHANTMENT;No;Runner;Gain +10 movement speed.;ARMOR_LIGHT
+U;ENCHANTMENT;Yes;Unnatural Vitality;This item has 3 charges and regains all charges at Dawn. As a bonus action, you may spend a charge to gain 1d6+CON temporary hit points.;ARMOR_TYPES
+U;ENCHANTMENT;No;Bloodline Lock;Can only be attuned by set bloodline.;ANY
+U;ENCHANTMENT;Yes;Torch;This item is permanently under the effect of the Light spell. Speak its Command Word to activate the spell. -10 pentalty to Stealth checks while activated.;ANY
+U;ENCHANTMENT;Yes;Zombify;This weapon has 3 charges that refreash at dawn. When a non-construct creature is hit with this weapon, the user may spend a charge to have the target make a DC 13 CON saving throw. If the target fails, they are afflicted with Zombify Status effect for the next hour.;WEAPONS_TYPES
+U;ENCHANTMENT;Yes;Initiative - U;Add +5 to your Initiative Bonus;ARMOR_TYPES
+U;ENCHANTMENT;Yes;Unlimited Power - U;Raises Str Stat by +2. Does not stack.;ARMOR_TYPES
+U;ENCHANTMENT;Yes;Unlimited Power - V;Raises Str Stat by +6. Does not stack.;ARMOR_TYPES
+U;ENCHANTMENT;Yes;Unstopable Force - U;Raises Dex Stat by +2. Does not stack.;ARMOR_TYPES
+U;ENCHANTMENT;Yes;Unstopable Force - V;Raises Dex Stat by +6. Does not stack.;ARMOR_TYPES
+U;ENCHANTMENT;Yes;Immovable Object - U;Raises Con Stat by +2. Does not stack.;ARMOR_TYPES
+U;ENCHANTMENT;Yes;Immovable Object - V;Raises Con Stat by +6. Does not stack.;ARMOR_TYPES
+U;ENCHANTMENT;Yes;Infinite Knowledge - U;Raises Int Stat by +2. Does not stack.;ARMOR_TYPES
+U;ENCHANTMENT;Yes;Infinite Knowledge - V;Raises Int Stat by +6. Does not stack.;ARMOR_TYPES
+U;ENCHANTMENT;Yes;Undying Patience - U;Raises Wis Stat by +2. Does not stack.;ARMOR_TYPES
+U;ENCHANTMENT;Yes;Undying Patience - V;Raises Wis Stat by +6. Does not stack.;ARMOR_TYPES
+U;ENCHANTMENT;Yes;Serpent's Tongue - U;Raises Cha Stat by +2. Does not stack.;ARMOR_TYPES
+U;ENCHANTMENT;Yes;Serpent's Tongue - V;Raises Cha Stat by +6. Does not stack.;ARMOR_TYPES

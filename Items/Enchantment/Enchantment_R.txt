@@ -1,0 +1,16 @@
+R;ENCHANTMENT;Yes;Ki Focus;The magic weapon serves as a channel for the wielder’s ki, allowing her to use her special ki attacks through the weapon as if they were unarmed attacks. These attacks include the monk’s stunning attack, ki strike, and quivering palm, as well as the Stunning Fist feat.;WEAPONS_MELEE
+R;ENCHANTMENT;Yes;Seeking;Range attacks ignore cover.;WEAPONS_RANGE
+R;ENCHANTMENT;Yes;Elemental Aura;This weapon can be imbued with any element. After speaking the command word, this weapon begins to emit an aura of the chosen element and deals and extra 1d6 damage of that type.;WEAPONS_TYPES
+R;ENCHANTMENT;No;Elemental Resistance;Gain resistance to the chosen element.;SHIELD_TYPES
+R;ENCHANTMENT;Yes;Vampiric;Deal an extra 1d4 damage. You heal an amount equal to the d4 rolled.;WEAPONS_TYPES
+R;ENCHANTMENT;No;Creature Hunter;Choose a creature type. This weapon deals 2d6 bonus damage against the chosen type.;WEAPONS_TYPES
+R;ENCHANTMENT;No;Fortification - R;Gain (1d4) damage reduction per attack against you.;ARMOR_HEAVY
+R;ENCHANTMENT;Yes;Missile Attraction;Curse: This shield is cursed. Attuning to it curses you until you are targeted by the remove curse spell or similar magic. Removing the shield fails to end the curse on you. Whenever a ranged weapon attack is made against a target within 10 feet of you, the curse causes you to become the target instead.;SHIELD_TYPES
+R;ENCHANTMENT;No;Unbreakable;Item is immune from damage except by the most powerful spells or attacks.;ANY
+R;ENCHANTMENT;Yes;Initiative - R;Add +10 to your Initiative Bonus;ARMOR_TYPES
+R;ENCHANTMENT;Yes;Unlimited Power - R;Raises Str Stat by +4. Does not stack.;ARMOR_TYPES
+R;ENCHANTMENT;Yes;Unstopable Force - R;Raises Dex Stat by +4. Does not stack.;ARMOR_TYPES
+R;ENCHANTMENT;Yes;Immovable Object - R;Raises Con Stat by +4. Does not stack.;ARMOR_TYPES
+R;ENCHANTMENT;Yes;Infinite Knowledge - R;Raises Int Stat by +4. Does not stack.;ARMOR_TYPES
+R;ENCHANTMENT;Yes;Undying Patience - R;Raises Wis Stat by +4. Does not stack.;ARMOR_TYPES
+R;ENCHANTMENT;Yes;Serpent's Tongue - R;Raises Cha Stat by +4. Does not stack.;ARMOR_TYPES

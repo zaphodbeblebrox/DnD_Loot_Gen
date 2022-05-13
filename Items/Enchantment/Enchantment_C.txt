@@ -1,0 +1,18 @@
+C;ENCHANTMENT;No;Light;This item is permanently under the effect of the Light spell. -10 pentalty to Stealth checks.;ANY
+C;ENCHANTMENT;No;Merciful;All damage dealt by this weapon is nonlethal damage.;WEAPONS_TYPES
+C;ENCHANTMENT;No;Silvered;Weapon is silvered;WEAPONS_TYPES
+C;ENCHANTMENT;No;Magical;Weapon is magical for the purpose of bypassing resistances;WEAPONS_TYPES
+C;ENCHANTMENT;No;Durable;Item is Immune from damage except by magic or powerful physical attacks.;ANY
+C;ENCHANTMENT;Yes;Initiative - C;Add +2 to your Initiative Bonus;ARMOR_TYPES
+C;ENCHANTMENT;No;Acidic;A thin film of acid continuously covers the surface of this item. At the beginning of your turn, this item deals 2d4 acid dmg to each creature in a grapple with you.;ARMOR_TYPES
+C;ENCHANTMENT;Yes;Bane;Once per day, you give a creature struck with this weapon disadvantage on saving throws and attacks until the start of your next turn.;WEAPONS_TYPES
+C;ENCHANTMENT;Yes;Diver;Gain swim speed equal to your movement speed;ARMOR_LIGHT
+C;ENCHANTMENT;Yes;Infict Fear;Once per day, as a Bonus Action, force target creature to make a DC12 Wis Saving throw. On failure, they becomed Frightened of you until your next turn.;ANY
+C;ENCHANTMENT;No;Cursed Blade;Can damage ethereal creatures (ghosts/spirits);WEAPONS_TYPES
+C;ENCHANTMENT;No;Racial Lock;Can only be attuned by set race.;ANY
+C;ENCHANTMENT;Yes;Unlimited Power - C;Raises Str Stat by +1. Does not stack.;ARMOR_TYPES
+C;ENCHANTMENT;Yes;Unstopable Force - C;Raises Dex Stat by +1. Does not stack.;ARMOR_TYPES
+C;ENCHANTMENT;Yes;Immovable Object - C;Raises Con Stat by +1. Does not stack.;ARMOR_TYPES
+C;ENCHANTMENT;Yes;Infinite Knowledge - C;Raises Int Stat by +1. Does not stack.;ARMOR_TYPES
+C;ENCHANTMENT;Yes;Undying Patience - C;Raises Wis Stat by +1. Does not stack.;ARMOR_TYPES
+C;ENCHANTMENT;Yes;Serpent's Tongue - C;Raises Cha Stat by +1. Does not stack.;ARMOR_TYPES

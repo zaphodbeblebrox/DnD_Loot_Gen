@@ -1,0 +1,17 @@
+V;ENCHANTMENT;Yes;Heat Up;After a successful hit, the target takes X*2 fire damage and the user takes X fire damage for each charge on this weapon. Charges are reduced to zero after a turn where either no attacks were made or no attacks were successful.\nAfter a successful hit, this weapon to gain 1 charge.;WEAPONS_FINESSE
+V;ENCHANTMENT;Yes;Keen;Increases the critical hit range by +1. Does not stack.;WEAPONS_PIERCING
+V;ENCHANTMENT;No;Close Quarters Physical Resistance;Gain resistance to either Slashing, Piercing, or Bludgeoning melee weapon damage.;ARMOR_TYPES
+V;ENCHANTMENT;No;Fortification - V;Gain (1d6) damage reduction per attack against you.;ARMOR_HEAVY
+V;ENCHANTMENT;No;Protection from Arrows;Gain resistance to ranged weapon attacks.;ARMOR_TYPES
+V;ENCHANTMENT;Yes;Luck;If the weapon is on your person, you can call on its luck (no action required) to reroll one attack roll, ability check, or saving throw before its result is determined. You must use the second roll. This property can’t be used again until the next dawn.;WEAPONS_TYPES
+V;ENCHANTMENT;Yes;Nine Lives Stealer;The weapon has 1d8 + 1 charges. If you score a critical hit against a creature that has fewer than 100 hit points, it must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body (a construct or an undead is immune). The sword loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.;WEAPONS_TYPES
+V;ENCHANTMENT;Yes;Petrify Immunity;You have immunity to being Petrified;ARMOR_TYPES
+V;ENCHANTMENT;Yes;Slow Immunity;You have immunity to being Slowed;ARMOR_TYPES
+V;ENCHANTMENT;Yes;Zombify Immunity;You have immunity to being Zombified;ARMOR_TYPES
+V;ENCHANTMENT;Yes;Weakened Immunity;You have immunity to being Weakend;ARMOR_TYPES
+V;ENCHANTMENT;Yes;Berserk Immunity;You have immunity to being Berserked;ARMOR_TYPES
+V;ENCHANTMENT;No;Stun Resist;You have advantange on saves against becoming Stunned;ARMOR_TYPES
+V;ENCHANTMENT;Yes;Silence Resist;You have advantange on saves against becoming Silenced;ARMOR_TYPES
+V;ENCHANTMENT;Yes;Poison Immunity;You have immunity to being Poisoned;ARMOR_TYPES
+V;ENCHANTMENT;Yes;Fear Immunity;You have immunity to being Feared;ARMOR_TYPES
+V;ENCHANTMENT;Yes;Charm Resist;You have advantange on saves against becoming Charmed;ARMOR_TYPES

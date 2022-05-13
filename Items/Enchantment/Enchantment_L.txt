@@ -1,0 +1,11 @@
+L;ENCHANTMENT;Yes;Vorpal;The weapon ignores resistance to slashing damage. When you attack a creature that has at least one head with this weapon and roll a 20 on the attack roll, you cut off one of the creature’s heads. The creature dies if it can’t survive without the lost head. A creature is immune to this effect if it is immune to slashing damage, doesn’t have or need a head, has legendary actions, or the GM decides that the creature is too big for its head to be cut off with this weapon. Such a creature instead takes an extra 6d8 slashing damage from the hit.;WEAPONS_SLASHING
+L;ENCHANTMENT;No;Fortification - L;Gain (1d8) damage reduction per attack against you.;ARMOR_HEAVY
+L;ENCHANTMENT;Yes;Stun Immunity;You have immunity to Stunned;ARMOR_TYPES
+L;ENCHANTMENT;Yes;Silence Immunity;You have immunity to being Silenced;ARMOR_TYPES
+L;ENCHANTMENT;Yes;Charm Immunity;You have immunity to being Charmed;ARMOR_TYPES
+L;ENCHANTMENT;Yes;Unlimited Power - L;Raises Str Stat by +10. Does not stack.;ARMOR_TYPES
+L;ENCHANTMENT;Yes;Unstopable Force - L;Raises Dex Stat by +10. Does not stack.;ARMOR_TYPES
+L;ENCHANTMENT;Yes;Immovable Object - L;Raises Con Stat by +10. Does not stack.;ARMOR_TYPES
+L;ENCHANTMENT;Yes;Infinite Knowledge - L;Raises Int Stat by +10. Does not stack.;ARMOR_TYPES
+L;ENCHANTMENT;Yes;Undying Patience - L;Raises Wis Stat by +10. Does not stack.;ARMOR_TYPES
+L;ENCHANTMENT;Yes;Serpent's Tongue - L;Raises Cha Stat by +10. Does not stack.;ARMOR_TYPES
