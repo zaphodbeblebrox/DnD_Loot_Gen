@@ -1,0 +1,13 @@
+20:-
+18:Basic_Weapon_V
+12:Basic_Armor_V
+12:Basic_Shield_V
+5:Magic_Shield_V
+5:Magic_Armor_V
+10:Magic_Weapon_V
+5:Basic_Weapon_L
+5:Basic_Armor_L
+5:Basic_Shield_L
+1:Magic_Shield_L
+1:Magic_Armor_L
+1:Magic_Weapon_L

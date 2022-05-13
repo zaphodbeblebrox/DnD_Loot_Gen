@@ -59,9 +59,24 @@ class Frame_Gen_Buttons:
             self.textFrame.newOutput(outputText)
     
     def weaponDropB(self):
-        selection = "Option " + str(self.levelFrame.varLvl.get())
-        self.myLabel3 = tk.Label(self.frame, text=selection)
-        self.myLabel3.grid(row=5, column=0)
+        rh = Randomizer_Handler()
+        currentLvl = self.levelFrame.varLvl.get()
+        outputText = ""
+        if currentLvl <=4:
+            outputText = rh.asmDrop(self.programData.elt.get("0-4"), self.programData.enchantments.get("0-4"), self.programData)
+            self.textFrame.newOutput(outputText)
+        elif currentLvl <= 10:
+            outputText = rh.asmDrop(self.programData.hordeTreasureCoins.get("5-10"), self.programData.hordeTreasureItems.get("5-10"), self.programData)
+            self.textFrame.newOutput(outputText)
+        elif currentLvl <= 16:
+            outputText = rh.asmDrop(self.programData.hordeTreasureCoins.get("11-16"), self.programData.hordeTreasureItems.get("11-16"), self.programData)
+            self.textFrame.newOutput(outputText)
+        elif currentLvl <= 20:
+            outputText = rh.asmDrop(self.programData.hordeTreasureCoins.get("17-20"), self.programData.hordeTreasureItems.get("17-20"), self.programData)
+            self.textFrame.newOutput(outputText)
+        else:
+            outputText = "Error!"
+            self.textFrame.newOutput(outputText)
 
     def magicItemB(self):
         selection = "Option " + str(self.levelFrame.varLvl.get())

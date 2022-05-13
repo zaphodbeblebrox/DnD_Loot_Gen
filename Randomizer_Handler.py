@@ -8,20 +8,6 @@ class Randomizer_Handler:
         self.nonestr = "none"
         pass
 
-    # def randomNumberGenerator(self, max)
-  
-    def build_rnd_table(self, data):
-        startCount = 0
-        rndPartitions = []
-        for i in range(len(data)):
-            startCount = startCount + int(data[i][0])
-            rndPartitions.append(startCount)
-        return rndPartitions
-
-    def chooseWeapon(self):
-        outputmsg = ""
-        return outputmsg
-
     def indivTreasure(self, dataLootTable):
         data = Data_Import.parse_dataset(dataLootTable, ':')
         # rndPartitions = self.build_rnd_table(data)
@@ -97,25 +83,16 @@ class Randomizer_Handler:
                                 elif programData.spell.get(mit_array[i][1]) != None:
                                     outputMsg = outputMsg + "x1 " + self.getScroll(programData.spell.get(mit_array[i][1])) + "\n"
                                 break
-
-
-
                     pause = ""
-                    pass
-
-
-                break
-        
-        return outputMsg
-        rndRoll = random.randrange(0, rndPartitions[len(rndPartitions)-1])
-        for i in range(len(rndPartitions)):
-            if rndRoll < rndPartitions[i]:
-                outputMsg = data[i][3] + ": " + str(random.randrange(int(data[i][1]), int(data[i][2])))
-                if data[i][6] != self.nonestr:
-                    outputMsg = outputMsg + " ; " + data[i][6] + ": " + str(random.randrange(int(data[i][4]), int(data[i][5])))
-                outputMsg = outputMsg + "\n"
                 break
         return outputMsg
+
+    def asmDrop(self):
+        outputmsg = ""
+        return outputmsg    
+    
+    def getrnditem(self):
+        return random.choice((1,2,3))
 
     def getasw(self, array):                            #breakdown next
         temp = Data_Import.parse_dataset(array, ';')
@@ -142,7 +119,15 @@ class Randomizer_Handler:
         rndchoice = random.choice(temp)
         return rndchoice[2] + " ~ Book(pg): " + rndchoice[3]
         
+    def build_rnd_table(self, data):
+        startCount = 0
+        rndPartitions = []
+        for i in range(len(data)):
+            startCount = startCount + int(data[i][0])
+            rndPartitions.append(startCount)
+        return rndPartitions
 
+        
     
 
 
