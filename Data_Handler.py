@@ -48,13 +48,8 @@ class Data_Handler:
         self.rrsww = ring | rod | staff | wand | wondrous
 
         self.enchantments = Data_Import.create_dictionary(self.masterList[16]) # Import Enchantments
-        path_enchantement = Data_Import.read_file(self.masterList[17])
-        self.elt = {
-            "0-4":Data_Import.read_file(path_enchantement[0]),
-            "5-10":Data_Import.read_file(path_enchantement[1]),
-            "11-16":Data_Import.read_file(path_enchantement[2]),
-            "17-20":Data_Import.read_file(path_enchantement[3])
-        }
+        self.elt = Data_Import.create_dictionary(self.masterList[17])
+        self.asm_loot_table = Data_Import.create_dictionary(self.masterList[18])
 
         pause = ""
 
