@@ -49,7 +49,7 @@ class Data_Handler:
 
         self.enchantments = Data_Import.create_dictionary(self.masterList[16]) # Import Enchantments
         self.elt = Data_Import.create_dictionary(self.masterList[17])
-        self.asm_loot_table = Data_Import.create_dictionary(self.masterList[18])
+        self.asw_loot_table = Data_Import.create_dictionary(self.masterList[18])
 
         pause = ""
 

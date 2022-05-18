@@ -19,7 +19,7 @@ class Frame_Gen_Buttons:
 
     # Functions-------------------
     def individualTreasureB(self):
-        rh = Randomizer_Handler()
+        rh = Randomizer_Handler(self.programData)
         currentLvl = self.levelFrame.varLvl.get()
         outputText = ""
         if currentLvl <=4:
@@ -39,7 +39,7 @@ class Frame_Gen_Buttons:
             self.textFrame.newOutput(outputText)
     
     def hordeTreasureB(self):
-        rh = Randomizer_Handler()
+        rh = Randomizer_Handler(self.programData)
         currentLvl = self.levelFrame.varLvl.get()
         outputText = ""
         if currentLvl <=4:
@@ -59,20 +59,20 @@ class Frame_Gen_Buttons:
             self.textFrame.newOutput(outputText)
     
     def weaponDropB(self):
-        rh = Randomizer_Handler()
+        rh = Randomizer_Handler(self.programData)
         currentLvl = self.levelFrame.varLvl.get()
         outputText = ""
         if currentLvl <=4:
-            outputText = rh.asmDrop(self.programData.elt.get("0-4"), self.programData.enchantments.get("0-4"), self.programData)
+            outputText = rh.aswDrop("0-4")
             self.textFrame.newOutput(outputText)
         elif currentLvl <= 10:
-            outputText = rh.asmDrop(self.programData.hordeTreasureCoins.get("5-10"), self.programData.hordeTreasureItems.get("5-10"), self.programData)
+            outputText = rh.aswDrop("5-10")
             self.textFrame.newOutput(outputText)
         elif currentLvl <= 16:
-            outputText = rh.asmDrop(self.programData.hordeTreasureCoins.get("11-16"), self.programData.hordeTreasureItems.get("11-16"), self.programData)
+            outputText = rh.aswDrop("11-16")
             self.textFrame.newOutput(outputText)
         elif currentLvl <= 20:
-            outputText = rh.asmDrop(self.programData.hordeTreasureCoins.get("17-20"), self.programData.hordeTreasureItems.get("17-20"), self.programData)
+            outputText = rh.aswDrop("17-20")
             self.textFrame.newOutput(outputText)
         else:
             outputText = "Error!"

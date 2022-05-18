@@ -1,6 +1,6 @@
-25:-
-3:Enchantment_C
-22:Enchantment_U
-25:Enchantment_R
-20:Enchantment_V
-5:Enchantment_L
+50:-
+7:Enchantment_C
+20:Enchantment_U
+18:Enchantment_R
+4:Enchantment_V
+1:Enchantment_L

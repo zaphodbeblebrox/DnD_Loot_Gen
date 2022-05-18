@@ -1,4 +1,4 @@
-50:-
+52:-
 30:Enchantment_C
 17:Enchantment_U
-3:Enchantment_R
+1:Enchantment_R

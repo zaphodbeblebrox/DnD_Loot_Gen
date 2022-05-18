@@ -4,8 +4,9 @@ from Data_Import import *
 import random
 
 class Randomizer_Handler:
-    def __init__(self):
+    def __init__(self, programData):
         self.nonestr = "none"
+        self.programData = programData
         pass
 
     def indivTreasure(self, dataLootTable):
@@ -87,12 +88,47 @@ class Randomizer_Handler:
                 break
         return outputMsg
 
-    def asmDrop(self):
-        outputmsg = ""
-        return outputmsg    
+    def aswDrop(self, currentlvl):
+        outputmsg = "x1 "
+        asw_table = Data_Import.parse_dataset(self.programData.asw_loot_table.get(currentlvl), ':')
+        asw_partitions = self.build_rnd_table(asw_table)
+        rndRoll = random.randrange(0, asw_partitions[-1])
+        asw_selected = None
+        for i in range(0,len(asw_partitions)):
+            if rndRoll < asw_partitions[i]:
+                asw_selected = self.programData.asw.get(asw_table[i][1])
+                if asw_selected == None:
+                    return "No Item\n"
+                else:
+                    break
+        
+        asw_selected = Data_Import.parse_dataset(asw_selected, ";")
+        asw_selected = random.choice(asw_selected)
+        # asw_selected = Data_Import.parse_dataset(asw_selected, ";")
+        if asw_selected[3] != "-":
+            outputmsg = outputmsg + asw_selected[3] + " - "
+        outputmsg = outputmsg + self.getrnditem(asw_selected[1])
+
+        if asw_selected[4] == '0':
+            return outputmsg + " ~ Book: " + asw_selected[6] + "\n"       
+        elif asw_selected[4] == '-':
+            return outputmsg + " - Attune: " + asw_selected[2] + " ~ Book: " + asw_selected[6] + "\n"
+
+        # roll enchantments....
+         
+            
+            
+
+        
+       
+        return outputmsg + "\n"    
     
-    def getrnditem(self):
-        return random.choice((1,2,3))
+    def getrnditem(self, itag):
+        sel = self.programData.tags.get(itag)
+        if sel == None:
+            return itag
+        else:
+            return random.choice(sel)
 
     def getasw(self, array):                            #breakdown next
         temp = Data_Import.parse_dataset(array, ';')
