@@ -107,7 +107,8 @@ class Randomizer_Handler:
         # asw_selected = Data_Import.parse_dataset(asw_selected, ";")
         if asw_selected[3] != "-":
             outputmsg = outputmsg + asw_selected[3] + " - "
-        outputmsg = outputmsg + self.getrnditem(asw_selected[1])
+        item = self.getrnditem(asw_selected[1])
+        outputmsg = outputmsg + item
 
         if asw_selected[4] == '0':
             return outputmsg + " ~ Book: " + asw_selected[6] + "\n"       
@@ -115,13 +116,41 @@ class Randomizer_Handler:
             return outputmsg + " - Attune: " + asw_selected[2] + " ~ Book: " + asw_selected[6] + "\n"
 
         # roll enchantments....
-         
+        for i in range(int(asw_selected[4])):
+            outputmsg = outputmsg + "\n    Enchant Slot " + str(i+1) + ": "
+            sel = self.getEnchant(currentlvl, item)
+            pass 
             
             
 
         
        
         return outputmsg + "\n"    
+    
+    def tag_compare(self, item, dicCheck):
+        pass
+    
+    def getEnchant(self, currentlvl, item):
+        et = self.programData.elt.get(currentlvl)
+        et_partitions = self.build_rnd_table(et)
+        et = Data_Import.parse_dataset(et, ':')
+        rndRoll = random.randrange(0, et_partitions[-1])
+        sel = None
+        for i in range(0,len(et_partitions)):
+            if rndRoll < et_partitions[i]:
+                t = self.programData.enchantments.get(et[i][1])
+                if t == None:
+                    return "Empty"
+                temp = Data_Import.parse_dataset(t, ';')
+                rndchoice = ""
+                while True:
+                    rndchoice = random.choice(temp)
+                    if rndchoice[4] == "ANY":
+                        break
+                    elif self.tag_compare(item, self.programData.tags.get(rndchoice[4])):
+                        break
+
+                return rndchoice[3] + " ~ Attune: " + rndchoice[2] + " ~ Req: " + rndchoice[4] + " ~ Book(pg): " + rndchoice[5]
     
     def getrnditem(self, itag):
         sel = self.programData.tags.get(itag)
