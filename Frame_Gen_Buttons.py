@@ -17,7 +17,7 @@ class Frame_Gen_Buttons:
         self.bGen2 = tk.Button(self.frame, text="Horde Treasure", state="normal", padx=15, pady=35, command = self.hordeTreasureB, bg="green").grid(row=1, column=0, sticky="ew")
         self.bGen3 = tk.Button(self.frame, text="Weapon Drop", state="normal", padx=15, pady=35, command = self.weaponDropB, bg="green").grid(row=2, column=0, sticky="ew")
         self.bGen4 = tk.Button(self.frame, text="Gem/Art", state="normal", padx=15, pady=35, command = self.artgemB, bg="green").grid(row=3, column=0, sticky="ew")
-        tk.Button(self.frame, text="Enchanted Rune\nDrop", state="normal", padx=15, pady=35, command = self.runeB, bg="green").grid(row=4, column=0, sticky="ew")
+        tk.Button(self.frame, text="Enchanted Rune", state="normal", padx=15, pady=35, command = self.runeB, bg="green").grid(row=4, column=0, sticky="ew")
         self.bGen5 = tk.Button(self.frame, text="Roll Specific Item", state="normal", padx=15, pady=35, command = self.rollItemB, bg="gold").grid(row=5, column=0, sticky="ew")
 
     # Functions-------------------
@@ -86,16 +86,16 @@ class Frame_Gen_Buttons:
         currentLvl = self.levelFrame.varLvl.get()
         outputText = ""
         if currentLvl <=4:
-            outputText = rh.aswDrop("0-4")
+            outputText = rh.rollEnchant("0-4")
             self.textFrame.newOutput(outputText)
         elif currentLvl <= 10:
-            outputText = rh.aswDrop("5-10")
+            outputText = rh.rollEnchant("5-10")
             self.textFrame.newOutput(outputText)
         elif currentLvl <= 16:
-            outputText = rh.aswDrop("11-16")
+            outputText = rh.rollEnchant("11-16")
             self.textFrame.newOutput(outputText)
         elif currentLvl <= 20:
-            outputText = rh.aswDrop("17-20")
+            outputText = rh.rollEnchant("17-20")
             self.textFrame.newOutput(outputText)
         else:
             outputText = "Error!"
@@ -103,7 +103,18 @@ class Frame_Gen_Buttons:
 
 
     def artgemB(self):
-        pass
+        rh = Randomizer_Handler(self.programData)
+        currentLvl = self.levelFrame.varLvl.get()
+        if currentLvl <=4:
+            self.textFrame.newOutput(rh.rollartgem("0-4"))
+        elif currentLvl <= 10:
+            self.textFrame.newOutput(rh.rollartgem("5-10"))
+        elif currentLvl <= 16:
+            self.textFrame.newOutput(rh.rollartgem("11-16"))
+        elif currentLvl <= 20:
+            self.textFrame.newOutput(rh.rollartgem("17-20"))
+        else:
+            self.textFrame.newOutput("Error!")
 
     def rollItemB(self):
         rh = Randomizer_Handler(self.programData)

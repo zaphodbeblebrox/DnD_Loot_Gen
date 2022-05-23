@@ -150,6 +150,20 @@ class Randomizer_Handler:
                     return "Empty"
                 return rndchoice[3] + " ~ Attune: " + rndchoice[2] + " ~ Discription: " + rndchoice[4]
     
+    def rollEnchant(self, currentlvl):
+        et = self.programData.elt.get(currentlvl)
+        et_partitions = self.build_rnd_table(et)
+        et = Data_Import.parse_dataset(et, ':')
+        rndRoll = random.randrange(0, et_partitions[-1])
+        for i in range(0,len(et_partitions)):
+            if rndRoll < et_partitions[i]:
+                t = self.programData.enchantments.get(et[i][1])
+                if t == None:
+                    return "None\n"
+                temp = Data_Import.parse_dataset(t, ';')
+                rndchoice = random.choice(temp)
+                return "Rune of " + rndchoice[3] + " ~ Attune: " + rndchoice[2] + " ~ Discription: " + rndchoice[4] + " ~ Req: " + rndchoice[5] + "\n"
+
     def gete(self, array):
         temp = Data_Import.parse_dataset(array, ';')
         rndchoice = random.choice(temp)
@@ -163,9 +177,6 @@ class Randomizer_Handler:
             return random.choice(sel)
 
     def getasw(self, array):                            #breakdown next
-        # temp = Data_Import.parse_dataset(array, ';')
-        # rndchoice = random.choice(temp)
-        # return rndchoice[3] + " ~ Attune: " + rndchoice[2] + " ~ Req: " + rndchoice[4] + " ~ Book(pg): " + rndchoice[5]
         outputmsg = "1x "
         asw_selected = Data_Import.parse_dataset(array, ";")
         asw_selected = random.choice(asw_selected)
@@ -190,14 +201,14 @@ class Randomizer_Handler:
         outputmsg = outputmsg + item
 
         if asw_selected[4] == '0':
-            return outputmsg + " ~ Book: " + asw_selected[6] + "\n"       
+            return outputmsg + " ~ Book: " + asw_selected[6]      
         elif asw_selected[4] == '-':
-            return outputmsg + " - Attune: " + asw_selected[2] + " ~ Book: " + asw_selected[6] + "\n"
+            return outputmsg + " - Attune: " + asw_selected[2] + " ~ Book: " + asw_selected[6]
 
         # roll enchantments....
         for i in range(int(asw_selected[4])):
             outputmsg = outputmsg + "\n    Enchant Slot " + str(i+1) + ": " + self.getEnchant(currentlvl, item)
-        return outputmsg + "\n"
+        return outputmsg 
 
     def getrrsww(self, array):
         temp = Data_Import.parse_dataset(array, ';')
