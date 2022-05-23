@@ -1,3 +1,4 @@
+from email.policy import default
 from secrets import choice
 from Core_Window import *
 from Data_Import import *
@@ -7,6 +8,7 @@ class Randomizer_Handler:
     def __init__(self, programData):
         self.nonestr = "none"
         self.programData = programData
+        self.thisfunctionsdic = [method for method in dir(Randomizer_Handler) if method.startswith('__') is False]
         pass
 
     def indivTreasure(self, dataLootTable):
@@ -101,10 +103,8 @@ class Randomizer_Handler:
                     return "No Item\n"
                 else:
                     break
-        
         asw_selected = Data_Import.parse_dataset(asw_selected, ";")
         asw_selected = random.choice(asw_selected)
-        # asw_selected = Data_Import.parse_dataset(asw_selected, ";")
         if asw_selected[3] != "-":
             outputmsg = outputmsg + asw_selected[3] + " - "
         item = self.getrnditem(asw_selected[1])
@@ -117,25 +117,20 @@ class Randomizer_Handler:
 
         # roll enchantments....
         for i in range(int(asw_selected[4])):
-            outputmsg = outputmsg + "\n    Enchant Slot " + str(i+1) + ": "
-            sel = self.getEnchant(currentlvl, item)
-            pass 
-            
-            
-
-        
-       
+            outputmsg = outputmsg + "\n    Enchant Slot " + str(i+1) + ": " + self.getEnchant(currentlvl, item)
         return outputmsg + "\n"    
     
-    def tag_compare(self, item, dicCheck):
-        pass
+    def tag_compare(self, item, array):
+        for c in array:
+            if c == item:
+                return True
+        return False
     
     def getEnchant(self, currentlvl, item):
         et = self.programData.elt.get(currentlvl)
         et_partitions = self.build_rnd_table(et)
         et = Data_Import.parse_dataset(et, ':')
         rndRoll = random.randrange(0, et_partitions[-1])
-        sel = None
         for i in range(0,len(et_partitions)):
             if rndRoll < et_partitions[i]:
                 t = self.programData.enchantments.get(et[i][1])
@@ -143,14 +138,22 @@ class Randomizer_Handler:
                     return "Empty"
                 temp = Data_Import.parse_dataset(t, ';')
                 rndchoice = ""
-                while True:
+                timeout = 0
+                while timeout < 100:
                     rndchoice = random.choice(temp)
-                    if rndchoice[4] == "ANY":
+                    if rndchoice[5] == "ANY":
                         break
-                    elif self.tag_compare(item, self.programData.tags.get(rndchoice[4])):
+                    elif self.tag_compare(item, self.programData.tags.get(rndchoice[5])):
                         break
-
-                return rndchoice[3] + " ~ Attune: " + rndchoice[2] + " ~ Req: " + rndchoice[4] + " ~ Book(pg): " + rndchoice[5]
+                    timeout = timeout + 1
+                if timeout >= 100:
+                    return "Empty"
+                return rndchoice[3] + " ~ Attune: " + rndchoice[2] + " ~ Discription: " + rndchoice[4]
+    
+    def gete(self, array):
+        temp = Data_Import.parse_dataset(array, ';')
+        rndchoice = random.choice(temp)
+        return "Rune of " + rndchoice[3] + " ~ Attune: " + rndchoice[2] + " ~ Discription: " + rndchoice[4] + " ~ Req: " + rndchoice[5]
     
     def getrnditem(self, itag):
         sel = self.programData.tags.get(itag)
@@ -160,9 +163,41 @@ class Randomizer_Handler:
             return random.choice(sel)
 
     def getasw(self, array):                            #breakdown next
-        temp = Data_Import.parse_dataset(array, ';')
-        rndchoice = random.choice(temp)
-        return rndchoice[3] + " ~ Attune: " + rndchoice[2] + " ~ Req: " + rndchoice[4] + " ~ Book(pg): " + rndchoice[5]
+        # temp = Data_Import.parse_dataset(array, ';')
+        # rndchoice = random.choice(temp)
+        # return rndchoice[3] + " ~ Attune: " + rndchoice[2] + " ~ Req: " + rndchoice[4] + " ~ Book(pg): " + rndchoice[5]
+        outputmsg = "1x "
+        asw_selected = Data_Import.parse_dataset(array, ";")
+        asw_selected = random.choice(asw_selected)
+
+        match asw_selected[0]:
+            case "C":
+                currentlvl = "0-4"
+            case "U":
+                currentlvl = "0-4"    
+            case "R":
+                currentlvl = "5-10"    
+            case "V":
+                currentlvl = "11-16"
+            case "L":
+                currentlvl = "17-20"
+            case _:
+                currentlvl = "0-4"
+
+        if asw_selected[3] != "-":
+            outputmsg = outputmsg + asw_selected[3] + " - "
+        item = self.getrnditem(asw_selected[1])
+        outputmsg = outputmsg + item
+
+        if asw_selected[4] == '0':
+            return outputmsg + " ~ Book: " + asw_selected[6] + "\n"       
+        elif asw_selected[4] == '-':
+            return outputmsg + " - Attune: " + asw_selected[2] + " ~ Book: " + asw_selected[6] + "\n"
+
+        # roll enchantments....
+        for i in range(int(asw_selected[4])):
+            outputmsg = outputmsg + "\n    Enchant Slot " + str(i+1) + ": " + self.getEnchant(currentlvl, item)
+        return outputmsg + "\n"
 
     def getrrsww(self, array):
         temp = Data_Import.parse_dataset(array, ';')

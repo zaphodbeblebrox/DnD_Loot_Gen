@@ -6,7 +6,7 @@ class Data_Handler:
         # self.fileName = fileName
         self.itemTypeList = []
         self.masterList = Data_Import.read_file('.\\File_Master_List.txt')
-        self.itemTypeList = Data_Import.read_file(self.masterList[1])
+        self.itemTypeList = Data_Import.parse_dataset(Data_Import.read_file(self.masterList[1]), ";")
         
         path_individual = Data_Import.read_file(self.masterList[2])
         self.individualTreasure = {

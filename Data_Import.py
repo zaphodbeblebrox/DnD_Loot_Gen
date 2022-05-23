@@ -16,17 +16,6 @@ class Data_Import:
                         content_array.append(line.replace('\n',''))
         return content_array
 
-    def parse_file(array, deliminator):
-        leftColData = [0 for x in range(len(array))]
-        rightColData = [0 for x in range(len(array))]
-        temp = []
-        for i in range(len(array)):
-            tempArray = array[i].split(deliminator)
-            temp.append(tempArray)
-            leftColData[i] = tempArray[0]
-            rightColData[i] = tempArray[1]
-        return (leftColData, rightColData)
-        
     def parse_dataset(array, deliminator):
         temp = []
         for i in range(len(array)):

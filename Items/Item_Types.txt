@@ -1,11 +1,14 @@
-Armor - Basic;True
-Armor - Magic;False
-Potion;True
-Ring;False
-Rod;False
-Scroll;True
-Staff;False
-Wand;False
-Weapon - Basic;True
-Weapon - Magic;False
-Wonderous;False
+Armor - Basic;True;Basic_Armor
+Armor - Magic;False;Magic_Armor
+Enchanted Rune;False;Enchantment
+Potion;True;Potion
+Ring;False;Ring
+Rod;False;Rod
+Scroll;True;Scroll
+Shield - Basic;True;Basic_Shield
+Shield - Magic;False;Magic_Shield
+Staff;False;Staff
+Wand;False;Wand
+Weapon - Basic;True;Basic_Armor
+Weapon - Magic;False;Magic_Armor
+Wondrous;False;Wondrous
