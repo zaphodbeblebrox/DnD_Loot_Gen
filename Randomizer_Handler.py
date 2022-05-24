@@ -150,6 +150,25 @@ class Randomizer_Handler:
                     return "Empty"
                 return rndchoice[3] + " ~ Attune: " + rndchoice[2] + " ~ Discription: " + rndchoice[4]
     
+    def rollartgem(self, array):
+        outputMsg = ""
+        
+        # Gems and Art
+        aglt = Data_Import.parse_dataset(array, ':')
+        rndPartitions = self.build_rnd_table(aglt)
+        rndRoll = random.randrange(0, rndPartitions[-1])
+        for i in range(0,len(rndPartitions)):
+            if rndRoll < rndPartitions[i]:
+                if aglt[i][1] == "-":
+                    return "None\n"
+                selitem = random.choice(Data_Import.parse_dataset(self.programData.tags.get(aglt[i][1]), ";"))
+                outputMsg = selitem[0] + "gp " + selitem[1]
+                if selitem[2] != "":
+                    outputMsg = outputMsg + " ~ " + selitem[2]
+                return outputMsg + "\n"
+        return "None\n"
+
+    
     def rollEnchant(self, currentlvl):
         et = self.programData.elt.get(currentlvl)
         et_partitions = self.build_rnd_table(et)

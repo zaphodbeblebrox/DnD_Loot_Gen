@@ -17,3 +17,4 @@
 ./Items/Enchantment/
 ./Items/Loot_Tables/Enchantment_Table/
 ./Items/Loot_Tables/Basic_ASM_Table/
+./Items/Loot_Tables/Art_Gem_Table/

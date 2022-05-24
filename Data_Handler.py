@@ -51,6 +51,8 @@ class Data_Handler:
         self.elt = Data_Import.create_dictionary(self.masterList[17])
         self.asw_loot_table = Data_Import.create_dictionary(self.masterList[18])
 
+        self.aglt = Data_Import.create_dictionary(self.masterList[19])
+
         pause = ""
 
 

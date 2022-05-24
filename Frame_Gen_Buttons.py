@@ -106,13 +106,13 @@ class Frame_Gen_Buttons:
         rh = Randomizer_Handler(self.programData)
         currentLvl = self.levelFrame.varLvl.get()
         if currentLvl <=4:
-            self.textFrame.newOutput(rh.rollartgem("0-4"))
+            self.textFrame.newOutput(rh.rollartgem(self.programData.aglt.get("0-4")))
         elif currentLvl <= 10:
-            self.textFrame.newOutput(rh.rollartgem("5-10"))
+            self.textFrame.newOutput(rh.rollartgem(self.programData.aglt.get("5-10")))
         elif currentLvl <= 16:
-            self.textFrame.newOutput(rh.rollartgem("11-16"))
+            self.textFrame.newOutput(rh.rollartgem(self.programData.aglt.get("11-16")))
         elif currentLvl <= 20:
-            self.textFrame.newOutput(rh.rollartgem("17-20"))
+            self.textFrame.newOutput(rh.rollartgem(self.programData.aglt.get("17-20")))
         else:
             self.textFrame.newOutput("Error!")
 
