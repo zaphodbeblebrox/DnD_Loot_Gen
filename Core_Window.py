@@ -9,13 +9,15 @@ class Core_Window:
 
         self.color = {
             "dark gray":"#232323",
+            "light gray":"#D3D3D3",
             "purple":"#8336a8",
             "red":"#eb111e",
             "white":"#ffffff", 
             "black":"#000000",
             "near black":"#111011",
             "pink":"#cc83b8",
-            "cyan":"#00c7b0"
+            "cyan":"#00c7b0", 
+            "neon pink":"#FF10F0"
         }
         
         self.root = tk.Tk() #Makes the window
@@ -41,12 +43,14 @@ class Core_Window:
         self.tabGems = ttk.Frame(self.notebook)
         self.tabMagic = ttk.Frame(self.notebook)
         self.tabStatusEffects = ttk.Frame(self.notebook)
+        self.tag_definitions = ttk.Frame(self.notebook)
 
         self.notebook.add(self.tabGen, text="Loot Generator")
         self.notebook.add(self.tabEnchantment, text="Enchantments")
         self.notebook.add(self.tabGems, text="Gem Table")
         self.notebook.add(self.tabMagic, text="Magic Reference")
         self.notebook.add(self.tabStatusEffects, text="Status Effects")
+        self.notebook.add(self.tag_definitions, text="Tag Definitions")
         self.notebook.grid(row=0, column=0)
 
         Tab_Loot_Generator(self.color, self.tabGen, data)

@@ -2,7 +2,7 @@ import tkinter as tk
 from Data_Import import *
 
 class Frame_ItemTypes:
-    def __init__(self, frame, programData):
+    def __init__(self, color, frame, programData):
         self.frame = frame
         self.varState = []
         tempBoolList = []

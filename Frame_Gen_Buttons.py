@@ -1,10 +1,11 @@
 from calendar import c
 import tkinter as tk
 from Randomizer_Handler import *
+from tkinter import ttk, font
 import random
 
 class Frame_Gen_Buttons:
-    def __init__(self, frame, programData, textFrame, levelFrame, rarityFrame, itemTypeFrame):
+    def __init__(self, color, frame, programData, textFrame, levelFrame, rarityFrame, itemTypeFrame):
         self.frame = frame
         self.programData = programData
         self.textFrame = textFrame
@@ -12,13 +13,20 @@ class Frame_Gen_Buttons:
         self.rarityFrame = rarityFrame
         self.itemTypeFrame = itemTypeFrame
         self.rhFunList = [method for method in dir(Randomizer_Handler) if method.startswith('__') is False]
+        
+        # Style setup
+        f = font.Font(weight = "bold", size= 10)
+        style = ttk.Style()
+        style.theme_use('default')
+        style.configure('W.TButton', font = f, padx=0, pady=0, background=color['purple'], foreground=color['white'], height=5, width=18, focuscolor=color['purple'], justify ="center")
+        style.map('W.TButton', background = [('selected', color['black'])], foreground = [('selected', color['pink'])])
 
-        self.bGen1 = tk.Button(self.frame, text="Individual Treasure", state="normal", padx=15, pady=35, command = self.individualTreasureB, bg="green").grid(row=0, column=0, sticky="ew")
-        self.bGen2 = tk.Button(self.frame, text="Horde Treasure", state="normal", padx=15, pady=35, command = self.hordeTreasureB, bg="green").grid(row=1, column=0, sticky="ew")
-        self.bGen3 = tk.Button(self.frame, text="Weapon Drop", state="normal", padx=15, pady=35, command = self.weaponDropB, bg="green").grid(row=2, column=0, sticky="ew")
-        self.bGen4 = tk.Button(self.frame, text="Gem/Art", state="normal", padx=15, pady=35, command = self.artgemB, bg="green").grid(row=3, column=0, sticky="ew")
-        tk.Button(self.frame, text="Enchanted Rune", state="normal", padx=15, pady=35, command = self.runeB, bg="green").grid(row=4, column=0, sticky="ew")
-        self.bGen5 = tk.Button(self.frame, text="Roll Specific Item", state="normal", padx=15, pady=35, command = self.rollItemB, bg="gold").grid(row=5, column=0, sticky="ew")
+        ttk.Button(self.frame, text="Individual\nTreasure", state="normal", command = self.individualTreasureB, style = 'W.TButton').grid(row=0, column=0, sticky="ew", padx=5, pady=5,ipady=17)
+        ttk.Button(self.frame, text="Horde\nTreasure", state="normal", command = self.hordeTreasureB, style = 'W.TButton').grid(row=1, column=0, sticky="ew", padx=5, pady=5,ipady=17)
+        ttk.Button(self.frame, text="Weapon Drop", state="normal", command = self.weaponDropB, style = 'W.TButton').grid(row=2, column=0, sticky="ew", padx=5, pady=5,ipady=25)
+        ttk.Button(self.frame, text="Art & Gems", state="normal", command = self.artgemB, style = 'W.TButton').grid(row=3, column=0, sticky="ew", padx=5, pady=5,ipady=25)
+        ttk.Button(self.frame, text="Enchanted Rune", state="normal", command = self.runeB, style = 'W.TButton').grid(row=4, column=0, sticky="ew", padx=5, pady=5,ipady=25)
+        ttk.Button(self.frame, text="Roll Specific Item", state="normal", command = self.rollItemB, style = 'W.TButton').grid(row=5, column=0, sticky="ew", padx=5, pady=5,ipady=25)
 
     # Functions-------------------
     def individualTreasureB(self):
