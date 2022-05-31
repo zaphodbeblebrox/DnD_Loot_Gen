@@ -18,8 +18,6 @@ class Frame_Gen_Buttons:
         f = font.Font(weight = "bold", size= 10)
         style = ttk.Style()
         style.theme_use('default')
-        style.configure('W.TButton', font = f, padx=0, pady=0, background=color['purple'], foreground=color['white'], height=5, width=18, focuscolor=color['purple'], justify ="center")
-        style.map('W.TButton', background = [('selected', color['black'])], foreground = [('selected', color['pink'])])
 
         ttk.Button(self.frame, text="Individual\nTreasure", state="normal", command = self.individualTreasureB, style = 'W.TButton').grid(row=0, column=0, sticky="ew", padx=5, pady=5,ipady=17)
         ttk.Button(self.frame, text="Horde\nTreasure", state="normal", command = self.hordeTreasureB, style = 'W.TButton').grid(row=1, column=0, sticky="ew", padx=5, pady=5,ipady=17)

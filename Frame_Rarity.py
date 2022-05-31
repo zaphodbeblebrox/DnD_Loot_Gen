@@ -6,19 +6,19 @@ class Frame_Rarity:
         self.frame = frame
 
         f = font.Font(weight = "bold", size= 10)
-        style = ttk.Style()
-        style.configure('TRadiobutton', foreground=color["red"], background=color["dark gray"], indicatorcolor=color["white"], font=f)
+        # style = ttk.Style()
+        # style.configure('TRadiobutton', foreground=color["red"], background=color["dark gray"], indicatorcolor=color["white"], font=f)
 
-        style.map('TRadiobutton',
-          foreground = [('disabled', color["red"]),
-                      ('pressed', color["red"]),
-                      ('active', color["light gray"])],
-          background = [('disabled', color["dark gray"]),
-                      ('pressed', '!focus', color["dark gray"]),
-                      ('active', color["dark gray"])],
-          indicatorcolor=[('selected', color["neon pink"]),
-                          ('pressed', color["neon pink"])]
-          )
+        # style.map('TRadiobutton',
+        #   foreground = [('disabled', color["red"]),
+        #               ('pressed', color["red"]),
+        #               ('active', color["light gray"])],
+        #   background = [('disabled', color["dark gray"]),
+        #               ('pressed', '!focus', color["dark gray"]),
+        #               ('active', color["dark gray"])],
+        #   indicatorcolor=[('selected', color["neon pink"]),
+        #                   ('pressed', color["neon pink"])]
+        #   )
 
         self.varRty = tk.StringVar()
 

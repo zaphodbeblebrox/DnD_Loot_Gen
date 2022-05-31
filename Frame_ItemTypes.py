@@ -1,4 +1,5 @@
 import tkinter as tk
+from tkinter import ttk
 from Data_Import import *
 
 class Frame_ItemTypes:
@@ -12,7 +13,7 @@ class Frame_ItemTypes:
 		
         for i in range(len(programData)):
             tempVar = tk.BooleanVar(value=Boolean_list[i])
-            tk.Checkbutton(self.frame, text=programData[i][0], variable=tempVar, onvalue=1, offvalue=0).grid(sticky = "w", row=i, column=0)
+            ttk.Checkbutton(self.frame, text=programData[i][0], variable=tempVar, onvalue=1, offvalue=0).grid(sticky = "w", row=i, column=0)
             self.varState.append(tempVar)
 
 
