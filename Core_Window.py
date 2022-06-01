@@ -1,5 +1,5 @@
 import tkinter as tk
-from tkinter import ttk
+from tkinter import ttk, font
 
 from Tab_Loot_Generator import *
 # from MyRightPanel import *
@@ -8,7 +8,11 @@ class Core_Window:
     def __init__(self, data):
 
         self.color = {
+            "background":"#232323",
+            "framebg":"#333333",
+            "button":"#BB86FC",
             "dark gray":"#232323",
+            "teal":"#03DAC5",
             "light gray":"#D3D3D3",
             "purple":"#8336a8",
             "red":"#eb111e",
@@ -25,7 +29,7 @@ class Core_Window:
         # photo = tk.PhotoImage(file = "dnd.ico")
         self.root.iconbitmap("dnd.ico")
         # self.root.geometry('1500x700')
-        self.root.config(background = self.color['dark gray'])
+        self.root.config(background = self.color['background'])
 
         # Create Notebook Style
         f = font.Font(weight = "bold", size= 10)
@@ -33,27 +37,27 @@ class Core_Window:
         style.theme_use('default')
         style.configure('TNotebook.Tab', background = self.color['purple'], foreground = self.color['white'], font=('Segoe UI','10','bold'))
         style.configure('TNotebook', borderwidth=0)
-        style.map('TNotebook.Tab', background = [('selected', self.color['dark gray'])], foreground = [('selected', self.color['pink'])])
+        style.map('TNotebook.Tab', background = [('selected', self.color['background'])], foreground = [('selected', self.color['pink'])])
         
         # Button Style
-        style.configure('W.TButton', font = f, padx=0, pady=0, background=self.color['purple'], foreground=self.color['white'], height=5, width=18, focuscolor=self.color['purple'], justify ="center")
+        style.configure('W.TButton', font = f, padx=0, pady=0, background=self.color['teal'], foreground=self.color['black'], height=5, width=18, focuscolor=self.color['teal'], justify ="center")
         style.map('W.TButton', background = [('selected', self.color['black'])], foreground = [('selected', self.color['pink'])])
         
         # Radio Button Style
-        style.configure('TRadiobutton', foreground=self.color["cyan"], background=self.color["dark gray"], indicatorcolor=self.color["white"], font=f)
+        style.configure('TRadiobutton', foreground=self.color["button"], background=self.color["background"], indicatorcolor=self.color["framebg"], font=f)
         style.map('TRadiobutton',
             foreground = [('disabled', self.color["pink"]),
                       ('pressed', self.color["pink"]),
                       ('active', self.color["light gray"])],
-            background = [('disabled', self.color["dark gray"]),
-                      ('pressed', '!focus', self.color["dark gray"]),
-                      ('active', self.color["dark gray"])],
+            background = [('disabled', self.color["background"]),
+                      ('pressed', '!focus', self.color["background"]),
+                      ('active', self.color["background"])],
             indicatorcolor=[('selected', self.color["pink"]),
                           ('pressed', self.color["pink"])]
           )
         
         #  Check Box Style 
-        style.configure('TCheckbutton', foreground=self.color["cyan"], background=self.color["dark gray"], indicatorcolor=self.color["white"], font=f, focuscolor=self.color['dark gray'])
+        style.configure('TCheckbutton', foreground=self.color["cyan"], background=self.color["background"], indicatorcolor=self.color["framebg"], font=f, focuscolor=self.color['dark gray'])
         style.map('TCheckbutton',
             foreground = [('disabled', self.color["pink"]),
                       ('pressed', self.color["pink"]),
@@ -66,7 +70,8 @@ class Core_Window:
           )
 
         #Create Frame Style
-        style.configure('TFrame', background = self.color['dark gray'])
+        # style.configure('TFrame', background = self.color['background'], foreground = self.color['white'], font=('Segoe UI','19','bold'))
+        # style.map('TFrame', background = [('selected', self.color['black'])], foreground = [('selected', self.color['pink'])])
 
         # Tab Definitions
         self.notebook = ttk.Notebook(self.root)

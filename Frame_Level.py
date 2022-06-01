@@ -6,13 +6,12 @@ class Frame_Level:
         self.frame = frame
         self.numLevels = numLevels
 
-        f = font.Font(weight = "bold", size= 10)
         self.varLvl = tk.IntVar() 
         self.rbLevels = []
 
         for i in range(self.numLevels):
             self.label = "Level " + str(i+1)
-            self.rbLevels.append(ttk.Radiobutton(self.frame, text=self.label, variable=self.varLvl, value=(i+1), style='TRadiobutton'))
+            self.rbLevels.append(ttk.Radiobutton(self.frame, text=self.label, variable=self.varLvl, value=(i+1)))
             self.rbLevels[i].grid(sticky = "w", row=(i+1), column=0, pady=3)
         
         self.varLvl.set(1)

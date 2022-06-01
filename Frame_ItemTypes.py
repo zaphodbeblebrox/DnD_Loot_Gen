@@ -13,7 +13,7 @@ class Frame_ItemTypes:
 		
         for i in range(len(programData)):
             tempVar = tk.BooleanVar(value=Boolean_list[i])
-            ttk.Checkbutton(self.frame, text=programData[i][0], variable=tempVar, onvalue=1, offvalue=0).grid(sticky = "w", row=i, column=0)
+            ttk.Checkbutton(self.frame, text=programData[i][0], variable=tempVar, onvalue=1, offvalue=0).grid(sticky = "w", row=i, column=0, pady=3)
             self.varState.append(tempVar)
 
 
