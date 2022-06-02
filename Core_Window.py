@@ -11,6 +11,9 @@ class Core_Window:
             "background":"#232323",
             "framebg":"#333333",
             "button":"#BB86FC",
+            "untab":"#BB86FC",
+            "selected":"#FFDD03",
+            "label text":"#BB86FC",
             "dark gray":"#232323",
             "teal":"#03DAC5",
             "light gray":"#D3D3D3",
@@ -35,16 +38,18 @@ class Core_Window:
         f = font.Font(weight = "bold", size= 10)
         style = ttk.Style()
         style.theme_use('default')
-        style.configure('TNotebook.Tab', background = self.color['purple'], foreground = self.color['white'], font=('Segoe UI','10','bold'))
+        style.configure('TNotebook.Tab', background = self.color['untab'], foreground = self.color['black'], font=('Segoe UI','10','bold'))
         style.configure('TNotebook', borderwidth=0)
-        style.map('TNotebook.Tab', background = [('selected', self.color['background'])], foreground = [('selected', self.color['pink'])])
+        style.map('TNotebook.Tab', background = [('selected', self.color['background'])], foreground = [('selected', self.color['label text'])])
         
         # Button Style
-        style.configure('W.TButton', font = f, padx=0, pady=0, background=self.color['teal'], foreground=self.color['black'], height=5, width=18, focuscolor=self.color['teal'], justify ="center")
+        style.configure('W.TButton', font = f, padx=0, pady=0, background=self.color['teal'], foreground=self.color['black'], 
+                        height=5, width=18, boarderwidth=5, focuscolor=self.color['teal'], justify ="center", highlightthickness=10, highlightcolor=self.color["pink"])
         style.map('W.TButton', background = [('selected', self.color['black'])], foreground = [('selected', self.color['pink'])])
         
         # Radio Button Style
-        style.configure('TRadiobutton', foreground=self.color["button"], background=self.color["background"], indicatorcolor=self.color["framebg"], font=f)
+        style.configure('TRadiobutton', foreground=self.color["label text"], background=self.color["background"], 
+                        indicatorcolor=self.color["framebg"], focuscolor=self.color["background"], font=f)
         style.map('TRadiobutton',
             foreground = [('disabled', self.color["pink"]),
                       ('pressed', self.color["pink"]),
@@ -52,21 +57,22 @@ class Core_Window:
             background = [('disabled', self.color["background"]),
                       ('pressed', '!focus', self.color["background"]),
                       ('active', self.color["background"])],
-            indicatorcolor=[('selected', self.color["pink"]),
-                          ('pressed', self.color["pink"])]
+            indicatorcolor=[('selected', self.color["selected"]),
+                          ('pressed', self.color["selected"])]
           )
         
         #  Check Box Style 
-        style.configure('TCheckbutton', foreground=self.color["cyan"], background=self.color["background"], indicatorcolor=self.color["framebg"], font=f, focuscolor=self.color['dark gray'])
+        style.configure('TCheckbutton', foreground=self.color["label text"], background=self.color["background"], 
+                        indicatorcolor=self.color["framebg"], font=f, focuscolor=self.color['background'])
         style.map('TCheckbutton',
             foreground = [('disabled', self.color["pink"]),
                       ('pressed', self.color["pink"]),
                       ('active', self.color["light gray"])],
-            background = [('disabled', self.color["dark gray"]),
-                      ('pressed', '!focus', self.color["dark gray"]),
-                      ('active', self.color["dark gray"])],
-            indicatorcolor=[('selected', self.color["pink"]),
-                          ('pressed', self.color["pink"])]
+            background = [('disabled', self.color["background"]),
+                      ('pressed', '!focus', self.color["background"]),
+                      ('active', self.color["background"])],
+            indicatorcolor=[('selected', self.color["selected"]),
+                          ('pressed', self.color["selected"])]
           )
 
         #Create Frame Style
