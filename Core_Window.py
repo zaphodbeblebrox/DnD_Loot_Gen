@@ -9,11 +9,21 @@ class Core_Window:
 
         self.color = {
             "background":"#232323",
-            "framebg":"#333333",
-            "button":"#BB86FC",
+            "notebookbg":"#1a1a1a",
+            "button":"#333333",
             "untab":"#BB86FC",
             "selected":"#FFDD03",
+            "not selected":"#333333",
+            "header":"#FFDD00",
             "label text":"#BB86FC",
+            "pressed":"#D3D3D3",
+            "txt bg":"#232323",
+            "txt fg":"#ffffff",
+            "highlight":"#D3D3D3",
+            "disabled":"#FF9494",
+
+
+
             "dark gray":"#232323",
             "teal":"#03DAC5",
             "light gray":"#D3D3D3",
@@ -28,8 +38,7 @@ class Core_Window:
         }
         
         self.root = tk.Tk() #Makes the window
-        self.root.title("Random Loot Generator") #Makes the title that will appear in the top left
-        # photo = tk.PhotoImage(file = "dnd.ico")
+        self.root.title("Random Loot Generator")
         self.root.iconbitmap("dnd.ico")
         # self.root.geometry('1500x700')
         self.root.config(background = self.color['background'])
@@ -38,36 +47,42 @@ class Core_Window:
         f = font.Font(weight = "bold", size= 10)
         style = ttk.Style()
         style.theme_use('default')
-        style.configure('TNotebook.Tab', background = self.color['untab'], foreground = self.color['black'], font=('Segoe UI','10','bold'))
-        style.configure('TNotebook', borderwidth=0)
+        style.configure('TNotebook.Tab', background = self.color['untab'], foreground = self.color['black'], font=('Segoe UI','10','bold'), padding=(19,1))
+        style.configure('TNotebook', borderwidth=0, background = self.color['notebookbg'])
         style.map('TNotebook.Tab', background = [('selected', self.color['background'])], foreground = [('selected', self.color['label text'])])
         
         # Button Style
-        style.configure('W.TButton', font = f, padx=0, pady=0, background=self.color['teal'], foreground=self.color['black'], 
-                        height=5, width=18, boarderwidth=5, focuscolor=self.color['teal'], justify ="center", highlightthickness=10, highlightcolor=self.color["pink"])
-        style.map('W.TButton', background = [('selected', self.color['black'])], foreground = [('selected', self.color['pink'])])
+        style.configure('TButton', font = f, padx=0, pady=0, background=self.color['button'], foreground=self.color['label text'], 
+                        height=4, width=18, focuscolor=self.color['button'], justify ="center")
+        style.map('TButton', 
+            foreground = [('disabled', self.color["disabled"]),
+                        ('pressed', self.color["label text"]),
+                        ('selected', self.color['label text'])], 
+            background = [('disabled', self.color["button"]),
+                        ('pressed', self.color["button"]),
+                        ('active', self.color["button"])])
         
         # Radio Button Style
         style.configure('TRadiobutton', foreground=self.color["label text"], background=self.color["background"], 
-                        indicatorcolor=self.color["framebg"], focuscolor=self.color["background"], font=f)
+                        indicatorcolor=self.color["not selected"], focuscolor=self.color["background"], font=f)
         style.map('TRadiobutton',
-            foreground = [('disabled', self.color["pink"]),
-                      ('pressed', self.color["pink"]),
-                      ('active', self.color["light gray"])],
+            foreground = [('disabled', self.color["disabled"]),
+                        ('pressed', self.color["pressed"]),
+                        ('active', self.color["highlight"])],
             background = [('disabled', self.color["background"]),
-                      ('pressed', '!focus', self.color["background"]),
-                      ('active', self.color["background"])],
+                        ('pressed', '!focus', self.color["background"]),
+                        ('active', self.color["background"])],
             indicatorcolor=[('selected', self.color["selected"]),
-                          ('pressed', self.color["selected"])]
+                        ('pressed', self.color["selected"])]
           )
         
         #  Check Box Style 
         style.configure('TCheckbutton', foreground=self.color["label text"], background=self.color["background"], 
-                        indicatorcolor=self.color["framebg"], font=f, focuscolor=self.color['background'])
+                        indicatorcolor=self.color["not selected"], font=f, focuscolor=self.color['background'])
         style.map('TCheckbutton',
-            foreground = [('disabled', self.color["pink"]),
-                      ('pressed', self.color["pink"]),
-                      ('active', self.color["light gray"])],
+            foreground = [('disabled', self.color["disabled"]),
+                      ('pressed', self.color["pressed"]),
+                      ('active', self.color["highlight"])],
             background = [('disabled', self.color["background"]),
                       ('pressed', '!focus', self.color["background"]),
                       ('active', self.color["background"])],

@@ -27,11 +27,11 @@ class Tab_Loot_Generator:
         # self.fGen4 = ttk.LabelFrame(self.frameGen, text="Item Rarity", style='TFrame')
         # self.fGen5 = ttk.LabelFrame(self.frameGen, text="Item Types", style='TFrame')
 
-        self.fGen1 = tk.LabelFrame(self.frameGen, text="Generator Output", padx=5, pady=5, bg=self.color['background'], fg=self.color['teal'], font=f)
-        self.fGen2 = tk.LabelFrame(self.frameGen, text="Loot Level", padx=5, pady=5, bg=self.color['background'], fg=self.color['teal'], font=f)
-        self.fGen3 = tk.LabelFrame(self.frameGen, text="Type of Generation", padx=5, pady=5, bg=self.color['background'], fg=self.color['pink'], font=f)
-        self.fGen4 = tk.LabelFrame(self.frameGen, text="Item Rarity", padx=5, pady=5, bg=self.color['background'], fg=self.color['pink'], font=f)
-        self.fGen5 = tk.LabelFrame(self.frameGen, text="Item Types", padx=5, pady=5, bg=self.color['background'], fg=self.color['pink'], font=f)
+        self.fGen1 = tk.LabelFrame(self.frameGen, text="Generator Output", padx=5, pady=5, bg=self.color['background'], fg=self.color['header'], font=f)
+        self.fGen2 = tk.LabelFrame(self.frameGen, text="Loot Level", padx=5, pady=5, bg=self.color['background'], fg=self.color['header'], font=f)
+        self.fGen3 = tk.LabelFrame(self.frameGen, text="Type of Generation", padx=5, pady=5, bg=self.color['background'], fg=self.color['header'], font=f)
+        self.fGen4 = tk.LabelFrame(self.frameGen, text="Item Rarity", padx=5, pady=5, bg=self.color['background'], fg=self.color['header'], font=f)
+        self.fGen5 = tk.LabelFrame(self.frameGen, text="Item Types", padx=5, pady=5, bg=self.color['background'], fg=self.color['header'], font=f)
 
         self.fGen1.grid(row=0, column=0, sticky="nsew", padx=5, pady=5)
         self.fGen2.grid(row=0, column=1, sticky="nsew", padx=5, pady=5)

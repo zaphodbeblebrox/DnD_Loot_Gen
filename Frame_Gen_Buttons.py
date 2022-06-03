@@ -14,17 +14,36 @@ class Frame_Gen_Buttons:
         self.itemTypeFrame = itemTypeFrame
         self.rhFunList = [method for method in dir(Randomizer_Handler) if method.startswith('__') is False]
         
-        # Style setup
-        f = font.Font(weight = "bold", size= 10)
-        style = ttk.Style()
-        style.theme_use('default')
+        boarder1 = tk.Frame(self.frame, highlightcolor=color["label text"], highlightbackground=color["label text"], highlightthickness=2, bd=0, height=5, width=18)
+        ttk.Button(boarder1, text="Individual\nTreasure", state="normal", command = self.individualTreasureB).grid(row=0, column=0, sticky="nesw",ipady=15)
+        boarder1.grid(row=0, column=0, sticky="nsew", padx=5, pady=5)
 
-        ttk.Button(self.frame, text="Individual\nTreasure", state="normal", command = self.individualTreasureB, style = 'W.TButton').grid(row=0, column=0, sticky="ew", padx=5, pady=5,ipady=17)
-        ttk.Button(self.frame, text="Horde\nTreasure", state="normal", command = self.hordeTreasureB, style = 'W.TButton').grid(row=1, column=0, sticky="ew", padx=5, pady=5,ipady=17)
-        ttk.Button(self.frame, text="Weapon Drop", state="normal", command = self.weaponDropB, style = 'W.TButton').grid(row=2, column=0, sticky="ew", padx=5, pady=5,ipady=25)
-        ttk.Button(self.frame, text="Art & Gems", state="normal", command = self.artgemB, style = 'W.TButton').grid(row=3, column=0, sticky="ew", padx=5, pady=5,ipady=25)
-        ttk.Button(self.frame, text="Enchanted Rune", state="normal", command = self.runeB, style = 'W.TButton').grid(row=4, column=0, sticky="ew", padx=5, pady=5,ipady=25)
-        ttk.Button(self.frame, text="Roll Specific Item", state="normal", command = self.rollItemB, style = 'W.TButton').grid(row=5, column=0, sticky="ew", padx=5, pady=5,ipady=25)
+        boarder2 = tk.Frame(self.frame, highlightcolor=color["label text"], highlightbackground=color["label text"], highlightthickness=2, bd=0, height=5, width=18)
+        ttk.Button(boarder2, text="Horde\nTreasure", state="normal", command = self.hordeTreasureB).grid(row=0, column=0, sticky="nesw",ipady=15)
+        boarder2.grid(row=1, column=0, sticky="nsew", padx=5, pady=5)
+
+        boarder3 = tk.Frame(self.frame, highlightcolor=color["label text"], highlightbackground=color["label text"], highlightthickness=2, bd=0, height=5, width=18)
+        ttk.Button(boarder3, text="Weapon Drop", state="normal", command = self.weaponDropB).grid(row=0, column=0, sticky="nesw",ipady=23)
+        boarder3.grid(row=2, column=0, sticky="nsew", padx=5, pady=5)
+
+        boarder4 = tk.Frame(self.frame, highlightcolor=color["label text"], highlightbackground=color["label text"], highlightthickness=2, bd=0, height=5, width=18)
+        ttk.Button(boarder4, text="Art & Gems", state="normal", command = self.artgemB).grid(row=0, column=0, sticky="nesw",ipady=23)
+        boarder4.grid(row=3, column=0, sticky="nsew", padx=5, pady=5)
+
+        boarder5 = tk.Frame(self.frame, highlightcolor=color["label text"], highlightbackground=color["label text"], highlightthickness=2, bd=0, height=5, width=18)
+        ttk.Button(boarder5, text="Enchanted Rune", state="normal", command = self.runeB).grid(row=0, column=0, sticky="nesw",ipady=23)
+        boarder5.grid(row=4, column=0, sticky="nsew", padx=5, pady=5)
+
+        boarder6 = tk.Frame(self.frame, highlightcolor=color["label text"], highlightbackground=color["label text"], highlightthickness=2, bd=0, height=5, width=18)
+        ttk.Button(boarder6, text="Roll Specific Item", state="normal", command = self.rollItemB).grid(row=0, column=0, sticky="nesw",ipady=23)
+        boarder6.grid(row=5, column=0, sticky="nsew", padx=5, pady=5)
+        
+        # ttk.Button(self.frame, text="Individual\nTreasure", state="normal", command = self.individualTreasureB, style = 'W.TButton').grid(row=0, column=0, sticky="ew", padx=5, pady=5,ipady=17)      
+        # ttk.Button(self.frame, text="Horde\nTreasure", state="normal", command = self.hordeTreasureB).grid(row=1, column=0, sticky="ew", padx=5, pady=5,ipady=17)
+        # ttk.Button(self.frame, text="Weapon Drop", state="normal", command = self.weaponDropB).grid(row=2, column=0, sticky="ew", padx=5, pady=5,ipady=25)
+        # ttk.Button(self.frame, text="Art & Gems", state="normal", command = self.artgemB).grid(row=3, column=0, sticky="ew", padx=5, pady=5,ipady=25)
+        # ttk.Button(self.frame, text="Enchanted Rune", state="normal", command = self.runeB).grid(row=4, column=0, sticky="ew", padx=5, pady=5,ipady=25)
+        # ttk.Button(self.frame, text="Roll Specific Item", state="normal", command = self.rollItemB).grid(row=5, column=0, sticky="ew", padx=5, pady=5,ipady=25)
 
     # Functions-------------------
     def individualTreasureB(self):

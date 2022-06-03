@@ -4,7 +4,7 @@ class Frame_Output:
     def __init__(self, color, frame):
         self.frame = frame
         msg = "Welcome to the Loot Generator!\n"
-        self.output = tk.Text(self.frame, height = 32, width = 100, state="normal", background=color["light gray"])
+        self.output = tk.Text(self.frame, height = 32, width = 100, state="normal", background=color["txt bg"], fg=color["txt fg"], bd=0)
         self.output.insert("insert", msg)
         self.output.config(state="disabled")
         self.output.grid(row=0, column=0)
