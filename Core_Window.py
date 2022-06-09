@@ -8,8 +8,9 @@ class Core_Window:
     def __init__(self, data):
 
         self.color = {
-            "background":"#232323",
             "notebookbg":"#1a1a1a",
+            "notebookfg":"#000000",
+            "background":"#232323",
             "button":"#333333",
             "untab":"#BB86FC",
             "selected":"#FFDD03",
@@ -21,20 +22,6 @@ class Core_Window:
             "txt fg":"#ffffff",
             "highlight":"#D3D3D3",
             "disabled":"#FF9494",
-
-
-
-            "dark gray":"#232323",
-            "teal":"#03DAC5",
-            "light gray":"#D3D3D3",
-            "purple":"#8336a8",
-            "red":"#eb111e",
-            "white":"#ffffff", 
-            "black":"#000000",
-            "near black":"#111011",
-            "pink":"#e22b65",
-            "cyan":"#00c7b0", 
-            "neon pink":"#FF10F0"
         }
         
         self.root = tk.Tk() #Makes the window
@@ -44,10 +31,11 @@ class Core_Window:
         self.root.config(background = self.color['background'])
 
         # Create Notebook Style
-        f = font.Font(weight = "bold", size= 10)
+        f = ('Segoe UI','10','bold')
         style = ttk.Style()
         style.theme_use('default')
-        style.configure('TNotebook.Tab', background = self.color['untab'], foreground = self.color['black'], font=('Segoe UI','10','bold'), padding=(19,1))
+
+        style.configure('TNotebook.Tab', background = self.color['untab'], foreground = self.color['notebookfg'], font=f, padding=(19,1))
         style.configure('TNotebook', borderwidth=0, background = self.color['notebookbg'])
         style.map('TNotebook.Tab', background = [('selected', self.color['background'])], foreground = [('selected', self.color['label text'])])
         
@@ -90,9 +78,19 @@ class Core_Window:
                           ('pressed', self.color["selected"])]
           )
 
-        #Create Frame Style
-        # style.configure('TFrame', background = self.color['background'], foreground = self.color['white'], font=('Segoe UI','19','bold'))
-        # style.map('TFrame', background = [('selected', self.color['black'])], foreground = [('selected', self.color['pink'])])
+        #  Scrollbar Style 
+        style.configure('Vertical.TScrollbar', arrowcolor=self.color["background"], background=self.color["selected"], 
+                        bordercolor=self.color['disabled'])
+        style.map('Vertical.TScrollbar',
+            foreground = [('disabled', self.color["disabled"]),
+                      ('pressed', self.color["pressed"]),
+                      ('active', self.color["highlight"])],
+            background = [('disabled', self.color["background"]),
+                      ('pressed', '!focus', self.color["background"]),
+                      ('active', self.color["background"])],
+            indicatorcolor=[('selected', self.color["selected"]),
+                          ('pressed', self.color["selected"])]
+          )
 
         # Tab Definitions
         self.notebook = ttk.Notebook(self.root)
