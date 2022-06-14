@@ -34,8 +34,8 @@ class Tab_Loot_Generator:
         self.fGen5 = tk.LabelFrame(self.frameGen, text="Item Types", padx=5, pady=5, bg=self.color['background'], fg=self.color['header'], font=f)
 
         self.fGen1.grid(row=0, column=0, sticky="nsew", padx=5, pady=5)
-        self.fGen2.grid(row=0, column=1, sticky="nsew", padx=5, pady=5)
-        self.fGen3.grid(row=0, column=2, sticky="nsew", padx=5, pady=5)
+        self.fGen2.grid(row=0, column=2, sticky="nsew", padx=5, pady=5)
+        self.fGen3.grid(row=0, column=1, sticky="nsew", padx=5, pady=5)
         self.fGen4.grid(row=0, column=3, sticky="nsew", padx=5, pady=5)
         self.fGen5.grid(row=0, column=4, sticky="nsew", padx=5, pady=5)
 

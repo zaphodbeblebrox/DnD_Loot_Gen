@@ -22,6 +22,7 @@ class Core_Window:
             "txt fg":"#ffffff",
             "highlight":"#D3D3D3",
             "disabled":"#FF9494",
+            "scrollbar":"#4d4d4d",
         }
         
         self.root = tk.Tk() #Makes the window
@@ -79,17 +80,17 @@ class Core_Window:
           )
 
         #  Scrollbar Style 
-        style.configure('Vertical.TScrollbar', arrowcolor=self.color["background"], background=self.color["selected"], 
-                        bordercolor=self.color['disabled'])
+        style.configure('Vertical.TScrollbar', arrowcolor=self.color["selected"], background=self.color["scrollbar"], 
+                        bordercolor=self.color['disabled'], troughcolor=self.color["background"], borderwidth=0)
         style.map('Vertical.TScrollbar',
             foreground = [('disabled', self.color["disabled"]),
-                      ('pressed', self.color["pressed"]),
+                      ('pressed', self.color["scrollbar"]),
                       ('active', self.color["highlight"])],
             background = [('disabled', self.color["background"]),
                       ('pressed', '!focus', self.color["background"]),
                       ('active', self.color["background"])],
-            indicatorcolor=[('selected', self.color["selected"]),
-                          ('pressed', self.color["selected"])]
+            indicatorcolor=[('selected', self.color["scrollbar"]),
+                          ('pressed', self.color["scrollbar"])]
           )
 
         # Tab Definitions
