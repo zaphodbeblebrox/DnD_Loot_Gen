@@ -1,11 +1,10 @@
 import tkinter as tk
 from tkinter import ttk, font
-
+from Tab_Enchantments import *
 from Tab_Loot_Generator import *
-# from MyRightPanel import *
 
 class Core_Window:
-    def __init__(self, data):
+    def __init__(self, program_data):
 
         self.color = {
             "notebookbg":"#1a1a1a",
@@ -33,6 +32,7 @@ class Core_Window:
 
         # Create Notebook Style
         f = ('Segoe UI','10','bold')
+        flabel = ('Segoe UI','16','underline')
         style = ttk.Style()
         style.theme_use('default')
 
@@ -40,6 +40,10 @@ class Core_Window:
         style.configure('TNotebook', borderwidth=0, background = self.color['notebookbg'])
         style.map('TNotebook.Tab', background = [('selected', self.color['background'])], foreground = [('selected', self.color['label text'])])
         
+         # Label Style
+        style.configure('TLabel', font = flabel, padx=0, pady=0, background=self.color['background'], foreground=self.color['selected'], 
+                        height=4, width=5, focuscolor=self.color['button'], justify ="center")
+
         # Button Style
         style.configure('TButton', font = f, padx=0, pady=0, background=self.color['button'], foreground=self.color['label text'], 
                         height=4, width=18, focuscolor=self.color['button'], justify ="center")
@@ -111,8 +115,8 @@ class Core_Window:
         self.notebook.add(self.tag_definitions, text="Tag Definitions")
         self.notebook.grid(row=0, column=0)
 
-        Tab_Loot_Generator(self.color, self.tabGen, data)
-        Tab_Loot_Generator(self.color, self.tabEnchantment, data)
+        Tab_Loot_Generator(self.color, self.tabGen, program_data)
+        Tab_Enchantments(self.color, self.tabEnchantment, program_data)
 
     def start(self):
         self.root.mainloop() #start monitoring and updating the GUI
