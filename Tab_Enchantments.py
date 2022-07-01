@@ -24,7 +24,7 @@ class Tab_Enchantments:
         self.f_filter.grid(row=0, column=1, sticky="nsew", padx=5, pady=5)
 
         self.et = Frame_Enchant_Table(color, self.f_table, program_data)
-        self.fs = Frame_Filter(color, self.f_filter)
+        self.fs = Frame_Filter(color, self.f_filter,self.et)
         # self.textbox = Frame_Output(self.color,self.fGen1)
         # self.levelCtrl = Frame_Level(self.color, self.fGen2, 20)
         # self.rarityCtrl = Frame_Rarity(self.color, self.fGen4)

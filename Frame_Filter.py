@@ -3,7 +3,8 @@ from tkinter import ttk
 
 
 class Frame_Filter:
-    def __init__(self, color, frame):
+    def __init__(self, color, frame, table_output):
+        self.table_output = table_output
         self.frame = frame
         # ttk.Label(self.frame, text="Filter").grid(row=0, column=0)
 
@@ -37,8 +38,4 @@ class Frame_Filter:
 
 
     def apply_filter(self):
-        msg = msg + "----------\n"
-        self.output.config(state="normal")
-        self.output.insert('1.0', msg)    #'row.col' position
-        self.output.config(state="disabled")
-        self.output.see('1.0')
+        self.table_output.compile_table_data(self.var_filter_type.get(),self.var_rarity_state, self.var_attune_state, self.var_req_state)
