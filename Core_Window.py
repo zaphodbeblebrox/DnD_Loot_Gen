@@ -32,6 +32,7 @@ class Core_Window:
 
         # Create Notebook Style
         f = ('Segoe UI','10','bold')
+        t = ('Segoe UI','10','normal')
         flabel = ('Segoe UI','16','underline')
         style = ttk.Style()
         style.theme_use('default')
@@ -95,6 +96,33 @@ class Core_Window:
                       ('active', self.color["background"])],
             indicatorcolor=[('selected', self.color["scrollbar"]),
                           ('pressed', self.color["scrollbar"])]
+          )
+
+        #  Treeview Style
+        style.configure('Treeview', foreground=self.color["txt fg"], background=self.color["txt bg"], 
+                        indicatorcolor=self.color["not selected"], focuscolor=self.color["background"], font=t,
+                        fieldbackground=self.color["txt bg"])
+        style.map('Treeview',
+            foreground = [('disabled', self.color["disabled"]),
+                        ('pressed', self.color["pressed"]),
+                        ('active', self.color["highlight"])],
+            background = [('disabled', self.color["background"]),
+                        ('pressed', '!focus', self.color["background"]),
+                        ('active', self.color["background"])],
+            indicatorcolor=[('selected', self.color["selected"]),
+                        ('pressed', self.color["selected"])]
+          )
+        style.configure('Treeview.Heading', foreground=self.color["txt fg"], background=self.color["txt bg"], 
+                        indicatorcolor=self.color["not selected"], focuscolor=self.color["background"], font=t)
+        style.map('Treeview.Heading',
+            foreground = [('disabled', self.color["disabled"]),
+                        ('pressed', self.color["pressed"]),
+                        ('active', self.color["highlight"])],
+            background = [('disabled', self.color["background"]),
+                        ('pressed', '!focus', self.color["background"]),
+                        ('active', self.color["background"])],
+            indicatorcolor=[('selected', self.color["selected"]),
+                        ('pressed', self.color["selected"])]
           )
 
         # Tab Definitions

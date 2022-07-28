@@ -38,13 +38,6 @@ class Frame_Gen_Buttons:
         ttk.Button(boarder6, text="Roll Specific Item", state="normal", command = self.rollItemB).grid(row=0, column=0, sticky="nesw",ipady=23)
         boarder6.grid(row=5, column=0, sticky="nsew", padx=5, pady=5)
         
-        # ttk.Button(self.frame, text="Individual\nTreasure", state="normal", command = self.individualTreasureB, style = 'W.TButton').grid(row=0, column=0, sticky="ew", padx=5, pady=5,ipady=17)      
-        # ttk.Button(self.frame, text="Horde\nTreasure", state="normal", command = self.hordeTreasureB).grid(row=1, column=0, sticky="ew", padx=5, pady=5,ipady=17)
-        # ttk.Button(self.frame, text="Weapon Drop", state="normal", command = self.weaponDropB).grid(row=2, column=0, sticky="ew", padx=5, pady=5,ipady=25)
-        # ttk.Button(self.frame, text="Art & Gems", state="normal", command = self.artgemB).grid(row=3, column=0, sticky="ew", padx=5, pady=5,ipady=25)
-        # ttk.Button(self.frame, text="Enchanted Rune", state="normal", command = self.runeB).grid(row=4, column=0, sticky="ew", padx=5, pady=5,ipady=25)
-        # ttk.Button(self.frame, text="Roll Specific Item", state="normal", command = self.rollItemB).grid(row=5, column=0, sticky="ew", padx=5, pady=5,ipady=25)
-
     # Functions-------------------
     def individualTreasureB(self):
         rh = Randomizer_Handler(self.programData)
