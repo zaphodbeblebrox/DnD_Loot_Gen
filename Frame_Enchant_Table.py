@@ -18,6 +18,11 @@ class Frame_Enchant_Table:
         self.etv = ttk.Treeview(frame, height=26)
         self.etv['columns'] = ("Rarity", "Name", "Description", "Attune", "Requirement")
 
+        self.etv_scrollbar = ttk.Scrollbar(frame)
+        self.etv_scrollbar.grid(row=0, column=1, sticky="nesw")
+        self.etv_scrollbar.config(command=self.etv.yview)
+        self.etv.configure(yscrollcommand=self.etv_scrollbar.set)
+
         self.etv.column('#0', width=0, stretch="no")
         self.etv.column('Rarity', anchor="center", width=40)
         self.etv.column('Name', anchor="w", width=200)
