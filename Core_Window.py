@@ -2,6 +2,7 @@ import tkinter as tk
 from tkinter import ttk, font
 from Tab_Enchantments import *
 from Tab_Loot_Generator import *
+from Tab_Gem_Art import *
 
 class Core_Window:
     def __init__(self, program_data):
@@ -137,7 +138,7 @@ class Core_Window:
 
         self.notebook.add(self.tabGen, text="Loot Generator")
         self.notebook.add(self.tabEnchantment, text="Enchantments")
-        self.notebook.add(self.tabGems, text="Gem Table")
+        self.notebook.add(self.tabGems, text="Gem & Art Table")
         self.notebook.add(self.tabMagic, text="Magic Reference")
         self.notebook.add(self.tabStatusEffects, text="Status Effects")
         self.notebook.add(self.tag_definitions, text="Tag Definitions")
@@ -145,6 +146,7 @@ class Core_Window:
 
         Tab_Loot_Generator(self.color, self.tabGen, program_data)
         Tab_Enchantments(self.color, self.tabEnchantment, program_data)
+        Tab_Gem_Art(self.color, self.tabEnchantment, program_data)
 
     def start(self):
         self.root.mainloop() #start monitoring and updating the GUI

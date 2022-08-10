@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import ttk
 
 
-class Frame_Filter:
+class Frame_GA_Filter:
     def __init__(self, color, frame, table_output):
         self.table_output = table_output
         self.frame = frame
