@@ -12,6 +12,24 @@ class Randomizer_Handler:
         pass
 
     def indivTreasure(self, dataLootTable):
+        # this is not the right place to parse data.
+        # Data Import should only ever be used by the Data Handler,
+        # and the Handler should provide abstractions of the data within it.
+        # so while it's good that the Handler is passing this dataset into Randomizer Handler,
+        # instead of the Randomizer accessing it directly
+        # this data should already be in a form consumable to the Randomizer without having
+        # to go back thru the Data Import to parse it.
+        #
+        # this creates a weird dependency where Randomizer is dependent on Data Import
+        # and the behavior looks something like:
+        # Data Handler - pulls data from Data Import
+        # Randomizer - accepts input from Data Handler
+        # Randomizer - also pulls data from Data Import
+        #
+        # instead you want something like:
+        # Data Handler - pulls data from Data Import, parses and _holds it in purpose-built class structures_
+        # Randomizer - accepts input from Data Handler in form of purpose-built class structures
+        # Randomizer - also doesn't care a lick about Data Import or how to get these things
         data = Data_Import.parse_dataset(dataLootTable, ':')
         # rndPartitions = self.build_rnd_table(data)
         rndPartitions = []
@@ -25,6 +43,20 @@ class Randomizer_Handler:
                     outputMsg = outputMsg + " ; " + data[i][6] + ": " + str(random.randrange(int(data[i][4]), int(data[i][5])))
                 outputMsg = outputMsg + "\n"
                 break
+
+        # the Randomizer shouldn't be returning UI data instead of backend data.
+        # that is, it returns string messages representing data instead of objects representing data.
+        # this makes Randomizer both a backend- and a frontend-level class
+        # because it's concerned with both application logic (getting random stuff)
+        # and UI-particular representation (item arrays as ';' delimited strings).
+        #
+        # the latter logic should be handled by whatever calls the Randomizer.
+        # and even if the items are still represented simply as string data, this means the Randomizer should return
+        # an array of item strings that a UI class will then put together into a ';' delimited display string
+        # for display purposes.
+        #
+        # tl;dr everywhere that string formatting is happening shouldn't be in the Randomizer but in the UI functions
+        # calling the Randomizer
         return outputMsg
 
     def hordeTreasure(self, dataCoinTable, dataItemTable, programData):
@@ -126,6 +158,11 @@ class Randomizer_Handler:
                 return True
         return False
     
+    # this class is way too concerned with the underlying structure of Data Handler
+    # and is therefor too coupled to it.
+    # instead of passing the whole Data Handler into Randomizer,
+    # I would recommend passing simply the collection of items that needs be randomized over
+    # and then Randomizer basicially just needs to be a wrapper around Python's 'random'.
     def getEnchant(self, currentlvl, item):
         et = self.programData.elt.get(currentlvl)
         et_partitions = self.build_rnd_table(et)

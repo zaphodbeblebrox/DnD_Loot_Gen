@@ -1,7 +1,15 @@
 import tkinter as tk
 from tkinter import ttk
 
-
+# just general organizational stuff:
+# it looks like you're using class name prefixes to define namespaces
+# which might be Python standard practice idk
+# but I'd recommend moving each prefix into its own folder,
+# especially where there are more than one class of the prefix
+# e.g. Frame, Tab, Data
+#
+# for a project of this size it's not too bad to have them all in the root directory
+# but if you were to extend this project the DND_LOOT_GEN dir would get very busy very fast
 class Frame_Enchant_Filter:
     def __init__(self, color, frame, table_output):
         self.table_output = table_output

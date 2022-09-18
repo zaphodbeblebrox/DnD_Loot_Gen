@@ -8,6 +8,14 @@ class Data_Handler:
         self.masterList = Data_Import.read_file('.\\File_Master_List.txt')
         self.itemTypeList = Data_Import.parse_dataset(Data_Import.read_file(self.masterList[1]), ";")
         
+        # generally speaking I wouldn't try to infer structure from unstructured data.
+        # that is to say, I wouldn't trust that the line number of a data file defines the data of that line
+        # (unless it follows a documented standard like .csv where the first line is always a header).
+        #
+        # in an enterprise environment I'd insist that these lists had structure defined to them
+        # xml would do the trick.
+        # this helps make the structure of the lists self-documenting and easier to modify
+        # and helps decouple it a little from the Data Handler
         path_individual = Data_Import.read_file(self.masterList[2])
         self.individualTreasure = {
             "0-4":Data_Import.read_file(path_individual[0]),
