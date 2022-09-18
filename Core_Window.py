@@ -4,6 +4,24 @@ from Tab_Enchantments import *
 from Tab_Loot_Generator import *
 # from Tab_Gem_Art import *
 
+# this is fine, but for legibility I would recommend
+# breaking every block you have in this class into its own function.
+# generally you want to aspire for the Single Responsibility Principle,
+# which says that a class or function should only be concerned with one thing.
+#
+# here the Core Window is concerned with the implementation of every sub-piece
+# of window setup - instead create a new method for every code block you defined
+# and have Core Window execute each one:
+#
+# def __init__(self, program_data):
+#       self.color = get_color()
+#       create_notebook_style()
+#       create_label_style()
+#       [...]
+#
+# this way Core Window init reads like a table of contents
+# and each function it calls compartmentalizes and abstracts
+# the implementation of that code
 class Core_Window:
     def __init__(self, program_data):
 
