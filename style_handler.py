@@ -21,12 +21,6 @@ class StyleHandler:
             "scrollbar":"#4d4d4d",
         }
         
-        self.root = tk.Tk() #Makes the window
-        self.root.title("Random Loot Generator")
-        self.root.iconbitmap("dnd.ico")
-        # self.root.geometry('1500x700')
-        self.root.config(background = self.color['background'])
-
         # Create Notebook Style
         f = ('Segoe UI','10','bold')
         t = ('Segoe UI','10','normal')
